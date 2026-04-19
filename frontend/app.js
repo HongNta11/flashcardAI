@@ -143,6 +143,7 @@ function Quiz({ book, onFinish, onBack }) {
   }
 
   function applyChapters() {
+    if (pendingSections !== null && pendingSections.length === 0) return;
     setSelectedSections(pendingSections);
     setIndex(0);
     setSelected(null);
@@ -187,27 +188,16 @@ function Quiz({ book, onFinish, onBack }) {
           >← Books</button>
           <span style="color:var(--text-muted);font-size:0.875rem">${index + 1} / ${deck.length}</span>
           ${sections.length > 0 && html`
-            <div style="position:relative">
-              <button
-                onClick=${() => setShowChapters((v) => !v)}
-                style="background:none;border:1px solid var(--accent);border-radius:8px;cursor:pointer;color:var(--accent);font-size:0.8rem;padding:4px 10px"
-              >${activeSection ? '📖 ' + activeSection : '📚 Chapters'}</button>
-              ${showChapters && html`
-                <div style="position:absolute;right:0;top:calc(100% + 6px);background:var(--surface);border-radius:var(--radius);box-shadow:0 4px 20px rgba(0,0,0,0.15);min-width:180px;z-index:10;overflow:hidden">
-                  <div
-                    onClick=${() => selectChapter(null)}
-                    style="padding:12px 16px;cursor:pointer;font-size:0.9rem;border-bottom:1px solid #eee;color:${!activeSection ? 'var(--accent)' : 'var(--text)'}; font-weight:${!activeSection ? '600' : '400'}"
-                  >All Chapters</div>
-                  ${sections.map((s) => html`
-                    <div
-                      key=${s}
-                      onClick=${() => selectChapter(s)}
-                      style="padding:12px 16px;cursor:pointer;font-size:0.9rem;border-bottom:1px solid #eee;color:${activeSection === s ? 'var(--accent)' : 'var(--text)'};font-weight:${activeSection === s ? '600' : '400'}"
-                    >${s}</div>
-                  `)}
-                </div>
-              `}
-            </div>
+            <button
+              onClick=${openChapters}
+              style="background:none;border:1px solid var(--accent);border-radius:8px;cursor:pointer;color:var(--accent);font-size:0.8rem;padding:4px 10px"
+            >${
+              selectedSections === null
+                ? '📚 Chapters'
+                : selectedSections.length === 1
+                  ? '📖 ' + selectedSections[0].slice(0, 12)
+                  : '📖 ' + selectedSections.length + ' chapters'
+            }</button>
           `}
         </div>
         <div style="background:#dde3f5;border-radius:4px;height:4px">
@@ -249,6 +239,50 @@ function Quiz({ book, onFinish, onBack }) {
 
         </div>
       </div>
+
+      ${showChapters && html`
+        <div
+          onClick=${() => setShowChapters(false)}
+          style="position:fixed;inset:0;background:rgba(0,0,0,0.45);z-index:30;display:flex;align-items:flex-end"
+        >
+          <div
+            onClick=${(e) => e.stopPropagation()}
+            style="width:100%;background:var(--surface);border-radius:16px 16px 0 0;padding:20px 16px 32px;max-height:70vh;display:flex;flex-direction:column;box-shadow:0 -4px 24px rgba(0,0,0,0.15)"
+          >
+            <div style="width:36px;height:4px;background:#dde3f5;border-radius:2px;margin:0 auto 16px"></div>
+            <div style="font-weight:600;font-size:1rem;margin-bottom:16px">Select Chapters</div>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;overflow-y:auto;flex:1;margin-bottom:16px">
+              <button
+                onClick=${applyAll}
+                style="padding:8px 16px;border-radius:20px;border:none;background:${pendingSections === null ? 'var(--accent)' : '#dde3f5'};color:${pendingSections === null ? '#fff' : 'var(--text-muted)'};cursor:pointer;font-size:0.875rem;font-weight:600"
+              >All</button>
+              ${sections.map((s) => {
+                const on = pendingSections !== null && pendingSections.includes(s);
+                return html`
+                  <button
+                    key=${s}
+                    onClick=${() => {
+                      if (pendingSections === null) {
+                        setPendingSections([s]);
+                      } else if (on) {
+                        setPendingSections(pendingSections.filter((x) => x !== s));
+                      } else {
+                        setPendingSections([...pendingSections, s]);
+                      }
+                    }}
+                    style="padding:8px 16px;border-radius:20px;border:none;background:${on ? 'var(--accent)' : '#dde3f5'};color:${on ? '#fff' : 'var(--text)'};cursor:pointer;font-size:0.875rem"
+                  >${s}</button>
+                `;
+              })}
+            </div>
+            <button
+              onClick=${applyChapters}
+              disabled=${pendingSections !== null && pendingSections.length === 0}
+              style="width:100%;padding:14px;background:${pendingSections !== null && pendingSections.length === 0 ? '#dde3f5' : 'var(--accent)'};color:${pendingSections !== null && pendingSections.length === 0 ? 'var(--text-muted)' : '#fff'};border:none;border-radius:var(--radius);font-size:1rem;font-weight:600;cursor:${pendingSections !== null && pendingSections.length === 0 ? 'default' : 'pointer'}"
+            >${pendingSections === null ? 'All Chapters' : pendingSections.length === 0 ? 'Select at least one chapter' : 'Apply (' + pendingSections.length + ' chapter' + (pendingSections.length > 1 ? 's' : '') + ')'}</button>
+          </div>
+        </div>
+      `}
     </div>
   `;
 }
