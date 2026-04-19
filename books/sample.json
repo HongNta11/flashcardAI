@@ -4,6 +4,7 @@
   "cards": [
     {
       "id": "sample-001",
+      "section": "Clean Functions",
       "question": "According to the principles of clean functions, what should you do if a function tries to accomplish multiple distinct tasks?",
       "options": [
         "Extract each concern into its own function",
@@ -16,6 +17,7 @@
     },
     {
       "id": "sample-002",
+      "section": "Clean Functions",
       "question": "What is a side effect in the context of function design?",
       "options": [
         "An unexpected error message that appears in the console",
@@ -28,6 +30,7 @@
     },
     {
       "id": "sample-003",
+      "section": "Meaningful Names",
       "question": "Why should variable names like 'd' with an explanatory comment be renamed to something more descriptive like 'elapsedTimeInDays'?",
       "options": [
         "To comply with programming language naming standards",

@@ -12,14 +12,15 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --bg: #1a1a2e;
-      --surface: #16213e;
+      --bg: #f0f4ff;
+      --surface: #ffffff;
       --accent: #6c63ff;
-      --text: #eaeaea;
-      --text-muted: #8892b0;
-      --correct: #4caf50;
-      --wrong: #f44336;
+      --text: #1e1b4b;
+      --text-muted: #64748b;
+      --correct: #16a34a;
+      --wrong: #dc2626;
       --radius: 12px;
+      --shadow: 0 2px 12px rgba(108,99,255,0.10);
     }
     html, body {
       height: 100%;
@@ -28,11 +29,38 @@
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     }
     #app { min-height: 100%; display: flex; flex-direction: column; }
+
+    /* Flip card */
+    .card-scene { perspective: 1200px; margin-bottom: 20px; }
+    .card-flipper {
+      display: grid;
+      transform-style: preserve-3d;
+      transition: transform 0.52s cubic-bezier(0.4,0.2,0.2,1);
+    }
+    .card-flipper.flipped { transform: rotateY(180deg); }
+    .card-face {
+      grid-area: 1/1;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+    .card-face-back { transform: rotateY(180deg); }
+
+    /* Slide transition */
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateX(52px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    .slide-in { animation: slideIn 0.28s ease-out; }
   </style>
 </head>
 <body>
   <div id="app"></div>
   <script>window.API_BASE = 'http://localhost:8000';</script>
+  <script>window.API_BASE = '/api';</script>
   <script type="module" src="/app.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
