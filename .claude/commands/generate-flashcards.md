@@ -24,6 +24,13 @@ Generate multiple-choice flashcards from a Markdown book file and save them as J
    - Heading matches `^(References?|Bibliography|Index|Acknowledg(e)?ments?|Appendix|Table of Contents)$` (case-insensitive).
    - Content is only lists/tables/code with no explanatory prose.
 
+4. For each section generate 3–5 multiple-choice flashcards. Each card:
+   - `id`: `<book-slug>-<NNN>` (slug = filename without `.md`, NNN = zero-padded sequential integer starting at 001)
+   - `section`: the exact text of the `##` heading this card belongs to
+   - `question`: tests understanding of a concept in the section, not just wording recall
+   - `options`: exactly 4 strings — 1 correct answer + 3 plausible distractors
+   - `correct_answer`: exact text of the correct option (must match one entry in `options`)
+   - `explanation`: 1–2 sentences explaining why the answer is correct and the others are not
 4. **Generate cards per section.** For each surviving section produce 3–5 cards. Aim for coverage of the section's distinct concepts, not repeated angles on one concept.
 
 5. **Write output** to [books/<book-slug>.json](books/) using the schema below. Use UTF-8, 2-space indent, trailing newline.
