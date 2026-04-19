@@ -1,0 +1,15 @@
+[Unit]
+Description=Flashcard AI API
+After=network.target
+
+[Service]
+Type=simple
+User=azureuser
+WorkingDirectory=/home/azureuser/pink/flashcard_ai/backend
+EnvironmentFile=/home/azureuser/pink/flashcard_ai/backend/.env
+ExecStart=/home/azureuser/pink/flashcard_ai/backend/start.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
