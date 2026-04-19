@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .db import init_db, get_db_path
 from .books import router as books_router
+from .progress import router as progress_router
 
 
 @asynccontextmanager
@@ -20,6 +21,7 @@ def create_app() -> FastAPI:
         allow_headers=["*"],
     )
     app.include_router(books_router)
+    app.include_router(progress_router)
     return app
 
 
