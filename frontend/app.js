@@ -149,6 +149,7 @@ function Quiz({ book, onFinish, onBack }) {
     setIndex(0);
     setSelected(null);
     setFlipped(false);
+    setScore(0);
     setShowChapters(false);
   }
 
@@ -157,6 +158,7 @@ function Quiz({ book, onFinish, onBack }) {
     setIndex(0);
     setSelected(null);
     setFlipped(false);
+    setScore(0);
     setShowChapters(false);
   }
 
@@ -212,13 +214,17 @@ function Quiz({ book, onFinish, onBack }) {
           <div class="card-face">
             <p style="font-size:1.05rem;line-height:1.6;margin-bottom:20px">${card.question}</p>
             <div style="display:flex;flex-direction:column;gap:10px">
-              ${shuffledOptions.map((opt) => html`
-                <button
-                  key=${opt}
-                  onClick=${() => handleSelect(opt)}
-                  style="padding:14px 16px;border-radius:var(--radius);border:1px solid var(--accent);cursor:${selected ? 'default' : 'pointer'};text-align:left;font-size:1rem;transition:background 0.15s;background:var(--surface);color:var(--text)"
-                >${opt}</button>
-              `)}
+              ${shuffledOptions.map((opt) => {
+                const isCorrectOpt = selected && opt === card.correct_answer;
+                const isWrongOpt = selected && opt === selected && opt !== card.correct_answer;
+                return html`
+                  <button
+                    key=${opt}
+                    onClick=${() => handleSelect(opt)}
+                    style="padding:14px 16px;border-radius:var(--radius);border:1px solid ${isCorrectOpt ? 'var(--correct)' : isWrongOpt ? 'var(--wrong)' : 'var(--accent)'};cursor:${selected ? 'default' : 'pointer'};text-align:left;font-size:1rem;transition:background 0.15s;background:${isCorrectOpt ? '#dcfce7' : isWrongOpt ? '#fee2e2' : 'var(--surface)'};color:var(--text)"
+                  >${opt}</button>
+                `;
+              })}
             </div>
           </div>
 
