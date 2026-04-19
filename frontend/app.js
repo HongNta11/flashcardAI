@@ -54,13 +54,13 @@ function BookList({ onSelect }) {
         <div
           key=${b.id}
           onClick=${() => onSelect(b)}
-          style="background:var(--surface);border-radius:var(--radius);padding:16px 20px;margin-bottom:12px;cursor:pointer;border:1px solid transparent;transition:border-color 0.2s"
+          style="background:var(--surface);border-radius:var(--radius);padding:16px 20px;margin-bottom:12px;cursor:pointer;border:1px solid transparent;transition:border-color 0.2s;box-shadow:var(--shadow)"
           onMouseEnter=${(e) => e.currentTarget.style.borderColor = 'var(--accent)'}
           onMouseLeave=${(e) => e.currentTarget.style.borderColor = 'transparent'}
         >
           <div style="font-size:1.1rem;font-weight:600;margin-bottom:4px">${b.title}</div>
           <div style="color:var(--text-muted);font-size:0.875rem;margin-bottom:10px">${b.card_count} cards</div>
-          <div style="background:#0d1117;border-radius:4px;height:6px;overflow:hidden">
+          <div style="background:#dde3f5;border-radius:4px;height:6px;overflow:hidden">
             <div style="height:100%;background:var(--accent);width:${b.progress_pct}%;transition:width 0.4s"></div>
           </div>
           <div style="color:var(--text-muted);font-size:0.75rem;margin-top:4px">${b.progress_pct}% reviewed</div>
@@ -80,7 +80,7 @@ function shuffle(arr) {
   return a;
 }
 
-function Quiz({ book, onFinish }) {
+function Quiz({ book, onFinish, onBack }) {
   const [cards, setCards] = useState(null);
   const [index, setIndex] = useState(0);
   const [shuffledOptions, setShuffledOptions] = useState([]);
@@ -141,20 +141,23 @@ function Quiz({ book, onFinish }) {
   }
 
   function optionStyle(opt) {
-    if (!isAnswered) return 'background:var(--surface)';
+    if (!isAnswered) return 'background:var(--surface);color:var(--text)';
     if (opt === card.correct_answer) return 'background:var(--correct);color:#fff';
     if (opt === selected) return 'background:var(--wrong);color:#fff';
-    return 'background:var(--surface);opacity:0.5';
+    return 'background:var(--surface);color:var(--text);opacity:0.5';
   }
 
   return html`
     <div style="padding:16px;max-width:600px;margin:0 auto">
       <div style="padding-top:env(safe-area-inset-top,16px);margin-bottom:16px">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-          <span style="color:var(--text-muted);font-size:0.875rem">${book.title}</span>
+          <button
+            onClick=${onBack}
+            style="background:none;border:none;cursor:pointer;color:var(--accent);font-size:0.875rem;padding:0;display:flex;align-items:center;gap:4px"
+          >← Books</button>
           <span style="color:var(--text-muted);font-size:0.875rem">${index + 1} / ${cards.length}</span>
         </div>
-        <div style="background:#0d1117;border-radius:4px;height:4px">
+        <div style="background:#dde3f5;border-radius:4px;height:4px">
           <div style="height:100%;background:var(--accent);width:${((index + 1) / cards.length) * 100}%;transition:width 0.3s"></div>
         </div>
       </div>
@@ -230,6 +233,7 @@ function App() {
     return html`<${Quiz}
       book=${selectedBook}
       onFinish=${(result) => { setQuizResult(result); setScreen('end'); }}
+      onBack=${() => { setSelectedBook(null); setScreen('books'); }}
     />`;
   }
 
