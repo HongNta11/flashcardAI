@@ -88,7 +88,8 @@ function Quiz({ book, onFinish, onBack }) {
   const [flipped, setFlipped] = useState(false);
   const [score, setScore] = useState(0);
   const [error, setError] = useState(null);
-  const [activeSection, setActiveSection] = useState(null);
+  const [selectedSections, setSelectedSections] = useState(null);
+  const [pendingSections, setPendingSections] = useState(null);
   const [showChapters, setShowChapters] = useState(false);
 
   useEffect(() => {
@@ -124,25 +125,33 @@ function Quiz({ book, onFinish, onBack }) {
     }
   }, []);
 
-  useEffect(() => {
-    if (!showChapters) return;
-    const close = () => setShowChapters(false);
-    setTimeout(() => document.addEventListener('click', close), 0);
-    return () => document.removeEventListener('click', close);
-  }, [showChapters]);
-
   if (error) return html`<p style="padding:24px;color:var(--wrong)">${error}</p>`;
   if (!cards) return html`<p style="padding:24px;color:var(--text-muted)">Loading cards…</p>`;
 
   const sections = cards[0]?.section
     ? [...new Set(cards.map((c) => c.section))]
     : [];
-  const deck = activeSection ? cards.filter((c) => c.section === activeSection) : cards;
+  const deck = selectedSections
+    ? cards.filter((c) => selectedSections.includes(c.section))
+    : cards;
   const card = deck[index];
   const isCorrect = selected === card.correct_answer;
 
-  function selectChapter(section) {
-    setActiveSection(section);
+  function openChapters() {
+    setPendingSections(selectedSections ? [...selectedSections] : null);
+    setShowChapters(true);
+  }
+
+  function applyChapters() {
+    setSelectedSections(pendingSections);
+    setIndex(0);
+    setSelected(null);
+    setFlipped(false);
+    setShowChapters(false);
+  }
+
+  function applyAll() {
+    setSelectedSections(null);
     setIndex(0);
     setSelected(null);
     setFlipped(false);
