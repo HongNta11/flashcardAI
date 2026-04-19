@@ -1,8 +1,8 @@
 {
   "book": "super-thinking-the-big-book-of-mental-models",
   "source_file": "books/super-thinking-the-big-book-of-mental-models.md",
-  "generated_at": "2026-04-19T15:00:00Z",
-  "card_count": 150,
+  "generated_at": "2026-04-19T17:00:00Z",
+  "card_count": 225,
   "cards": [
     {
       "id": "super-thinking-the-big-book-of-mental-models-001",
@@ -1953,6 +1953,981 @@
       ],
       "correct_answer": "Because it didn't invest heavily enough in digital, as its profits still came from analog film that digital would cannibalize",
       "explanation": "The text says Kodak led digital cameras with 27% share in 1999 but 'didn't invest heavily enough in the technology relative to its competitors' — unlike Intel's memory-to-microprocessor pivot — because digital would cannibalize its profitable film business (the incumbent's dilemma). The patent, consumer, and legal options contradict the text."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-151",
+      "section": "Chapter 1 — Being Wrong Less",
+      "question": "Carl Jacobi's principle 'Invert, always invert' suggests which approach when tackling a problem?",
+      "options": [
+        "Start from the simplest possible assumption and add complexity as needed",
+        "Consider the problem from its opposite direction to reveal new strategies",
+        "List all possible solutions before evaluating any of them",
+        "Seek expert consensus before forming your own view"
+      ],
+      "correct_answer": "Consider the problem from its opposite direction to reveal new strategies",
+      "explanation": "The text uses Jacobi's maxim to explain that approaching a problem inversely can unlock new solutions — e.g., investing from the angle of 'not losing money' rather than 'making more money.' Starting from simplest assumptions describes Ockham's razor, a different model."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-152",
+      "section": "Chapter 1 — Being Wrong Less",
+      "question": "Which scenario best illustrates an 'unforced error' as described in the chapter?",
+      "options": [
+        "A tennis player mishits a shot because their opponent served at 130 mph",
+        "A manager hires the wrong person because the job market was very competitive",
+        "A startup pivots after discovering its core assumption was wrong",
+        "A baker uses a tablespoon of salt when the recipe calls for a teaspoon"
+      ],
+      "correct_answer": "A baker uses a tablespoon of salt when the recipe calls for a teaspoon",
+      "explanation": "An unforced error is an avoidable mistake caused by poor judgment, not an opponent's skill or external pressure. The baker's mistake results from carelessness alone. A mishit due to a 130 mph serve or a hire in a competitive market can both be attributed to external difficulty."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-153",
+      "section": "Chapter 1 — Being Wrong Less",
+      "question": "How does 'antifragile' thinking differ from 'resilient' thinking?",
+      "options": [
+        "Antifragile thinking avoids risk entirely while resilient thinking tolerates some risk",
+        "Antifragile thinking gets better when exposed to shocks; resilient thinking only stays the same",
+        "Antifragile thinking relies on intuition; resilient thinking relies on deliberate analysis",
+        "Antifragile thinking reacts slowly while resilient thinking reacts quickly"
+      ],
+      "correct_answer": "Antifragile thinking gets better when exposed to shocks; resilient thinking only stays the same",
+      "explanation": "Taleb's definition is explicit: 'The resilient resists shocks and stays the same; the antifragile gets better.' Antifragility goes beyond robustness — it involves improvement from volatility, like muscles growing from workouts. Avoiding risk entirely would be fragile, not antifragile."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-154",
+      "section": "Keep It Simple, Stupid!",
+      "question": "When Elon Musk used first-principles thinking about battery costs, what did he specifically do?",
+      "options": [
+        "He hired the world's top battery engineers to estimate future costs",
+        "He extrapolated from the historical trend of $600/kWh dropping gradually",
+        "He broke the battery down into raw material components and priced them on commodity markets",
+        "He surveyed competitors to benchmark their internal cost structures"
+      ],
+      "correct_answer": "He broke the battery down into raw material components and priced them on commodity markets",
+      "explanation": "Musk's example in the text explicitly describes identifying the battery's constituent materials (cobalt, nickel, aluminum, etc.) and checking their London Metal Exchange prices — arriving at ~$80/kWh. Extrapolating from history is exactly the conventional wisdom approach that first principles avoids."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-155",
+      "section": "Keep It Simple, Stupid!",
+      "question": "What is the key advantage of arguing from first principles rather than relying on conventional wisdom?",
+      "options": [
+        "It is always faster because you don't need to gather new information",
+        "It guarantees agreement with expert consensus",
+        "It lets you start from scratch, avoiding assumptions that conventional wisdom might get wrong",
+        "It produces simpler conclusions by eliminating edge cases"
+      ],
+      "correct_answer": "It lets you start from scratch, avoiding assumptions that conventional wisdom might get wrong",
+      "explanation": "The text states you are 'deliberately starting from scratch' and 'explicitly avoiding the potential trap of conventional wisdom, which could turn out to be wrong.' Speed is not guaranteed — first principles can take longer; the benefit is correctness and depth."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-156",
+      "section": "Keep It Simple, Stupid!",
+      "question": "Which assumption should you de-risk first in a new project, according to the chapter?",
+      "options": [
+        "The assumption that is easiest to test, to build early momentum",
+        "The assumption that is most expensive to implement if wrong",
+        "The assumption that is a necessary condition for success and that you are most uncertain about",
+        "The assumption that most stakeholders already agree on, to build consensus"
+      ],
+      "correct_answer": "The assumption that is a necessary condition for success and that you are most uncertain about",
+      "explanation": "The text explicitly says: 'The most important assumptions to de-risk first are the ones that are necessary conditions for success and that you are most uncertain about.' Starting with easy tests or already-agreed assumptions addresses less risk and wastes the de-risking advantage."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-157",
+      "section": "Keep It Simple, Stupid!",
+      "question": "What does the mental model 'premature optimization' warn against?",
+      "options": [
+        "Spending too long testing core assumptions before building a product",
+        "Perfecting or tweaking a process before verifying that the core assumptions are valid",
+        "Releasing a product that isn't yet profitable",
+        "Gathering too many data points before making a decision"
+      ],
+      "correct_answer": "Perfecting or tweaking a process before verifying that the core assumptions are valid",
+      "explanation": "The text defines premature optimization as tweaking or perfecting code or algorithms 'too early (prematurely),' before testing core assumptions. If those assumptions turn out wrong, all that optimization work is wasted. The opposite trap — too much testing before building — is not what this model describes."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-158",
+      "section": "Keep It Simple, Stupid!",
+      "question": "Reid Hoffman's advice 'If you're not embarrassed by the first version of your product, you've launched too late' embodies which principle?",
+      "options": [
+        "Premature optimization — perfect your product before releasing it",
+        "Minimum viable product — release early to get real-world feedback quickly",
+        "Ockham's razor — choose the simplest product design",
+        "Antifragility — learn to benefit from customer criticism"
+      ],
+      "correct_answer": "Minimum viable product — release early to get real-world feedback quickly",
+      "explanation": "Hoffman's quote directly illustrates the MVP model: launch with just enough features to get real feedback, even if the product feels embarrassing. Ockham's razor is about choosing the simplest explanation, not about release timing."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-159",
+      "section": "Keep It Simple, Stupid!",
+      "question": "A doctor hears hoofbeats and thinks of horses, not zebras. Which mental model does this illustrate?",
+      "options": [
+        "Availability bias — recent cases of zebra sightings make them memorable",
+        "Conjunction fallacy — assuming the specific case (zebra) is more likely",
+        "Ockham's razor — the simpler explanation should be investigated first",
+        "Overfitting — adding too many symptoms to the diagnosis"
+      ],
+      "correct_answer": "Ockham's razor — the simpler explanation should be investigated first",
+      "explanation": "The text explicitly quotes this medical aphorism as an application of Ockham's razor: prefer the simpler, more probable explanation before reaching for the exotic one. Availability bias and conjunction fallacy describe different reasoning errors, not the preference for simplicity."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-160",
+      "section": "Keep It Simple, Stupid!",
+      "question": "In the classic Linda experiment, why do most people wrongly rate 'Linda is a bank teller and active in the feminist movement' as more probable than 'Linda is a bank teller'?",
+      "options": [
+        "They lack information about how many bank tellers are feminists",
+        "A conjunction of events feels more narratively coherent, even though it is mathematically less probable",
+        "They are using Ockham's razor to add details that fit Linda's description",
+        "They are experiencing availability bias because feminist bank tellers are more visible in the media"
+      ],
+      "correct_answer": "A conjunction of events feels more narratively coherent, even though it is mathematically less probable",
+      "explanation": "The text explains that the probability of two events in conjunction is always ≤ the probability of either alone. People latch onto the more 'fitting' story even though adding the conjunction can only decrease probability. This is not Ockham's razor, which would favor the simpler 'bank teller' option."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-161",
+      "section": "Keep It Simple, Stupid!",
+      "question": "You draw a wildly curvy line through every single data point on a chart, even though a straight line captures the trend almost as well. What mental model best describes this mistake?",
+      "options": [
+        "Anchoring — you are too attached to the first data point you saw",
+        "Overfitting — you used an unnecessarily complicated explanation when a simpler one fits",
+        "Conjunction fallacy — you are adding too many variables to the conclusion",
+        "Premature optimization — you are tweaking the model before gathering enough data"
+      ],
+      "correct_answer": "Overfitting — you used an unnecessarily complicated explanation when a simpler one fits",
+      "explanation": "The text explicitly uses a curved-versus-straight-line graph to illustrate overfitting: using a complicated explanation when a simpler one explains the data equally well. Anchoring is about first-impression bias, not model complexity."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-162",
+      "section": "In the Eye of the Beholder",
+      "question": "A person on a moving train sees the interior as stationary, while an observer outside sees the train moving fast. How does this illustrate frame of reference in decision-making?",
+      "options": [
+        "It shows that objective reality doesn't exist and all views are equally valid",
+        "It demonstrates that your perspective can lead you to see things differently from others, which you must consciously account for",
+        "It proves that external observers always have more accurate information than internal ones",
+        "It shows that rapid movement improves decision-making clarity"
+      ],
+      "correct_answer": "It demonstrates that your perspective can lead you to see things differently from others, which you must consciously account for",
+      "explanation": "The text uses Einstein's train example to show that frame of reference shapes your perception. The takeaway is that you must actively account for your perspective — and seek other frames — to be objective. External observers are not universally more accurate; they just have a different frame."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-163",
+      "section": "In the Eye of the Beholder",
+      "question": "Two newspaper headlines describe the same shooting incident with very different emphases. What mental model is at work?",
+      "options": [
+        "Availability bias — the vivid incident becomes overrepresented in memory",
+        "Framing — the way information is presented shapes perception, so you must consider alternative framings",
+        "Anchoring — the first headline you read anchors your later interpretation",
+        "Observer effect — journalists change the story by reporting on it"
+      ],
+      "correct_answer": "Framing — the way information is presented shapes perception, so you must consider alternative framings",
+      "explanation": "The text uses the two contrasting headlines about the same incident to illustrate framing: the same facts presented differently lead to different takeaways. The practical advice is to recognize how framing shapes you and consider multiple framings of any issue. Anchoring involves a numeric first impression, not narrative framing."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-164",
+      "section": "In the Eye of the Beholder",
+      "question": "Participants who heard 'smashed' gave higher speed estimates than those who heard 'contacted,' even though they watched the same crash film. This is an example of:",
+      "options": [
+        "Anchoring — they were anchored to the severity implied by the first word they heard",
+        "The framing effect — the word choice set a context that shaped their memory",
+        "Nudging — a subtle word choice influenced their perception and response",
+        "Availability bias — 'smashing' accidents are more memorable from past experience"
+      ],
+      "correct_answer": "Nudging — a subtle word choice influenced their perception and response",
+      "explanation": "The text cites this Aldert Vrij study as the example for nudging: subtle word choices (contacted vs. smashed) push people toward different answers without their awareness. While framing is closely related, the text specifically uses this study under 'nudging,' distinguishing it as an environmental or linguistic cue that steers behavior."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-165",
+      "section": "In the Eye of the Beholder",
+      "question": "The Economist offered web-only ($59), print-only ($125), and print+web ($125). What anchoring effect did the print-only option create?",
+      "options": [
+        "It discouraged print subscribers from upgrading, keeping revenue lower",
+        "It made the web-only option seem like an even better deal by comparison",
+        "It made the print+web option feel like you were getting the web for free, driving more people to choose it",
+        "It caused readers to anchor to the $59 price, making all options seem expensive"
+      ],
+      "correct_answer": "It made the print+web option feel like you were getting the web for free, driving more people to choose it",
+      "explanation": "The text explains that the useless print-only option (no one chose it) anchored readers to a higher perceived value for print+web, creating 43% more revenue. The anchor here is the print-only price ($125), not the lowest price ($59)."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-166",
+      "section": "In the Eye of the Beholder",
+      "question": "Why do many people overestimate the current rate of illegal immigration via the US southern border?",
+      "options": [
+        "Because government reports have consistently shown increasing numbers",
+        "Because personal experience with immigrants is more vivid than abstract statistics",
+        "Because heavy media coverage of the topic creates an availability bias, making it feel more prevalent",
+        "Because immigration is a genuinely complex topic that resists simple measurement"
+      ],
+      "correct_answer": "Because heavy media coverage of the topic creates an availability bias, making it feel more prevalent",
+      "explanation": "The text explicitly uses this example: conservative media coverage makes immigration feel like it's at an all-time high, when data shows it's near a five-decade low. Availability bias distorts reality because recent, repeated, or vivid information skews perception of frequency."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-167",
+      "section": "In the Eye of the Beholder",
+      "question": "What is the core mechanism that creates a filter bubble on platforms like Google and Facebook?",
+      "options": [
+        "Users deliberately seek out opinions they already agree with",
+        "Algorithms personalize content to maximize clicks, filtering out information users are unlikely to engage with",
+        "Companies are legally required to promote certain viewpoints under advertising law",
+        "Filter bubbles form only when users follow accounts that share their political party"
+      ],
+      "correct_answer": "Algorithms personalize content to maximize clicks, filtering out information users are unlikely to engage with",
+      "explanation": "The text explains that because of availability bias, users click on familiar content, so algorithms show more of it and filter out opposing views — even in incognito mode. The cause is algorithmic optimization for clicks, not deliberate user choice to seek only agreement."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-168",
+      "section": "In the Eye of the Beholder",
+      "question": "How do echo chambers make availability bias worse?",
+      "options": [
+        "They suppress new data by removing access to media outlets",
+        "They group similar filter bubbles together so the same ideas reinforce each other, causing people to overestimate how many others share their views",
+        "They increase argument quality by exposing ideas only to sympathetic critics",
+        "They force people to articulate beliefs more precisely, strengthening conviction"
+      ],
+      "correct_answer": "They group similar filter bubbles together so the same ideas reinforce each other, causing people to overestimate how many others share their views",
+      "explanation": "The text explains that echo chambers result from 'many similar filter bubbles together' and lead to 'increased partisanship' because people 'consistently overestimate the percentage of people who hold the same opinions.' Restricting media access is not the mechanism described."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-169",
+      "section": "Walk a Mile in Their Shoes",
+      "question": "In a conflict between two colleagues, what is 'the third story,' and why is it useful?",
+      "options": [
+        "The compromise story that both parties agree on after negotiation",
+        "The story that a third, impartial observer would tell, which reveals the objective gap between the two sides",
+        "The backstory that explains why each party developed their current position",
+        "The story that the most senior person in the organization would endorse"
+      ],
+      "correct_answer": "The story that a third, impartial observer would tell, which reveals the objective gap between the two sides",
+      "explanation": "The text draws on Stone, Patton, and Heen: the third story is what an outside observer would recount. Its value is not creating a compromise but helping you 'see the situation for what it really is' and reduce defensive behavior by acknowledging differing perspectives."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-170",
+      "section": "Walk a Mile in Their Shoes",
+      "question": "Your kid's teacher hasn't replied to your email for three days. MRI (most respectful interpretation) advises which response?",
+      "options": [
+        "Send a firm follow-up asking for an explanation of the delay",
+        "Assume the teacher is ignoring you and escalate to the principal",
+        "Interpret the silence as the teacher working on your request but not yet ready to reply, and follow up inquisitively",
+        "Withhold any further communication until the teacher reaches out first"
+      ],
+      "correct_answer": "Interpret the silence as the teacher working on your request but not yet ready to reply, and follow up inquisitively",
+      "explanation": "The text uses this exact scenario: MRI means giving the most respectful explanation (waiting for key information before replying) rather than the most accusatory one. The point is to build trust and approach follow-up with an inquisitive, not accusatory, tone."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-171",
+      "section": "Walk a Mile in Their Shoes",
+      "question": "You send a colleague a message and get back only 'OK.' Hanlon's razor suggests you should conclude what?",
+      "options": [
+        "That the colleague is being dismissive and passive-aggressive",
+        "That the colleague is likely just busy or rushed, and didn't mean to be rude",
+        "That the colleague agrees completely and no further discussion is needed",
+        "That the message was probably not received and should be resent"
+      ],
+      "correct_answer": "That the colleague is likely just busy or rushed, and didn't mean to be rude",
+      "explanation": "The text uses this exact example: Hanlon's razor says never attribute to malice what is adequately explained by carelessness. A terse 'OK' is more plausibly a sign of being rushed than of dismissiveness. Hanlon's razor always prefers the carelessness explanation over the malice explanation."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-172",
+      "section": "Walk a Mile in Their Shoes",
+      "question": "You see a driver run a red light and immediately think 'that person is reckless.' What error are you making?",
+      "options": [
+        "Self-serving bias — you are projecting your own driving habits onto others",
+        "Fundamental attribution error — you are attributing the behavior to the driver's character rather than considering external circumstances",
+        "Availability bias — you remember past bad drivers too vividly",
+        "Confirmation bias — you already believed this driver was reckless"
+      ],
+      "correct_answer": "Fundamental attribution error — you are attributing the behavior to the driver's character rather than considering external circumstances",
+      "explanation": "The text uses this precise example: assuming the red-light runner is 'inherently reckless' rather than considering she might be rushing to the hospital. This is the fundamental attribution error — blaming internal character for behavior that external factors might equally explain."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-173",
+      "section": "Walk a Mile in Their Shoes",
+      "question": "How does self-serving bias (actor-observer bias) differ from the fundamental attribution error?",
+      "options": [
+        "Self-serving bias applies only to financial decisions; fundamental attribution error applies to social ones",
+        "In self-serving bias you attribute your own failures to external factors while blaming others' failures on their character; fundamental attribution error only applies to judging others",
+        "Self-serving bias makes you overly critical of yourself; fundamental attribution error makes you overly lenient toward others",
+        "They are the same model described from different perspectives"
+      ],
+      "correct_answer": "In self-serving bias you attribute your own failures to external factors while blaming others' failures on their character; fundamental attribution error only applies to judging others",
+      "explanation": "The text distinguishes these: fundamental attribution error is about how you judge others (blaming their character); self-serving bias is the complementary pattern — you rationalize your own bad behavior with external excuses while blaming others' character. They are related but not identical."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-174",
+      "section": "Walk a Mile in Their Shoes",
+      "question": "A manager is considering ending a remote-work policy. The veil of ignorance instructs them to:",
+      "options": [
+        "Survey only the employees who currently use remote work, since they are most affected",
+        "Imagine themselves as any employee, including single parents or caregivers, before deciding",
+        "Focus on the policy's impact on team productivity metrics alone",
+        "Defer the decision to the most senior employee in the room"
+      ],
+      "correct_answer": "Imagine themselves as any employee, including single parents or caregivers, before deciding",
+      "explanation": "The text uses this exact example: the veil of ignorance pushes you to consider the decision from the 'original position,' where you could be any employee. This doesn't mean consulting only affected people; it means mentally placing yourself in any role before judging. Productivity metrics alone are a narrow view."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-175",
+      "section": "Walk a Mile in Their Shoes",
+      "question": "A person believes that poor people must be lazy because 'you reap what you sow.' Which mental model does this exemplify, and what is its danger?",
+      "options": [
+        "Availability bias — poverty stories are overrepresented in media",
+        "Learned helplessness — the person has given up on improving the situation",
+        "Just world hypothesis — it leads to victim-blaming by ignoring luck and systemic factors",
+        "Self-serving bias — the person is protecting their own sense of deserved success"
+      ],
+      "correct_answer": "Just world hypothesis — it leads to victim-blaming by ignoring luck and systemic factors",
+      "explanation": "The text defines the just world hypothesis as the belief that people always get what they deserve. The danger is victim-blaming — attributing poverty to laziness rather than acknowledging randomness like the 'birth lottery.' Self-serving bias is about how you attribute your own successes, not how you judge others' circumstances."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-176",
+      "section": "Walk a Mile in Their Shoes",
+      "question": "Seligman's dogs were repeatedly shocked in one box and then placed in an escapable box. They didn't try to escape. What does this demonstrate?",
+      "options": [
+        "Cognitive dissonance — the dogs couldn't reconcile escaping with their memory of being helpless",
+        "Learned helplessness — past exposure to uncontrollable situations leads to giving up even when escape is possible",
+        "Antifragility — the dogs adapted to accept pain as normal",
+        "Availability bias — recent shock memories made the dogs assume shocks were inevitable"
+      ],
+      "correct_answer": "Learned helplessness — past exposure to uncontrollable situations leads to giving up even when escape is possible",
+      "explanation": "The text describes Seligman's experiment directly: dogs who couldn't escape shocks learned to stop trying, and this persisted even when escape became possible. The lesson is that prior helplessness encodes passivity. Cognitive dissonance involves holding conflicting beliefs, not a conditioned behavioral suppression."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-177",
+      "section": "Progress, One Funeral at a Time",
+      "question": "According to Kuhn's model, how do scientific paradigm shifts typically happen?",
+      "options": [
+        "Gradually, as new evidence accumulates and old theories evolve incrementally",
+        "Through a sudden crisis where anomalies pile up until the old paradigm collapses and a new one takes over",
+        "Through rational debate where the best argument wins over the scientific community",
+        "Only when an industry outsider publishes a definitive disproof of the old theory"
+      ],
+      "correct_answer": "Through a sudden crisis where anomalies pile up until the old paradigm collapses and a new one takes over",
+      "explanation": "The text describes Kuhn's model as 'a bumpy, messy process' in which problems are 'ignored or rationalized away' until a crisis forces a shift — not a gradual evolution. Max Planck's quip ('science progresses one funeral at a time') underscores that rational debate alone rarely persuades entrenched old-guard scientists."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-178",
+      "section": "Progress, One Funeral at a Time",
+      "question": "Semmelweis reduced maternal death rates with handwashing evidence, but the medical community rejected him. Which mental model does this exemplify?",
+      "options": [
+        "Confirmation bias — doctors sought evidence that handwashing didn't work",
+        "Semmelweis reflex — reflexive rejection of new evidence that contradicts established norms",
+        "Fundamental attribution error — doctors blamed Semmelweis's outsider status rather than the evidence",
+        "Backfire effect — presenting evidence against their view made doctors more opposed"
+      ],
+      "correct_answer": "Semmelweis reflex — reflexive rejection of new evidence that contradicts established norms",
+      "explanation": "The text explicitly names this 'the Semmelweis reflex': the reflexive rejection of clear empirical evidence because it contradicts existing paradigms. The evidence (dropped death rates) was clear; the rejection was about threatening norms, not about the evidence's quality."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-179",
+      "section": "Progress, One Funeral at a Time",
+      "question": "Why are industry outsiders more likely to make scientific breakthroughs, according to the chapter?",
+      "options": [
+        "They have fewer resources, which forces more creative problem-solving",
+        "They are not rooted in existing paradigms and don't have reputations tied to the status quo, so they can freely question it",
+        "They have stronger first-principles thinking because they were trained differently",
+        "Outsiders are less susceptible to availability bias from industry data"
+      ],
+      "correct_answer": "They are not rooted in existing paradigms and don't have reputations tied to the status quo, so they can freely question it",
+      "explanation": "The text explains that outsiders aren't constrained by existing paradigms and don't risk their reputations if they challenge accepted thinking — making them 'free thinkers.' First-principles thinking is related but the text specifically cites freedom from reputational stakes and paradigm entrenchment as the reason."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-180",
+      "section": "Progress, One Funeral at a Time",
+      "question": "In the 2008 Yale study on John Roberts, pro-choice Democrats were told a negative ad about him was withdrawn and refuted. Their disapproval:",
+      "options": [
+        "Dropped back to the baseline of 56 percent, showing the correction worked",
+        "Stayed elevated at 72 percent, demonstrating that correcting misinformation can ironically entrench views",
+        "Dropped to 40 percent, suggesting the retraction made people more favorable",
+        "Stayed at 80 percent, showing facts had absolutely no effect at all"
+      ],
+      "correct_answer": "Stayed elevated at 72 percent, demonstrating that correcting misinformation can ironically entrench views",
+      "explanation": "The text states disapproval went from 56% to 80% after the ad, then stayed at 72% even after the retraction — not back to 56%. This illustrates the backfire effect: being corrected makes people dig in rather than reverse course."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-181",
+      "section": "Progress, One Funeral at a Time",
+      "question": "You step on a scale showing higher weight than wanted. You immediately step off and on again. You don't do the same when it shows lower weight. This is an example of:",
+      "options": [
+        "Anchoring — the first reading anchored your expectations",
+        "Availability bias — your recent meals are fresh in your mind",
+        "Disconfirmation bias — you impose a higher burden of proof on unwelcome information",
+        "Optimistic probability bias — you want the lower reading to be true"
+      ],
+      "correct_answer": "Disconfirmation bias — you impose a higher burden of proof on unwelcome information",
+      "explanation": "The text quotes psychologist Gilbert's bathroom-scale example exactly to illustrate disconfirmation bias: 'When our scale delivers bad news, we hop off and then on again.' We uncritically accept good news but scrutinize bad news. Optimistic probability bias describes believing desired outcomes are more likely — a related but distinct pattern."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-182",
+      "section": "Progress, One Funeral at a Time",
+      "question": "A scientist discovers strong evidence against a theory they have championed for years, but rationalizes the evidence away. What best explains this reaction?",
+      "options": [
+        "Semmelweis reflex — outsiders to the field are reflexively rejecting the evidence",
+        "Cognitive dissonance — holding two contradictory beliefs creates stress, and dismissing evidence is the easier way to relieve it",
+        "Confirmation bias alone — they only seek out supporting evidence",
+        "Backfire effect — presenting counter-evidence made them more entrenched"
+      ],
+      "correct_answer": "Cognitive dissonance — holding two contradictory beliefs creates stress, and dismissing evidence is the easier way to relieve it",
+      "explanation": "The text explains cognitive dissonance as the stress of holding contradictory beliefs, linked to a brain area that helps avoid aversive outcomes. 'Instead of dealing with the underlying cause — that we might be wrong — we take the easy way out and rationalize the conflicting information away.' This is the mechanism behind confirmation bias and the backfire effect."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-183",
+      "section": "Progress, One Funeral at a Time",
+      "question": "What is the core discipline required by 'thinking gray,' as described by Steven Sample?",
+      "options": [
+        "Immediately categorizing all positions as true or false to reduce cognitive load",
+        "Withholding judgment on important matters until all relevant facts and arguments have been heard",
+        "Always adopting the middle position between two extremes",
+        "Treating every opinion as equally valid to maintain team harmony"
+      ],
+      "correct_answer": "Withholding judgment on important matters until all relevant facts and arguments have been heard",
+      "explanation": "The text quotes Sample: 'Don't form an opinion about an important matter until you've heard all the relevant facts and arguments.' This is about patience and delaying decision-making, not defaulting to a midpoint or treating all opinions as equal. Thinking gray avoids binary, instant judgments through deliberate delay."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-184",
+      "section": "Progress, One Funeral at a Time",
+      "question": "Why did the Catholic Church originally create the official 'Devil's advocate' position?",
+      "options": [
+        "To represent the interests of the deceased's family during canonization",
+        "To ensure canonization decisions were irreversible and could withstand legal challenges",
+        "To advocate against a person's sainthood so that a permanent, eternal decision could be stress-tested",
+        "To provide theological balance by representing the perspectives of non-believers"
+      ],
+      "correct_answer": "To advocate against a person's sainthood so that a permanent, eternal decision could be stress-tested",
+      "explanation": "The text explains that canonization is eternal and therefore must be correct — so someone was appointed to argue against the case for sainthood, 'the Devil's point of view.' This is explicitly about stress-testing an irreversible decision, not representing the family or providing theological balance."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-185",
+      "section": "Don't Trust Your Gut",
+      "question": "According to Kahneman's framework described in the chapter, when does intuition (fast thinking) become unreliable?",
+      "options": [
+        "When dealing with familiar and frequently repeated situations",
+        "When you are physically tired or emotionally stressed",
+        "When you apply it to unfamiliar situations where you don't have encoded knowledge",
+        "When the stakes are too low to justify slow, deliberate thinking"
+      ],
+      "correct_answer": "When you apply it to unfamiliar situations where you don't have encoded knowledge",
+      "explanation": "The text explains that intuition works for encoded, frequently repeated tasks. It becomes unreliable in 'uncertain situations where you do not have encoded knowledge' — the mountain lion example illustrates this: intuition from bear country is wrong in lion country. Stress is not the factor the text emphasizes."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-186",
+      "section": "Don't Trust Your Gut",
+      "question": "The Challenger's hydrogen tank igniting was the proximate cause of its destruction. What was the root cause?",
+      "options": [
+        "The O-ring failure at low temperature",
+        "The decision to launch in below-freezing conditions",
+        "Organizational failure within NASA that allowed safety concerns to be bypassed",
+        "The engineering error in specifying the O-ring's temperature range"
+      ],
+      "correct_answer": "Organizational failure within NASA that allowed safety concerns to be bypassed",
+      "explanation": "The text distinguishes proximate cause (the immediate trigger — hydrogen tank igniting) from root cause. The Rogers Commission Report concluded the root cause was NASA's organizational failure. The O-ring failure and launch decision were intermediate causes revealed by the '5 Whys,' not the ultimate root cause."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-187",
+      "section": "Don't Trust Your Gut",
+      "question": "Why does DuckDuckGo make postmortems mandatory after every project?",
+      "options": [
+        "To assign blame to individuals responsible for any errors",
+        "To comply with industry regulations requiring documentation of project completion",
+        "To collectively learn from what happened and make the organization stronger (antifragile)",
+        "To generate metrics for annual performance reviews"
+      ],
+      "correct_answer": "To collectively learn from what happened and make the organization stronger (antifragile)",
+      "explanation": "The text explicitly states: 'At DuckDuckGo, it is mandatory to conduct a postmortem after every project so that the organization can collectively learn and become stronger (antifragile).' Postmortems are framed as learning tools, not blame or compliance exercises."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-188",
+      "section": "Don't Trust Your Gut",
+      "question": "In the 5 Whys technique, when should you stop asking 'Why?'",
+      "options": [
+        "After exactly five iterations, regardless of whether you've found the root cause",
+        "After you reach a cause that is external and beyond your control",
+        "When you reach the underlying root cause that, if addressed, would prevent recurrence",
+        "After the first systemic failure is identified, even if deeper causes remain"
+      ],
+      "correct_answer": "When you reach the underlying root cause that, if addressed, would prevent recurrence",
+      "explanation": "The text notes that 'five is just an arbitrary number' — the Challenger analysis required seven whys. You stop when you have reached the real reason. Stopping at five, or at the first external factor, can leave deeper organizational causes unaddressed."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-189",
+      "section": "Don't Trust Your Gut",
+      "question": "NASA managers estimated the Challenger failure probability at roughly 1 in 100,000; engineers estimated 1 in 100. What mental model explains the managers' estimate?",
+      "options": [
+        "Confirmation bias — managers only looked at successful launches when estimating risk",
+        "Fundamental attribution error — managers blamed external factors (weather) rather than their own design",
+        "Optimistic probability bias — they fooled themselves into believing success was far more likely because they wanted it to be true",
+        "Availability bias — managers relied on the most recent successful launches as evidence"
+      ],
+      "correct_answer": "Optimistic probability bias — they fooled themselves into believing success was far more likely because they wanted it to be true",
+      "explanation": "The text uses this exact example: 'NASA managers were way too optimistic about the probability of success.' Feynman called this 'exaggerating reliability to the point of fantasy' — a classic case of wishful thinking inflating probability estimates. The text names this specific form 'optimistic probability bias.'"
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-190",
+      "section": "Harm Thy Neighbor, Unintentionally",
+      "question": "What is the core dynamic that makes tragedy of the commons situations so difficult to prevent through individual action alone?",
+      "options": [
+        "Each individual's benefit from using the common resource is invisible to others",
+        "Individual rational decisions to use the common resource create collective harm that no single person can fix alone",
+        "Common resources are always managed inefficiently by government agencies",
+        "The tragedy occurs only when all individuals act maliciously toward others"
+      ],
+      "correct_answer": "Individual rational decisions to use the common resource create collective harm that no single person can fix alone",
+      "explanation": "The text explains that each actor makes a 'rational decision' at 'little or no cost' individually, but 'as more and more people make the same decision, the common resource is collectively depleted.' Malice is not required — rational self-interest is the driver. Individual action alone can't fix it because each individual's rational incentive remains unchanged."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-191",
+      "section": "Harm Thy Neighbor, Unintentionally",
+      "question": "A group of friends on a shared dinner bill each orders an expensive meal even though they'd order cheaper alone. This illustrates which mental model?",
+      "options": [
+        "Tragedy of the commons — they are depleting the shared restaurant's resources",
+        "Tyranny of small decisions — individually rational choices aggregate into a worse outcome for everyone",
+        "Moral hazard — they take more risk because others share the financial consequence",
+        "Free rider problem — some diners eat more than their fair share"
+      ],
+      "correct_answer": "Tyranny of small decisions — individually rational choices aggregate into a worse outcome for everyone",
+      "explanation": "The text uses this exact dinner example to illustrate tyranny of small decisions. Each person's choice to order expensively seems rational in isolation, but collectively everyone pays more. Moral hazard is related (shared cost reduces individual restraint) but tyranny of small decisions is the named model the text applies here."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-192",
+      "section": "Harm Thy Neighbor, Unintentionally",
+      "question": "A person decides not to vaccinate their child, relying on herd immunity from others who do vaccinate. This is a classic example of:",
+      "options": [
+        "Tragedy of the commons — they are directly depleting the herd immunity resource",
+        "The free rider problem — they benefit from a public good without contributing to it",
+        "Moral hazard — they are taking on more health risk because they feel protected",
+        "Adverse selection — they use private information to choose a better outcome"
+      ],
+      "correct_answer": "The free rider problem — they benefit from a public good without contributing to it",
+      "explanation": "The text explicitly identifies non-vaccinators as 'free riders who take advantage of [the] public good by not getting vaccinated.' While tragedy of the commons may eventually result if too many free ride, the specific individual behavior of benefiting without contributing is the free rider problem."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-193",
+      "section": "Harm Thy Neighbor, Unintentionally",
+      "question": "Which property distinguishes a public good from a private good?",
+      "options": [
+        "Public goods are always provided by governments; private goods are provided by markets",
+        "Public goods are broadly available and one person's use does not significantly reduce availability to others",
+        "Public goods are always free to access; private goods always have a price",
+        "Public goods can only be consumed collectively, never individually"
+      ],
+      "correct_answer": "Public goods are broadly available and one person's use does not significantly reduce availability to others",
+      "explanation": "The text defines public goods through examples — national militaries, broadcast television, clean air — as things that are 'broadly available' and where 'one person's use does not significantly reduce' availability. Government provision is common but not definitionally required; the key properties are availability and non-rivalry."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-194",
+      "section": "Harm Thy Neighbor, Unintentionally",
+      "question": "Why does measles require a 95% vaccination rate in a community to achieve herd immunity?",
+      "options": [
+        "Because 5% of people are already naturally immune to measles",
+        "Because measles is extremely contagious, so nearly all community members must be immune to block spread",
+        "Because below 95%, the vaccine itself becomes less effective in individual recipients",
+        "Because health authorities add a 5% safety margin to all vaccination targets"
+      ],
+      "correct_answer": "Because measles is extremely contagious, so nearly all community members must be immune to block spread",
+      "explanation": "The text explains: 'the percentage of people who need to be vaccinated... varies by how contagious the disease is. For measles, an extremely contagious disease, the threshold is about 95%.' High contagiousness means a disease can still spread even when most people are immune — so the threshold is high."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-195",
+      "section": "Harm Thy Neighbor, Unintentionally",
+      "question": "An infant who cannot be vaccinated benefits when others vaccinate but is harmed when vaccination rates drop. These outcomes are best described as:",
+      "options": [
+        "Market failures — the vaccination market is failing to protect the infant",
+        "Positive and negative externalities — spillover effects from others' decisions affect the infant without its consent",
+        "Free rider consequences — the infant is a free rider on others' vaccinations",
+        "Coase theorem outcomes — the infant's rights to a disease-free environment are unpriced"
+      ],
+      "correct_answer": "Positive and negative externalities — spillover effects from others' decisions affect the infant without its consent",
+      "explanation": "The text explicitly uses the infant vaccination example to illustrate externalities: 'The infant receives a positive externality from those who choose to vaccinate and a negative externality from those who do not.' These arise from spillover effects imposed from an external source without the infant's consent."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-196",
+      "section": "Harm Thy Neighbor, Unintentionally",
+      "question": "Buying a car adds congestion to shared roads, costing other drivers time. This is an example of which concept?",
+      "options": [
+        "Moral hazard — you drive more because you have insurance",
+        "Spillover effect — an effect of your action spills over to others who share the roads",
+        "Tragedy of the commons — every car owner is equally depleting the road commons",
+        "Adverse selection — people who drive more choose to buy cars"
+      ],
+      "correct_answer": "Spillover effect — an effect of your action spills over to others who share the roads",
+      "explanation": "The text uses car congestion as the direct example for spillover effects: 'when you buy a car, you add congestion to the roads you drive on, a cost borne by everyone.' Spillover effects are the mechanism by which externalities occur — the cost of your activity spills over outside the core interaction."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-197",
+      "section": "Harm Thy Neighbor, Unintentionally",
+      "question": "Cigarette taxes and higher health insurance premiums for smokers are best understood as:",
+      "options": [
+        "Adverse selection mechanisms that filter out high-risk individuals from the insurance pool",
+        "Ways of internalizing the negative externalities of smoking by requiring smokers to bear more of the costs",
+        "Coase theorem applications that create a marketplace for smoking rights",
+        "Goodhart's law violations because smoking rates become a government target"
+      ],
+      "correct_answer": "Ways of internalizing the negative externalities of smoking by requiring smokers to bear more of the costs",
+      "explanation": "The text explicitly lists cigarette taxes and smoker insurance premiums as examples of internalizing externalities: making the actor pay for the cost they impose on others. Internalization is the goal; the Coase theorem involves a private marketplace, not government taxes."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-198",
+      "section": "Harm Thy Neighbor, Unintentionally",
+      "question": "The Coase theorem holds that externalities can be internalized efficiently without government intervention when which conditions are met?",
+      "options": [
+        "When the parties involved have similar levels of power and income",
+        "When well-defined property rights, rational actors, and low transaction costs exist",
+        "When the externality affects a large enough population to make legal action cost-effective",
+        "When the market has been operating long enough to establish equilibrium prices"
+      ],
+      "correct_answer": "When well-defined property rights, rational actors, and low transaction costs exist",
+      "explanation": "The text lists the Coase theorem's three conditions exactly: '1. Well-defined property rights. 2. Rational actors. 3. Low transaction costs.' Cap-and-trade systems are given as a real-world example of applying these conditions. Power equality and market maturity are not among Coase's conditions."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-199",
+      "section": "Risky Business",
+      "question": "Studies show people drive rental cars more recklessly after purchasing extra rental insurance. This is moral hazard because:",
+      "options": [
+        "The insurance company has more information about the renter's driving habits than the renter does",
+        "The renter takes on more risk because they believe they are financially protected from consequences",
+        "The renter is free-riding on the insurance pool funded by careful drivers",
+        "The insurance company created a perverse incentive by pricing coverage the same for all drivers"
+      ],
+      "correct_answer": "The renter takes on more risk because they believe they are financially protected from consequences",
+      "explanation": "The text defines moral hazard as taking on more 'hazard' once you have information that you are more protected. Protection from financial consequences changes behavior toward greater risk-taking. Free-riding applies to public goods; the mechanism here is the belief in protection reducing the personal cost of risky behavior."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-200",
+      "section": "Risky Business",
+      "question": "A real estate agent sells your home quickly at the first decent offer rather than waiting for the best price. This is primarily a:",
+      "options": [
+        "Adverse selection — the agent selected clients based on private information about market conditions",
+        "Asymmetric information problem — the agent withheld knowledge about the market from you",
+        "Principal-agent problem — the agent's self-interest (fast commission) conflicts with your interest (best price)",
+        "Moral hazard — the agent takes risks with your property because they don't bear the full consequences"
+      ],
+      "correct_answer": "Principal-agent problem — the agent's self-interest (fast commission) conflicts with your interest (best price)",
+      "explanation": "The text uses the Freakonomics real estate agent example to illustrate the principal-agent problem: the agent earns only $150 more from an extra $10,000 on your sale, so they favor speed over the best price for you. Asymmetric information is the underlying enabler, but the named problem is the agent's self-interest overriding the principal's."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-201",
+      "section": "Risky Business",
+      "question": "Disclosure laws requiring financial advisers to reveal their compensation when recommending products are designed to combat which problem?",
+      "options": [
+        "Moral hazard — advisers take excessive risks when their upside is guaranteed",
+        "Adverse selection — high-risk clients are more likely to seek financial advice",
+        "Asymmetric information — clients lack information about how adviser compensation affects recommendations",
+        "Principal-agent problem — making advisers legally liable for recommendations aligns their incentives"
+      ],
+      "correct_answer": "Asymmetric information — clients lack information about how adviser compensation affects recommendations",
+      "explanation": "The text explains that advisers' compensation structures are 'not always completely transparent to principals,' and 'disclosure laws... can reduce the effects of asymmetric information.' The laws fix the information gap. Moral hazard is about risk-taking behavior, not information gaps."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-202",
+      "section": "Risky Business",
+      "question": "In the used car market, why do sellers of good cars ('peaches') withdraw from the market when buyers can't distinguish them from bad cars ('lemons')?",
+      "options": [
+        "Because peach sellers don't want to deal with the transaction costs of the market",
+        "Because peach sellers know their cars are worth more than the average price buyers are willing to pay",
+        "Because peach sellers face moral hazard from buyers who might mistreat quality cars",
+        "Because peach sellers experience a Streisand effect when they advertise their cars' quality"
+      ],
+      "correct_answer": "Because peach sellers know their cars are worth more than the average price buyers are willing to pay",
+      "explanation": "The text explains: 'Sellers who know their cars are peaches will not want to sell them in this market because they know their cars are worth more than the average price.' This is adverse selection in action — information asymmetry causes self-selection of worse-quality goods into the market, eventually collapsing its average quality."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-203",
+      "section": "Risky Business",
+      "question": "Which of the following is the best definition of 'market failure' as used in the chapter?",
+      "options": [
+        "A market crash caused by excessive speculation and leverage",
+        "A situation where open markets without intervention create suboptimal results",
+        "A market that collapses because of insufficient consumer demand",
+        "A regulatory regime that prevents markets from setting competitive prices"
+      ],
+      "correct_answer": "A situation where open markets without intervention create suboptimal results",
+      "explanation": "The text gives an explicit definition: 'market failure, where open markets without intervention can create suboptimal results, or fail.' It then lists tragedy of the commons, externalities, moral hazard, and information asymmetry as contributors. Market crashes are a different concept entirely."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-204",
+      "section": "Be Careful What You Wish For",
+      "question": "Soviet factories rewarded for nail count made tiny pinlike nails by the millions; rewarded by weight, they made one enormous nail. What principle does this illustrate?",
+      "options": [
+        "Cobra effect — the reward system made the problem (nail scarcity) worse",
+        "Goodhart's law — when a measure becomes a target, it ceases to be a good measure",
+        "Tyranny of small decisions — individual factory decisions aggregated into a systemic problem",
+        "Adverse selection — factories with poor-quality nails self-selected into the reward system"
+      ],
+      "correct_answer": "Goodhart's law — when a measure becomes a target, it ceases to be a good measure",
+      "explanation": "The text uses the Soviet nail production example to open the Goodhart's law discussion: targeting the metric (nail count or weight) causes behavior that optimizes the metric but not the underlying goal. The cobra effect describes when a solution makes the original problem worse — a related but distinct pattern."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-205",
+      "section": "Be Careful What You Wish For",
+      "question": "How does Campbell's law extend Goodhart's law?",
+      "options": [
+        "Campbell's law applies only to social indicators, while Goodhart's law applies to economic ones",
+        "Campbell's law adds that quantitative social indicators used for decisions become subject to corruption and distort the very processes they measure",
+        "Campbell's law holds that the measure improves when the target is made more specific",
+        "Campbell's law predicts the exact time frame in which a measure will become corrupted"
+      ],
+      "correct_answer": "Campbell's law adds that quantitative social indicators used for decisions become subject to corruption and distort the very processes they measure",
+      "explanation": "The text says Campbell's law 'explains the concept a bit more precisely': quantitative indicators used for decision-making become 'subject to corruption pressures' and distort the social processes they monitor. Both laws describe the same basic phenomenon; Campbell's adds the specific mechanism of corruption and distortion."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-206",
+      "section": "Be Careful What You Wish For",
+      "question": "The British in India offered cobra bounties to reduce snake populations. Entrepreneurs started breeding cobras; when the program ended, they released all of them. This demonstrates:",
+      "options": [
+        "Goodhart's law — the cobra count became a target that ceased to be a good measure",
+        "The cobra effect — an attempted solution actually made the original problem worse",
+        "The hydra effect — cutting the cobra population caused it to grow multiple new heads",
+        "Murphy's law — anything that can go wrong, will go wrong"
+      ],
+      "correct_answer": "The cobra effect — an attempted solution actually made the original problem worse",
+      "explanation": "The text defines the cobra effect through this exact story and names it accordingly. While Goodhart's law is the upstream cause (incentivizing dead cobras distorted behavior), the cobra effect specifically names the pattern where the solution worsens the original problem — ending with a larger cobra population than before."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-207",
+      "section": "Be Careful What You Wish For",
+      "question": "Barbra Streisand sued to keep an aerial photo of her home private. Before the suit, the photo had been downloaded six times. What happened after the lawsuit became news?",
+      "options": [
+        "The photo was permanently removed from the internet due to the legal proceedings",
+        "The site was visited hundreds of thousands of times, and the photo became widely available",
+        "Public sympathy for the photographer caused increased scrutiny of celebrity privacy laws",
+        "The lawsuit succeeded and set a precedent that reduced aerial photography"
+      ],
+      "correct_answer": "The site was visited hundreds of thousands of times, and the photo became widely available",
+      "explanation": "The text describes this exact outcome: before the suit, six downloads; after news of the suit, hundreds of thousands of visits, and the photo is now freely licensed on Wikipedia. Attempting to suppress the image backfired by drawing massive attention — the defining Streisand effect."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-208",
+      "section": "Be Careful What You Wish For",
+      "question": "When authorities shut down one piracy website, multiple new ones appear to replace it. This is the hydra effect because:",
+      "options": [
+        "The original site eventually returned after the legal pressure subsided",
+        "Suppressing one instance of the problem causes multiple new ones to grow in its place, like the mythological Hydra",
+        "The shutdown attracted public attention to the piracy issue, making it worse",
+        "The shutdown created perverse incentives for pirates to be more technically sophisticated"
+      ],
+      "correct_answer": "Suppressing one instance of the problem causes multiple new ones to grow in its place, like the mythological Hydra",
+      "explanation": "The text defines the hydra effect with this movie piracy example: 'When you shut down an internet site where people share illegal movies or music, more pop up in its place.' The name comes from the Greek myth of the Hydra, which grew two heads for each one cut off. The Streisand effect is about drawing attention, not multiplication."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-209",
+      "section": "Be Careful What You Wish For",
+      "question": "Using a tire pressure gauge to measure pressure also releases some air, reducing the actual pressure. What does this illustrate?",
+      "options": [
+        "The chilling effect — measuring the tire pressure discourages normal driving behavior",
+        "The cobra effect — a solution (measuring pressure) worsens the problem (low pressure)",
+        "The observer effect — the act of observation changes the thing being observed",
+        "Moral hazard — knowing the pressure makes drivers take on more road risk"
+      ],
+      "correct_answer": "The observer effect — the act of observation changes the thing being observed",
+      "explanation": "The text uses the tire gauge as a direct example of the observer effect: measuring the tire pressure requires releasing air, which reduces the pressure. The act of measuring changes the measured quantity. The chilling effect concerns behavior change due to perceived surveillance, not an intrinsic measurement artifact."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-210",
+      "section": "Be Careful What You Wish For",
+      "question": "After Snowden's NSA revelations in 2013, Wikipedia traffic to terrorism-related articles dropped 20%. This is a chilling effect because:",
+      "options": [
+        "The NSA directly blocked access to those Wikipedia articles",
+        "People stopped reading those articles out of fear that their browsing could attract government scrutiny",
+        "Fewer people were genuinely interested in terrorism topics after the revelations",
+        "Wikipedia improved its privacy settings, making those articles harder to find"
+      ],
+      "correct_answer": "People stopped reading those articles out of fear that their browsing could attract government scrutiny",
+      "explanation": "The text cites the Penny study as an example of the chilling effect: people changed behavior (stopped reading) not because access was blocked, but because they felt observed and feared retaliation. This is a type of observer effect where the threat of surveillance changes behavior proactively."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-211",
+      "section": "Be Careful What You Wish For",
+      "question": "People who share names with individuals on the US No Fly List are sometimes denied boarding. This illustrates which mental model?",
+      "options": [
+        "Adverse selection — the list disproportionately targets certain demographics",
+        "Blowback — the anti-terrorism policy harms the government's own citizens",
+        "Collateral damage — the policy's negative effects extend to unintended, innocent parties",
+        "The observer effect — being watched changes these travelers' behavior"
+      ],
+      "correct_answer": "Collateral damage — the policy's negative effects extend to unintended, innocent parties",
+      "explanation": "The text uses No Fly List false positives as the example for collateral damage: 'negative side effects that result from an action,' harming unintended targets. Blowback is when the entity causing harm is itself harmed — the government isn't harmed the same way here, making collateral damage the precise term."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-212",
+      "section": "Be Careful What You Wish For",
+      "question": "The US armed Afghan insurgents in the 1980s against the USSR. Years later, some of these groups used those same weapons against the US. This is a classic example of:",
+      "options": [
+        "Hydra effect — suppressing the USSR created a new enemy from its remnants",
+        "Collateral damage — Afghans were unintended victims of US-Soviet geopolitics",
+        "Blowback — the harm the US created rebounded to affect the US itself",
+        "Cobra effect — the US attempt to weaken the USSR worsened its own security situation"
+      ],
+      "correct_answer": "Blowback — the harm the US created rebounded to affect the US itself",
+      "explanation": "The text defines blowback as 'collateral damage that impacts the entity that inflicted it in the first place.' The US armed the insurgents; those same weapons were later used against the US — a classic case where the initiating actor suffers from its own action. Blowback is specifically when the actor bears the harm."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-213",
+      "section": "It's Getting Hot in Here",
+      "question": "The boiling frog metaphor is used in the chapter to caution against which pattern?",
+      "options": [
+        "Acting too quickly on short-term signals without considering long-term implications",
+        "Failing to perceive or react to gradual, incremental change until it results in a catastrophic outcome",
+        "Overreacting to a single dramatic event that distorts your long-term planning",
+        "Ignoring expert warnings because they seem alarmist"
+      ],
+      "correct_answer": "Failing to perceive or react to gradual, incremental change until it results in a catastrophic outcome",
+      "explanation": "The text describes the boiling frog as 'a useful mental model describing how a gradual change can be hard to react to, or even perceive.' Examples include climate change, abusive relationships, and mass surveillance — all situations where slow drift is hard to notice until severe harm has occurred."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-214",
+      "section": "It's Getting Hot in Here",
+      "question": "A company focuses intensely on quarterly earnings while neglecting five-year product development. What is the likely long-term consequence?",
+      "options": [
+        "The company will become antifragile by streamlining to only what matters now",
+        "The company risks falling behind competitors who make long-term investments and may be disrupted by newcomers",
+        "The company will accumulate technical debt but remain competitive through agility",
+        "The company's short-term profits will eventually fund the long-term investments"
+      ],
+      "correct_answer": "The company risks falling behind competitors who make long-term investments and may be disrupted by newcomers",
+      "explanation": "The text explicitly states: 'If you focus on just short-term financial results, you won't invest enough in the future. Eventually you will be left behind by competitors who are making those long-term investments, or you could be swiftly disrupted by new upstarts.' Short-termism is a direct path to competitive disadvantage."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-215",
+      "section": "It's Getting Hot in Here",
+      "question": "Technical debt in software development is the consequence of which type of short-term thinking?",
+      "options": [
+        "Choosing open-source tools over proprietary ones to reduce licensing costs",
+        "Prioritizing quick code hacks over well-designed long-term systems, creating future rework obligations",
+        "Delaying user testing until after launch to save time during development",
+        "Releasing features before writing documentation"
+      ],
+      "correct_answer": "Prioritizing quick code hacks over well-designed long-term systems, creating future rework obligations",
+      "explanation": "The text defines technical debt as what happens 'if you prioritize short-term code fixes, or hacks, over long-term, well-designed code and processes.' The debt must eventually be repaid through future code rewrites and refactors. Open-source choices and documentation delays are not the mechanism described."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-216",
+      "section": "It's Getting Hot in Here",
+      "question": "A startup adopts project management software casually. Years later, thousands of employees use it and all data is stored there, making switching feel impossible. This demonstrates:",
+      "options": [
+        "Technical debt — the software choice was a short-term hack",
+        "Short-termism — they focused on short-term ease over long-term flexibility",
+        "Path dependence — an early, seemingly small decision now constrains available future choices",
+        "Analysis paralysis — the fear of choosing wrong software led to defaulting to the first option"
+      ],
+      "correct_answer": "Path dependence — an early, seemingly small decision now constrains available future choices",
+      "explanation": "The text uses exactly this scenario as an example of path dependence: 'a set of decisions, or paths, available to you now is dependent on your past decisions.' The initial choice seemed innocuous but created lock-in. Technical debt specifically concerns code quality; path dependence is the broader economic concept about how early decisions foreclose future options."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-217",
+      "section": "It's Getting Hot in Here",
+      "question": "A college freshman who is unsure of their major enrolls in a school with strong programs across several fields of interest. What mental model are they applying?",
+      "options": [
+        "Thinking gray — they are delaying a final opinion until they have more information",
+        "Precautionary principle — they are avoiding potential harm from a wrong major choice",
+        "Preserving optionality — they are keeping future choices open until they have more certainty",
+        "Ockham's razor — they chose the simplest college-selection criteria"
+      ],
+      "correct_answer": "Preserving optionality — they are keeping future choices open until they have more certainty",
+      "explanation": "The text uses this exact college example for preserving optionality: 'choose a school that is strong in several fields of interest... which preserves their options until they are really ready to decide.' Thinking gray is about withholding judgment; preserving optionality is specifically about making choices today that keep future doors open."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-218",
+      "section": "It's Getting Hot in Here",
+      "question": "If a substance is suspected of causing cancer but evidence is not yet conclusive, the precautionary principle advises:",
+      "options": [
+        "Wait for definitive scientific proof before restricting the substance to avoid regulatory overreach",
+        "Allow free-market pressure to drive companies to reduce the substance if demand decreases",
+        "Control the substance tightly now while research proceeds, rather than risk unnecessary harm",
+        "Apply Ockham's razor and assume no cancer risk until proven otherwise"
+      ],
+      "correct_answer": "Control the substance tightly now while research proceeds, rather than risk unnecessary harm",
+      "explanation": "The text states: 'if there is reason to believe a substance might cause cancer, the precautionary principle advises that it is better to control it tightly now while the scientific community figures out the degree of harm.' It is specifically about acting carefully when harm is uncertain but potentially large — not waiting for proof."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-219",
+      "section": "Too Much of a Good Thing",
+      "question": "A person stays in a job they dislike for years because the sheer number of career options feels overwhelming. Which mental model best describes this?",
+      "options": [
+        "Decision fatigue — they have made so many career decisions that quality has declined",
+        "Paradox of choice — too many options created anxiety, leading to inaction as the default",
+        "Analysis paralysis — overanalyzing the large number of available options causes decision-making to stall",
+        "Path dependence — their past career choices have constrained their future options"
+      ],
+      "correct_answer": "Analysis paralysis — overanalyzing the large number of available options causes decision-making to stall",
+      "explanation": "The text uses exactly this example to illustrate analysis paralysis: 'people often stay in a job they don't like because they are unsure of what to do next given all the possibilities.' Analysis paralysis names the mechanism of being stuck due to over-analysis. Paradox of choice describes the resulting anxiety; analysis paralysis names the decision failure itself."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-220",
+      "section": "Too Much of a Good Thing",
+      "question": "'If you wait for the perfect decision, you may be waiting a long time — and by not choosing, you are choosing the status quo.' What mental model does this illustrate?",
+      "options": [
+        "Preserving optionality — delay keeps future paths open",
+        "Thinking gray — avoiding binary decisions maintains flexibility",
+        "Perfect is the enemy of good — insisting on perfection leads to inaction, which may be worse than an imperfect choice",
+        "Precautionary principle — caution before committing to any irreversible path"
+      ],
+      "correct_answer": "Perfect is the enemy of good — insisting on perfection leads to inaction, which may be worse than an imperfect choice",
+      "explanation": "The text states this model directly: waiting for the perfect option means 'you are actually making a choice: you are choosing the status quo, which could be considerably worse than one of the other choices you could already have made.' Preserving optionality and thinking gray concern delaying for good reasons; this model warns that delay itself has costs."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-221",
+      "section": "Too Much of a Good Thing",
+      "question": "Jeff Bezos describes some decisions as 'two-way doors' and others as 'one-way doors.' What practical implication does this distinction have?",
+      "options": [
+        "Two-way door decisions should always involve group consensus; one-way doors should be made by senior leadership alone",
+        "One-way door (irreversible) decisions need slow, deliberate processes; two-way door decisions should be made quickly and experimentally",
+        "Irreversible decisions should be made by AI systems to avoid cognitive bias",
+        "All major decisions should be treated as one-way doors to encourage proper deliberation"
+      ],
+      "correct_answer": "One-way door (irreversible) decisions need slow, deliberate processes; two-way door decisions should be made quickly and experimentally",
+      "explanation": "The text quotes Bezos directly: one-way doors 'must be made methodically, carefully, slowly,' while two-way doors 'are changeable, reversible' and should not be slowed down. The danger Bezos warns against is applying the irreversible-decision process to reversible ones, which creates unnecessary slowness and risk aversion."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-222",
+      "section": "Too Much of a Good Thing",
+      "question": "A restaurant separates its menu into sections (pasta, pizza, salads) to help diners decide. How does this apply Hick's law?",
+      "options": [
+        "It reduces cognitive dissonance by grouping similar items together",
+        "It applies anchoring by placing the most profitable items first",
+        "It reduces total decision time by creating a multi-step decision with fewer choices at each step",
+        "It eliminates the paradox of choice by offering fewer total dishes"
+      ],
+      "correct_answer": "It reduces total decision time by creating a multi-step decision with fewer choices at each step",
+      "explanation": "The text describes Hick's law advice: 'give yourself or others a multi-step decision with fewer choices at each step.' Categories let diners first choose a food type, then choose within that category — consistent with Hick's finding that decision time grows logarithmically with number of simultaneous choices."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-223",
+      "section": "Too Much of a Good Thing",
+      "question": "Someone told there are 'plenty of fish in the sea' in dating often feels anxious rather than hopeful. According to the paradox of choice, why?",
+      "options": [
+        "Because too many choices make it statistically impossible to find a good match",
+        "Because an abundance of options, the fear of a suboptimal choice, and potential regret over missed alternatives cause unhappiness",
+        "Because dating pools with more options have lower average partner quality",
+        "Because Hick's law makes decision time for choosing a partner logarithmically long"
+      ],
+      "correct_answer": "Because an abundance of options, the fear of a suboptimal choice, and potential regret over missed alternatives cause unhappiness",
+      "explanation": "The text cites Schwartz's paradox of choice framework: 'an overabundance of choice, the fear of making a suboptimal decision, and the potential for lingering regret following missed opportunities can leave people unhappy.' The text uses the dating example directly. The problem is psychological anxiety from too many options, not statistical impossibility."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-224",
+      "section": "Too Much of a Good Thing",
+      "question": "A study of parole boards found that favorable rulings drop from ~65% to near zero within a session and reset to ~65% after a break. What does this demonstrate?",
+      "options": [
+        "Availability bias — recent cases at the end of a session are judged more harshly",
+        "Anchoring — early rulings set a favorable standard that later rulings are judged against",
+        "Decision fatigue — quality of decisions deteriorates after a series of decisions, then recovers with rest",
+        "Analysis paralysis — the growing backlog of cases overwhelms the board's decision-making capacity"
+      ],
+      "correct_answer": "Decision fatigue — quality of decisions deteriorates after a series of decisions, then recovers with rest",
+      "explanation": "The text cites this 2011 parole study directly as the illustration of decision fatigue: favorable rulings drop to nearly zero by the end of each session and jump back after a break. The pattern shows that decision quality — not just speed — is depleted by a series of decisions and restored by rest."
+    },
+    {
+      "id": "super-thinking-the-big-book-of-mental-models-225",
+      "section": "Too Much of a Good Thing",
+      "question": "Murphy's law is described in the chapter as a defensive reminder. What behavior should it prompt?",
+      "options": [
+        "Avoiding all high-stakes decisions that carry uncertainty",
+        "Expecting the worst outcome in every situation to maintain a pessimistic but realistic worldview",
+        "Anticipating that things will go wrong and having plans ready to respond when they do",
+        "Delegating all complex decisions to reduce the chance of personal error"
+      ],
+      "correct_answer": "Anticipating that things will go wrong and having plans ready to respond when they do",
+      "explanation": "The text clarifies Murphy's original intent: it 'was intended as a defensive suggestion, to remind you to be prepared and to have a plan for when things go wrong.' It does not counsel avoiding decisions or assuming only the worst; it is a planning heuristic. Total pessimism without action is not the intended use."
     }
   ]
 }
