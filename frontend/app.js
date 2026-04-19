@@ -233,6 +233,10 @@ function Quiz({ book, onFinish, onBack }) {
             `}
             <p style="line-height:1.6;font-size:0.95rem;color:var(--text-muted);margin-bottom:24px">${card.explanation}</p>
             <button
+              onClick=${() => setFlipped(false)}
+              style="width:100%;padding:14px;background:var(--surface);color:var(--accent);border:1px solid var(--accent);border-radius:var(--radius);font-size:1rem;cursor:pointer;margin-bottom:10px"
+            >← Question</button>
+            <button
               onClick=${advance}
               style="width:100%;padding:14px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:1rem;cursor:pointer"
             >${index + 1 < deck.length ? 'Next Card →' : 'See Results'}</button>
