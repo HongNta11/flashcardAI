@@ -135,6 +135,7 @@ function Quiz({ book, onFinish, onBack }) {
     ? cards.filter((c) => selectedSections.includes(c.section))
     : cards;
   const card = deck[index];
+  if (!card) return html`<p style="padding:24px;color:var(--text-muted)">No cards in selection.</p>`;
   const isCorrect = selected === card.correct_answer;
 
   function openChapters() {
@@ -279,7 +280,7 @@ function Quiz({ book, onFinish, onBack }) {
               onClick=${applyChapters}
               disabled=${pendingSections !== null && pendingSections.length === 0}
               style="width:100%;padding:14px;background:${pendingSections !== null && pendingSections.length === 0 ? '#dde3f5' : 'var(--accent)'};color:${pendingSections !== null && pendingSections.length === 0 ? 'var(--text-muted)' : '#fff'};border:none;border-radius:var(--radius);font-size:1rem;font-weight:600;cursor:${pendingSections !== null && pendingSections.length === 0 ? 'default' : 'pointer'}"
-            >${pendingSections === null ? 'All Chapters' : pendingSections.length === 0 ? 'Select at least one chapter' : 'Apply (' + pendingSections.length + ' chapter' + (pendingSections.length > 1 ? 's' : '') + ')'}</button>
+            >${pendingSections === null ? 'Apply (all)' : pendingSections.length === 0 ? 'Select at least one chapter' : 'Apply (' + pendingSections.length + ' chapter' + (pendingSections.length > 1 ? 's' : '') + ')'}</button>
           </div>
         </div>
       `}
