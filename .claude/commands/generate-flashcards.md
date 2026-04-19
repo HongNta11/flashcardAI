@@ -18,6 +18,7 @@ Run without arguments to list all `.md` files in the `books/` folder.
 
 4. For each section generate 3–5 multiple-choice flashcards. Each card:
    - `id`: `<book-slug>-<NNN>` (slug = filename without `.md`, NNN = zero-padded sequential integer starting at 001)
+   - `section`: the exact text of the `##` heading this card belongs to
    - `question`: tests understanding of a concept in the section, not just wording recall
    - `options`: exactly 4 strings — 1 correct answer + 3 plausible distractors
    - `correct_answer`: exact text of the correct option (must match one entry in `options`)

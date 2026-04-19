@@ -85,8 +85,11 @@ function Quiz({ book, onFinish, onBack }) {
   const [index, setIndex] = useState(0);
   const [shuffledOptions, setShuffledOptions] = useState([]);
   const [selected, setSelected] = useState(null);
+  const [flipped, setFlipped] = useState(false);
   const [score, setScore] = useState(0);
   const [error, setError] = useState(null);
+  const [activeSection, setActiveSection] = useState(null);
+  const [showChapters, setShowChapters] = useState(false);
 
   useEffect(() => {
     async function load() {
@@ -109,6 +112,7 @@ function Quiz({ book, onFinish, onBack }) {
     if (cards && cards[index]) {
       setShuffledOptions(shuffle(cards[index].options));
       setSelected(null);
+      setFlipped(false);
     }
   }, [cards, index]);
 
@@ -120,18 +124,37 @@ function Quiz({ book, onFinish, onBack }) {
     }
   }, []);
 
+  useEffect(() => {
+    if (!showChapters) return;
+    const close = () => setShowChapters(false);
+    setTimeout(() => document.addEventListener('click', close), 0);
+    return () => document.removeEventListener('click', close);
+  }, [showChapters]);
+
   if (error) return html`<p style="padding:24px;color:var(--wrong)">${error}</p>`;
   if (!cards) return html`<p style="padding:24px;color:var(--text-muted)">Loading cards…</p>`;
 
-  const card = cards[index];
-  const isAnswered = selected !== null;
+  const sections = cards[0]?.section
+    ? [...new Set(cards.map((c) => c.section))]
+    : [];
+  const deck = activeSection ? cards.filter((c) => c.section === activeSection) : cards;
+  const card = deck[index];
   const isCorrect = selected === card.correct_answer;
 
+  function selectChapter(section) {
+    setActiveSection(section);
+    setIndex(0);
+    setSelected(null);
+    setFlipped(false);
+    setShowChapters(false);
+  }
+
   async function handleSelect(option) {
-    if (isAnswered) return;
+    if (selected) return;
     setSelected(option);
     const correct = option === card.correct_answer;
     if (correct) setScore((s) => s + 1);
+    setTimeout(() => setFlipped(true), 120);
     const entry = { bookId: book.id, cardId: card.id, correct };
     if (navigator.onLine) {
       api.saveProgress(book.id, card.id, correct).catch(() => queueProgress(entry));
@@ -140,11 +163,9 @@ function Quiz({ book, onFinish, onBack }) {
     }
   }
 
-  function optionStyle(opt) {
-    if (!isAnswered) return 'background:var(--surface);color:var(--text)';
-    if (opt === card.correct_answer) return 'background:var(--correct);color:#fff';
-    if (opt === selected) return 'background:var(--wrong);color:#fff';
-    return 'background:var(--surface);color:var(--text);opacity:0.5';
+  function advance() {
+    if (index + 1 < deck.length) setIndex((i) => i + 1);
+    else onFinish({ score, total: deck.length });
   }
 
   return html`
@@ -155,37 +176,70 @@ function Quiz({ book, onFinish, onBack }) {
             onClick=${onBack}
             style="background:none;border:none;cursor:pointer;color:var(--accent);font-size:0.875rem;padding:0;display:flex;align-items:center;gap:4px"
           >← Books</button>
-          <span style="color:var(--text-muted);font-size:0.875rem">${index + 1} / ${cards.length}</span>
+          <span style="color:var(--text-muted);font-size:0.875rem">${index + 1} / ${deck.length}</span>
+          ${sections.length > 0 && html`
+            <div style="position:relative">
+              <button
+                onClick=${() => setShowChapters((v) => !v)}
+                style="background:none;border:1px solid var(--accent);border-radius:8px;cursor:pointer;color:var(--accent);font-size:0.8rem;padding:4px 10px"
+              >${activeSection ? '📖 ' + activeSection : '📚 Chapters'}</button>
+              ${showChapters && html`
+                <div style="position:absolute;right:0;top:calc(100% + 6px);background:var(--surface);border-radius:var(--radius);box-shadow:0 4px 20px rgba(0,0,0,0.15);min-width:180px;z-index:10;overflow:hidden">
+                  <div
+                    onClick=${() => selectChapter(null)}
+                    style="padding:12px 16px;cursor:pointer;font-size:0.9rem;border-bottom:1px solid #eee;color:${!activeSection ? 'var(--accent)' : 'var(--text)'}; font-weight:${!activeSection ? '600' : '400'}"
+                  >All Chapters</div>
+                  ${sections.map((s) => html`
+                    <div
+                      key=${s}
+                      onClick=${() => selectChapter(s)}
+                      style="padding:12px 16px;cursor:pointer;font-size:0.9rem;border-bottom:1px solid #eee;color:${activeSection === s ? 'var(--accent)' : 'var(--text)'};font-weight:${activeSection === s ? '600' : '400'}"
+                    >${s}</div>
+                  `)}
+                </div>
+              `}
+            </div>
+          `}
         </div>
         <div style="background:#dde3f5;border-radius:4px;height:4px">
-          <div style="height:100%;background:var(--accent);width:${((index + 1) / cards.length) * 100}%;transition:width 0.3s"></div>
+          <div style="height:100%;background:var(--accent);width:${((index + 1) / deck.length) * 100}%;transition:width 0.3s"></div>
         </div>
       </div>
 
-      <div style="background:var(--surface);border-radius:var(--radius);padding:24px;margin-bottom:20px;min-height:100px">
-        <p style="font-size:1.05rem;line-height:1.6">${card.question}</p>
-      </div>
+      <div key=${index} class="slide-in card-scene">
+        <div class=${`card-flipper${flipped ? ' flipped' : ''}`}>
 
-      <div style="display:flex;flex-direction:column;gap:10px">
-        ${shuffledOptions.map((opt) => html`
-          <button
-            key=${opt}
-            onClick=${() => handleSelect(opt)}
-            style="padding:14px 16px;border-radius:var(--radius);border:1px solid var(--accent);cursor:pointer;text-align:left;font-size:1rem;transition:all 0.2s;${optionStyle(opt)}"
-          >${opt}</button>
-        `)}
-      </div>
+          <div class="card-face">
+            <p style="font-size:1.05rem;line-height:1.6;margin-bottom:20px">${card.question}</p>
+            <div style="display:flex;flex-direction:column;gap:10px">
+              ${shuffledOptions.map((opt) => html`
+                <button
+                  key=${opt}
+                  onClick=${() => handleSelect(opt)}
+                  style="padding:14px 16px;border-radius:var(--radius);border:1px solid var(--accent);cursor:${selected ? 'default' : 'pointer'};text-align:left;font-size:1rem;transition:background 0.15s;background:var(--surface);color:var(--text)"
+                >${opt}</button>
+              `)}
+            </div>
+          </div>
 
-      ${isAnswered && html`
-        <div style="margin-top:20px;padding:16px;background:var(--surface);border-radius:var(--radius);border-left:3px solid ${isCorrect ? 'var(--correct)' : 'var(--wrong)'}">
-          <p style="font-size:0.875rem;font-weight:600;margin-bottom:6px;color:${isCorrect ? 'var(--correct)' : 'var(--wrong)'}">${isCorrect ? '✓ Correct' : '✗ Incorrect'}</p>
-          <p style="line-height:1.5;font-size:0.95rem">${card.explanation}</p>
+          <div class="card-face card-face-back">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:16px">
+              <span style="font-size:1.5rem">${isCorrect ? '🎉' : '💡'}</span>
+              <span style="font-weight:700;font-size:1.05rem;color:${isCorrect ? 'var(--correct)' : 'var(--wrong)'}">${isCorrect ? 'Correct!' : 'Not quite'}</span>
+            </div>
+            ${!isCorrect && html`
+              <p style="font-size:0.875rem;color:var(--text-muted);margin-bottom:8px">Correct answer:</p>
+              <p style="font-weight:600;color:var(--correct);margin-bottom:16px">${card.correct_answer}</p>
+            `}
+            <p style="line-height:1.6;font-size:0.95rem;color:var(--text-muted);margin-bottom:24px">${card.explanation}</p>
+            <button
+              onClick=${advance}
+              style="width:100%;padding:14px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:1rem;cursor:pointer"
+            >${index + 1 < deck.length ? 'Next Card →' : 'See Results'}</button>
+          </div>
+
         </div>
-        <button
-          onClick=${() => index + 1 < cards.length ? setIndex((i) => i + 1) : onFinish({ score, total: cards.length })}
-          style="margin-top:16px;width:100%;padding:14px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:1rem;cursor:pointer"
-        >${index + 1 < cards.length ? 'Next Card →' : 'See Results'}</button>
-      `}
+      </div>
     </div>
   `;
 }
