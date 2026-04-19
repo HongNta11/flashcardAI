@@ -1,6 +1,6 @@
 def test_missing_token_returns_403(client):
     response = client.get("/books")
-    assert response.status_code == 401
+    assert response.status_code == 403
 
 
 def test_wrong_token_returns_403(client):
