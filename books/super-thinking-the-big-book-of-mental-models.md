@@ -2,7 +2,7 @@
 
 ---
 
-## Page 3
+Page 3
 
 PORTFOLIO / PENGUIN
 An imprint of Penguin Random House LLC
@@ -26,7 +26,7 @@ Version_2
 
 ---
 
-## Page 4
+Page 4
 
 Contents
 Title Page
@@ -55,7 +55,7 @@ Acknowledgments
 
 ---
 
-## Page 5
+Page 5
 
 Image Credits
 Index
@@ -63,7 +63,9 @@ About the Authors
 
 ---
 
-## Page 6
+Page 6
+
+## Introduction — The Super Thinking Journey
 
 Introduction
 The Super Thinking Journey
@@ -102,7 +104,7 @@ discipline.
 
 ---
 
-## Page 7
+Page 7
 
 Critical mass is one of these mental models with wider applicability: ideas can attain
 critical mass; a party can reach critical mass; a product can achieve critical mass.
@@ -146,7 +148,7 @@ these models will likely never reach this higher level, and certainly not quickl
 
 ---
 
-## Page 8
+Page 8
 
 Think back to when you first learned multiplication. As you may recall,
 multiplication is just repeated addition. In fact, all mathematical operations based on
@@ -191,7 +193,7 @@ Munger said:
 
 ---
 
-## Page 9
+Page 9
 
 And the models have to come from multiple disciplines—because all the wisdom of the world is not to be found
 in one little academic department. . . . You’ve got to have models across a fair array of disciplines.
@@ -223,7 +225,7 @@ should just pop into your head.
 
 ---
 
-## Page 10
+Page 10
 
 Learning to apply super mental models in this manner doesn’t happen overnight. Like
 Spider-Man or the Hulk, you won’t have instant mastery of your powers. The
@@ -243,9 +245,11 @@ second best time is now.”
 
 ---
 
-## Page 11
+Page 11
 
 1
+## Chapter 1 — Being Wrong Less
+
 Being Wrong Less
 YOU MAY NOT REALIZE IT, but you make dozens of decisions every day. And when you make those
 decisions, whether they are personal or professional, you want to be right much more often
@@ -285,7 +289,7 @@ around you and you will see them everywhere.
 
 ---
 
-## Page 12
+Page 12
 
 An unforced error isn’t the only way to make a wrong decision, though. The best decision
 based on the information available at the time can easily turn out to be the wrong decision in
@@ -318,6 +322,8 @@ In this chapter we’re going to explore solving problems without bias. Unfortun
 evolution has hardwired us with several mind traps. If you are not aware of them, you will
 make poor decisions by default. But if you can recognize these traps from afar and avoid
 them by using some tried-and-true techniques, you will be well on the path to super thinking.
+## Keep It Simple, Stupid!
+
 KEEP IT SIMPLE, STUPID!
 Any science or math teacher worth their salt stresses the importance of knowing how to
 derive every formula that you use, because only then do you really know it. It’s the
@@ -328,7 +334,7 @@ cookbook—and being the kind of cook who just knows how to follow a recipe.
 
 ---
 
-## Page 13
+Page 13
 
 Lauren was the teaching assistant for several statistics courses during her years at MIT.
 One course had a textbook that came with a computer disk, containing a simple application
@@ -355,7 +361,7 @@ movie, an engineer dumps all the parts available on the spacecraft on a table an
 
 ---
 
-## Page 14
+Page 14
 
 If you can argue from first principles, then you can more easily approach unfamiliar
 situations, or approach familiar situations in innovative ways. Understanding how to derive
@@ -379,7 +385,7 @@ principles approach, you will gain a much deeper understanding of the subject at
 
 ---
 
-## Page 15
+Page 15
 
 Any problem can be approached from first principles. Take your next career move. Most
 people looking for work will apply to too many jobs and take the first job that is offered to
@@ -423,7 +429,7 @@ necessary conditions for success and that you are most uncertain about. For exam
 
 ---
 
-## Page 16
+Page 16
 
 startup context, take the assumption that your solution sufficiently solves the problem it was
 designed to solve. If this assumption is untrue, then you will need to change what you are
@@ -468,19 +474,19 @@ Minimum Viable Product
 
 ---
 
-## Page 17
+Page 17
 
 Vision
 
 ---
 
-## Page 18
+Page 18
 
 MVP
 
 ---
 
-## Page 19
+Page 19
 
 2.0
 The MVP forces you to evaluate your assumptions quickly. One way you can be wrong
@@ -497,7 +503,7 @@ More recently, the composer Roger Sessions, paraphrasing Albert Einstein, put it
 
 ---
 
-## Page 20
+Page 20
 
 “Everything should be made as simple as it can be, but not simpler!” In medicine, it’s known
 by this saying: “When you hear hoofbeats, think of horses, not zebras.”
@@ -543,7 +549,7 @@ from statistics. Adding in all those overly specific dating requirements is over
 
 ---
 
-## Page 21
+Page 21
 
 dating history. Similarly, believing you have cancer when you have a cold is overfitting your
 symptoms.
@@ -568,7 +574,9 @@ Overfitting
 
 ---
 
-## Page 22
+Page 22
+
+## In the Eye of the Beholder
 
 IN THE EYE OF THE BEHOLDER
 You go through life seeing everything from your perspective, which varies widely depending
@@ -593,7 +601,7 @@ conversation. For example, if you want your organization to embark on an innovat
 
 ---
 
-## Page 23
+Page 23
 
 expensive project, you might frame it to your colleagues as a potential opportunity to
 outshine the competition rather than as an endeavor that would require excessive resources.
@@ -610,7 +618,7 @@ least you should. For example, headlines have a framing effect, affecting the me
 
 ---
 
-## Page 24
+Page 24
 
 take away from stories. On August 31, 2015, three police officers responded to a 911 call
 about a burglary in progress. Unfortunately, the call did not specify an exact address, and the
@@ -639,7 +647,7 @@ the question affected their answers. The speed estimates (in miles per hour) wer
 
 ---
 
-## Page 25
+Page 25
 
 You can be nudged in a direction by a subtle word choice or other environmental cues.
 Restaurants will nudge you by highlighting certain dishes on menu inserts, by having servers
@@ -664,7 +672,7 @@ Print and web ($125): 84 percent
 
 ---
 
-## Page 26
+Page 26
 
 So why include that option at all? Here’s why: when it was removed from the question,
 this result was revealed:
@@ -696,7 +704,7 @@ U.S. Southern Border Apprehensions: at Five-Decade Low
 
 ---
 
-## Page 27
+Page 27
 
 Availability bias can easily emerge from high media coverage of a topic. Rightly or
 wrongly, the media infamously has a mantra of “If it bleeds, it leads.” The resulting heavy
@@ -714,7 +722,7 @@ Mortality Rates by Causes: Actual vs. Perceived
 
 ---
 
-## Page 28
+Page 28
 
 Availability bias stems from overreliance on your recent experiences within your frame of
 reference, at the expense of the big picture. Let’s say you are a manager and you need to
@@ -742,7 +750,7 @@ called incognito mode. Many people don’t realize that they are getting tailore
 
 ---
 
-## Page 29
+Page 29
 
 on what a mathematical algorithm thinks would increase their clicks, as opposed to a more
 objective set of ranked results.
@@ -754,6 +762,8 @@ as people have less and less exposure to alternative viewpoints. And because of 
 bias, they consistently overestimate the percentage of people who hold the same opinions.
 It’s easy to focus solely on what is put in front of you. It’s much harder to seek out an
 objective frame of reference, but that is what you need to do in order to be wrong less.
+## Walk a Mile in Their Shoes
+
 WALK A MILE IN THEIR SHOES
 Most of the significant problems in the world involve people, so making headway on these
 problems often requires a deep understanding of the people involved. For instance, enough
@@ -767,7 +777,7 @@ or hold your beliefs. Unfortunately, often these assumptions are wrong.
 
 ---
 
-## Page 30
+Page 30
 
 Consequently, to be wrong less when thinking about people, you must find ways to
 increase your empathy, opening up a deeper understanding of what other people are really
@@ -815,7 +825,7 @@ respect. You remain open to other interpretations and withhold judgment until ne
 
 ---
 
-## Page 31
+Page 31
 
 Another way of giving people the benefit of the doubt for their behavior is called
 Hanlon’s razor: never attribute to malice that which is adequately explained by
@@ -863,7 +873,7 @@ veil of ignorance, though, pushes you to imagine the change from the original po
 
 ---
 
-## Page 32
+Page 32
 
 you could be any employee. What if you were an employee caring for an elderly family
 member? What if you were a single parent? You may find that the new policy is warranted
@@ -910,7 +920,7 @@ homeless tend to use a lot of public resources, such as hospitals, jails, and sh
 
 ---
 
-## Page 33
+Page 33
 
 Learned helplessness is not found only in dire situations. People can also exhibit learned
 helplessness in everyday circumstances, believing they are incapable of doing or learning
@@ -923,6 +933,8 @@ All the mental models in this section—from the third story to learned helpless
 help you increase your empathy. When applying them, you are effectively trying to
 understand people’s actual circumstances and motivations better, trying as best you can to
 walk a mile in their shoes.
+## Progress, One Funeral at a Time
+
 PROGRESS, ONE FUNERAL AT A TIME
 Just as you can be anchored to a price, you can also be anchored to an entire way of thinking
 about something. In other words, it can be very difficult to convince you of a new idea when
@@ -936,7 +948,7 @@ Singapore math teaches addition using “number bonds” that break apart number
 
 ---
 
-## Page 34
+Page 34
 
 In science, this phenomenon is documented in Thomas Kuhn’s book The Structure of
 Scientific Revolutions, which popularized the paradigm shift model, describing how
@@ -965,7 +977,7 @@ continental drift, just the idea that it likely had taken place. It basically sa
 
 ---
 
-## Page 35
+Page 35
 
 mainstream geologists for forty years, until the new science of paleomagnetism started
 creating additional data in support of it, reviving the theory.
@@ -996,7 +1008,7 @@ admitted to an asylum, and died at the age of forty-seven. It took another twent
 
 ---
 
-## Page 36
+Page 36
 
 his death for his ideas about antiseptics to start to take hold, following Louis Pasteur’s
 unquestionable confirmation of germ theory.
@@ -1025,7 +1037,7 @@ become more entrenched in the original, incorrect position, not less.
 
 ---
 
-## Page 37
+Page 37
 
 In one 2008 Yale study, pro-choice Democrats were asked to give their opinions of
 Supreme Court nominee John Roberts before and after hearing an ad claiming he supported
@@ -1048,7 +1060,7 @@ plays a role in helping you avoid aversive outcomes. Instead of dealing with the
 
 ---
 
-## Page 38
+Page 38
 
 cause of this stress—the fact that we might actually be wrong—we take the easy way out and
 rationalize the conflicting information away. It’s a survival instinct!
@@ -1078,7 +1090,7 @@ objective truth.
 
 ---
 
-## Page 39
+Page 39
 
 A second mental model that can help you with confirmation bias is the Devil’s advocate
 position. This was once an official position in the Catholic Church used during the process
@@ -1095,10 +1107,12 @@ compelling argument in favor of what you believe. As Charlie Munger says, “I n
 
 ---
 
-## Page 40
+Page 40
 
 myself to have an opinion on anything that I don’t know the other side’s argument better than
 they do.”
+## Don’t Trust Your Gut
+
 DON’T TRUST YOUR GUT
 You make most of your everyday decisions using your intuition, with your subconscious
 automatically intuiting what to do from instinct or encoded knowledge. It’s your common or
@@ -1139,7 +1153,7 @@ time is a slow and steady way to become more antifragile, making you better able
 
 ---
 
-## Page 41
+Page 41
 
 with new situations over time. Of course, the better the information you put into your brain,
 the better your intuition will be.
@@ -1184,7 +1198,7 @@ coldest launch had been at 53 degrees.)
 
 ---
 
-## Page 42
+Page 42
 
 6. Why did the launch go forward when it was so cold? Safety concerns were
 ignored at the launch meeting.
@@ -1228,7 +1242,7 @@ causes, and seeking out the third story.
 
 ---
 
-## Page 43
+Page 43
 
 Realize that your intuitive interpretations of the world can often be wrong due to availability bias,
 fundamental attribution error, optimistic probability bias, and other related mental models that explain
@@ -1242,9 +1256,11 @@ person. Likewise, taking in a variety of perspectives will help you become a sup
 
 ---
 
-## Page 44
+Page 44
 
 2
+## Chapter 2 — Anything That Can Go Wrong, Will
+
 Anything That Can Go Wrong, Will
 ALL YOUR ACTIONS HAVE CONSEQUENCES, but sometimes those consequences are unexpected. On the surface,
 these unintended consequences seem unpredictable. However, if you dig deeper, you will
@@ -1285,7 +1301,9 @@ models to help you better predict and deal with these situations.
 
 ---
 
-## Page 45
+Page 45
+
+## Harm Thy Neighbor, Unintentionally
 
 HARM THY NEIGHBOR, UNINTENTIONALLY
 There is a class of unintended consequences that arise when a lot of people choose what
@@ -1321,7 +1339,7 @@ benefit from it in the future (e.g., the antibiotic becomes much less useful).
 
 ---
 
-## Page 46
+Page 46
 
 More broadly, the tragedy of the commons arises from what is called the tyranny of small
 decisions, where a series of small, individually rational decisions ultimately leads to a
@@ -1338,7 +1356,7 @@ never consciously made, but simply resulted from a series of small decisions.”
 
 ---
 
-## Page 47
+Page 47
 
 It’s the individual decision to place a well here, cut down some trees there, build a
 factory over there—over time these isolated decisions aggregate to create widespread
@@ -1386,7 +1404,7 @@ vaccinated, resulting in an outbreak of the disease, creating a tragedy of the c
 
 ---
 
-## Page 48
+Page 48
 
 In practice, the percentage of people who need to be vaccinated for a given disease to
 achieve herd immunity varies by how contagious the disease is. For measles, an extremely
@@ -1432,7 +1450,7 @@ hold over a longer period and is proving hard to reverse.
 
 ---
 
-## Page 49
+Page 49
 
 In situations like these, dropping below a herd immunity threshold can create lasting harm.
 It can be difficult to put the genie back in the bottle. Imagine a once pristine place that is
@@ -1480,7 +1498,7 @@ regulation, and lawsuits. Smoking externalities are internalized via cigarette t
 
 ---
 
-## Page 50
+Page 50
 
 health insurance premiums for smokers. Traffic congestion externalities are internalized
 through tolls. On a personal level, your neighbor might file a noise complaint against you if
@@ -1515,13 +1533,15 @@ transaction costs.
 
 ---
 
-## Page 51
+Page 51
 
 If you’re in charge of any system or policy, you want to think through the possible negative
 externalities ahead of time and devise ways to avoid them. What spillover effects could
 occur, and who would be affected by them? Is there a common resource that free riders
 could abuse or that could degrade into a tragedy of the commons? Is there another way to set
 up the policy or system that would reduce possible negative effects?
+## Risky Business
+
 RISKY BUSINESS
 Another set of unintended consequences can arise when people assess risk differently based
 on their individual positions and perspectives. These types of complications happen a lot
@@ -1540,7 +1560,7 @@ problem arises when the agent takes on more risk than the principal would if the
 
 ---
 
-## Page 52
+Page 52
 
 were acting alone, since the agent is more protected when things go wrong. For instance,
 when financial advisers manage your money, they try to stick to your risk profile, but they
@@ -1582,7 +1602,7 @@ open information via the internet can reduce the effects of asymmetric informati
 
 ---
 
-## Page 53
+Page 53
 
 Sometimes, though, the consumer has the upper hand when it comes to asymmetric
 information. This is often the case with insurance products, where the person or company
@@ -1605,7 +1625,7 @@ their cars are worth more than the average price. As they pull their peaches out
 
 ---
 
-## Page 54
+Page 54
 
 market, the average quality drops and, in turn, the price of the used cars left in the market
 keeps dropping. The sellers of lemons free-ride on the market until it collapses into just a
@@ -1634,7 +1654,7 @@ viability of the overall system.
 
 ---
 
-## Page 55
+Page 55
 
 The mental models from the last section (tragedy of the commons, externalities, etc.) and
 those from this section (moral hazard, information asymmetry, etc.) are signs of market
@@ -1682,7 +1702,7 @@ value to the private market. In some cases, as for bacterial ear infections, the
 
 ---
 
-## Page 56
+Page 56
 
 to the private market is actually negative, while the value to society is estimated to be
 approximately $500 billion!
@@ -1695,6 +1715,8 @@ No one knows when these drugs will be needed, and given their typical ten-year
 development timeline, there is no time to waste. A deadly bacterial outbreak could be
 around the corner. In any situation where risk and reward are separated across different
 entities, like this one, you want to look out for risk-related unintended consequences.
+## Be Careful What You Wish For
+
 BE CAREFUL WHAT YOU WISH FOR
 “The best laid schemes o’ mice an’ men [often go awry],” penned poet Robert Burns in
 1785. In other words, things don’t always go as planned. Consider Gosplan, the agency
@@ -1725,7 +1747,7 @@ setting a measurable target, people focus primarily on achieving that measure, o
 
 ---
 
-## Page 57
+Page 57
 
 you didn’t intend. Most importantly, their focus on the measure may not correlate to the
 behavior you hoped to promote.
@@ -1771,7 +1793,7 @@ It’s not the crime, it’s the cover-up.
 
 ---
 
-## Page 58
+Page 58
 
 Streisand Effect
 A related model to watch out for is the hydra effect, named after the Lernaean Hydra, a
@@ -1798,7 +1820,7 @@ performance feedback in an anonymous survey versus one with your name attached t
 
 ---
 
-## Page 59
+Page 59
 
 In “Chilling Effects: Online Surveillance and Wikipedia Use,” Oxford researcher
 Jonathon Penny studied Wikipedia traffic patterns before and after the 2013 revelations by
@@ -1830,7 +1852,7 @@ having one foot out the door.
 
 ---
 
-## Page 60
+Page 60
 
 Like the Wikipedia study discussed above, another unintentional chilling effect was found
 by an MIT study, “Government Surveillance and Internet Search Behavior,” which showed
@@ -1877,7 +1899,7 @@ sometimes even if it is administered by other providers. This payment scheme the
 
 ---
 
-## Page 61
+Page 61
 
 focuses healthcare providers on determining the exact right amount of treatment because they
 face financial consequences for over- or under-providing care.
@@ -1890,6 +1912,8 @@ In other words, seemingly small changes in incentive structures can really matte
 should align the outcome you desire as closely as possible with the incentives you provide.
 You should expect people generally to act in their own perceived self-interest, and so you
 want to be sure this perceived self-interest directly supports your goals.
+## It’s Getting Hot in Here
+
 IT’S GETTING HOT IN HERE
 In the first section of this chapter, we warned about the tyranny of small decisions, where a
 series of isolated and seemingly good decisions can nevertheless add up to a bad outcome.
@@ -1916,7 +1940,7 @@ investments, or you could be swiftly disrupted by new upstarts (which we cover i
 
 ---
 
-## Page 62
+Page 62
 
 There are many examples of the deleterious effects of short-termism in everyday life. If
 you put off learning new skills because of the tasks in front of you, you will never expand
@@ -1941,7 +1965,7 @@ refers to neglecting to make necessary hires to ensure a diverse team. This mode
 
 ---
 
-## Page 63
+Page 63
 
 likewise be extended to any area to describe the unintended consequences of short-term
 thinking: relationship debt, diet debt, cleaning debt.
@@ -1950,7 +1974,7 @@ Customer’s view
 
 ---
 
-## Page 64
+Page 64
 
 Developer’s view
 In these scenarios, you need to keep up with your “payments” or else the debt can become
@@ -1969,7 +1993,7 @@ school once they graduate. This creates a massive long-term impact on their avai
 
 ---
 
-## Page 65
+Page 65
 
 and family choices.
 The same thing can happen on a larger scale. Similar types of businesses often congregate
@@ -2015,7 +2039,7 @@ to be able to graduate on time. When selecting a graduate school, Lauren chose a
 
 ---
 
-## Page 66
+Page 66
 
 operations research as a way of preserving optionality, rather than a more narrowly tailored
 program in biostatistics. However, not having a strong idea of what area she wanted to
@@ -2050,6 +2074,8 @@ decisions (or lack thereof) might be contributing to long-term negative scenario
 that we cover in more depth in Chapter 6). With this knowledge, you can then take the
 necessary level of precaution, paying down technical debt as needed, happily preventing
 yourself from becoming the boiling frog.
+## Too Much of a Good Thing
+
 TOO MUCH OF A GOOD THING
 On the side of an ancient Greek temple, home to the Oracle of Delphi, was inscribed the
 precept Nothing in excess. Our modern equivalent is too much of a good thing. It’s natural
@@ -2059,7 +2085,7 @@ probably cause you some problems, though.
 
 ---
 
-## Page 67
+Page 67
 
 The same goes for information. Complaints from people overwhelmed by too much
 information are not new. Roman writer Marcus Seneca said, “The abundance of books is a
@@ -2086,7 +2112,7 @@ made.
 
 ---
 
-## Page 68
+Page 68
 
 There is a natural conflict between the desire to make decisions quickly and the feeling
 that you need to accumulate more information to be sure you are making the right choice. You
@@ -2111,7 +2137,7 @@ quantify the mathematical relationship between the number of choices given and h
 
 ---
 
-## Page 69
+Page 69
 
 takes to decide. They found that a greater number of choices increased the decision time
 logarithmically, in a formulation now known as Hick’s law.
@@ -2158,7 +2184,7 @@ decision fatigue. As you make more and more decisions, you get fatigued, leading
 
 ---
 
-## Page 70
+Page 70
 
 worsening of decision quality. After taking a mental break, you effectively reset and start
 making higher-quality decisions again.
@@ -2191,7 +2217,7 @@ you to be prepared and to have a plan for when things go wrong.
 
 ---
 
-## Page 71
+Page 71
 
 It is unfortunately impossible to account for all possible unintended consequences.
 However, the mental models in this chapter can help you identify and avoid negative
@@ -2203,7 +2229,7 @@ apply to your own plans under consideration.
 
 ---
 
-## Page 72
+Page 72
 
 KEY TAKEAWAYS
  
@@ -2224,9 +2250,11 @@ Heed Murphy’s law!
 
 ---
 
-## Page 73
+Page 73
 
 3
+## Chapter 3 — Spend Your Time Wisely
+
 Spend Your Time Wisely
 POLARIS IS THE BRIGHTEST STAR in the Little Dipper, a constellation also known as Ursa Minor, or
 Little Bear. You can easily find Polaris in the night sky because it is the last star in the
@@ -2241,7 +2269,7 @@ simply orient yourself toward Polaris.
 
 ---
 
-## Page 74
+Page 74
 
 A typical northern hemisphere star trail with Polaris in the center.
 In the business world, there is a mental model that draws on Polaris for inspiration,
@@ -2267,7 +2295,7 @@ career/location change) may propel you in another direction. You may also need a
 
 ---
 
-## Page 75
+Page 75
 
 north star if you reach your destination! For instance, a teenager’s north star might be
 getting into a certain university program, but once that has been reached, a new north
@@ -2313,10 +2341,12 @@ precious time wisely, from the guiding light of the north star to the nitty-grit
 
 ---
 
-## Page 76
+Page 76
 
 out what to work on day to day, and how to complete those tasks most efficiently. Heed
 these mental models to get the most out of your future.
+## You Can Do Anything, but Not Everything
+
 YOU CAN DO ANYTHING, BUT NOT EVERYTHING
 Two-front wars played a major role in World Wars I and II, when Germany twice
 fought both Russia on its eastern front and Western allies on its western front. Each
@@ -2355,7 +2385,7 @@ acceptable if the activities are of low consequence, such as when you fold the l
 
 ---
 
-## Page 77
+Page 77
 
 while watching TV, or listen to music while working out at the gym. In contrast,
 multitasking on activities of any significant consequence will be immediately
@@ -2402,7 +2432,7 @@ you limit yourself to one activity at a time, it is critical that this top idea 
 
 ---
 
-## Page 78
+Page 78
 
 an important one. Fortunately, there is also a mental model that can help you identify
 truly important activities.
@@ -2455,7 +2485,7 @@ achieving your long-term goals.
 
 ---
 
-## Page 79
+Page 79
 
 Quadrant IV activities also have the capacity to present with false urgency (like most
 email and texts). If you let them consistently interrupt you, you will suffer the negative
@@ -2476,7 +2506,7 @@ focus on the wrong things.
 
 ---
 
-## Page 80
+Page 80
 
 In his 1957 book Parkinson’s Law, Parkinson presents an example of a budget
 committee considering an atomic reactor and a bike shed, offering that “the time spent
@@ -2494,7 +2524,7 @@ greater time will be apportioned to the reactor relative to the bike shed, and t
 
 ---
 
-## Page 81
+Page 81
 
 discussion will take place first. You can further set strict time limits for each agenda
 item (called timeboxing) to ensure that any bike-shedding that does arise doesn’t take
@@ -2516,7 +2546,7 @@ U.S. Federal Spending in 2015
 
 ---
 
-## Page 82
+Page 82
 
 That is, what is important versus what is not important is dependent on the particular
 goal being pursued. By putting potential activities in the context of this overall goal,
@@ -2532,7 +2562,7 @@ activities in front of you, or else you will find yourself multitasking and lack
 
 ---
 
-## Page 83
+Page 83
 
 deep work. Allen also notes that “there is always more to do than there is time to do it,
 especially in an environment of so much possibility. We all want to be acknowledged;
@@ -2577,7 +2607,7 @@ projects and opportunities available to you.
 
 ---
 
-## Page 84
+Page 84
 
 Similarly, in negotiations there is another application of opportunity cost called
 BATNA, which stands for best alternative to a negotiated agreement. If you have a
@@ -2611,7 +2641,9 @@ Pick Two
 
 ---
 
-## Page 85
+Page 85
+
+## Getting More Bang for Your Buck
 
 GETTING MORE BANG FOR YOUR BUCK
 The lever is a simple machine consisting of a bar that sits atop a fulcrum. Through the
@@ -2631,7 +2663,7 @@ Leverage
 
 ---
 
-## Page 86
+Page 86
 
 In all these financial situations, the small force is the amount of money you initially
 put up, allowing you to wield a much larger force through the greater sum of money you
@@ -2662,7 +2694,7 @@ benefits in the least amount of time?
 
 ---
 
-## Page 87
+Page 87
 
 Thinking about leverage helps you factor opportunity cost into your decision making.
 As a rule, the highest leverage activities have the lowest opportunity cost.
@@ -2686,7 +2718,7 @@ U.S. Health Spending Concentration
 
 ---
 
-## Page 88
+Page 88
 
 In the figure above, we see a power law distribution at work in the people who spend
 the most on healthcare. Other examples with similar patterns include the returns from
@@ -2732,7 +2764,7 @@ from diminishing returns to negative returns. This can happen when you are striv
 
 ---
 
-## Page 89
+Page 89
 
 for perfection and it becomes counterproductive. There are lots of phrases related to
 this concept—overdoing it, trying too hard, etc. (see the Too Much of a Good Thing
@@ -2754,7 +2786,7 @@ This is a type of surgery that just a few decades ago was performed only on
 
 ---
 
-## Page 90
+Page 90
 
 professional pitchers. Throwing more pitches in a year greatly increases your risk of
 injury, and so a heavy year-round schedule puts many teenagers in a dangerous situation.
@@ -2776,6 +2808,8 @@ progress (even if it is slower progress) and you don’t have anything better to
 However—and this is key—you should not assume there isn’t anything better to do. You
 must periodically brainstorm and seek alternatives, making sure there aren’t other high-
 leverage projects, with their own 80/20s, just out of view.
+## Get Out of Your Own Way
+
 GET OUT OF YOUR OWN WAY
 Applying leverage and related mental models will help you spend time on the right
 activities. The next step is getting those activities done in a timely manner. The path to
@@ -2795,7 +2829,7 @@ but if you do this too often, you’ll never reach your long-term fitness goals.
 
 ---
 
-## Page 92
+Page 92
 
 Everyone discounts the future as compared with the present to some degree. For
 instance, given a choice between getting $100 today and $100 in a year, most everyone
@@ -2828,7 +2862,7 @@ $87,204 to you today ($1M/1.0550).
 
 ---
 
-## Page 93
+Page 93
 
 When you add the discounted earnings together from all future years, you get the net
 present value, or NPV, of the lottery payments. In this case, the total comes to twenty
@@ -2881,7 +2915,7 @@ gratification over delayed gratification, and this preference plays a central ro
 
 ---
 
-## Page 94
+Page 94
 
 procrastination, along with other areas of life where people struggle with self-control,
 such as dieting, addiction, etc.
@@ -2926,7 +2960,7 @@ Default Effect
 
 ---
 
-## Page 95
+Page 95
 
 You can use the default effect to your personal advantage by making default
 commitments toward your long-term goals. A simple example is scheduling recurring
@@ -2959,7 +2993,7 @@ Eisenhower Decision Matrix.
 
 ---
 
-## Page 96
+Page 96
 
 A couple of whimsical models capture the feelings surrounding end-of-project work.
 In his book Gödel, Escher, Bach, cognitive scientist Douglas Hofstadter coined
@@ -3005,7 +3039,7 @@ many circumstances. You may hold losing stocks way too long, hoping they will re
 
 ---
 
-## Page 97
+Page 97
 
 back to the value they had when you bought them. You may stay in a house despite
 wanting to move, because you are waiting until its selling price exceeds your purchase
@@ -3051,7 +3085,7 @@ look at your chances of success and evaluate from an opportunity cost perspectiv
 
 ---
 
-## Page 98
+Page 98
 
 whether your limited resources are best used continuing what you are doing or persuing
 another opportunity. You may have made a commitment, but given all you know now,
@@ -3083,6 +3117,8 @@ In Chapter 1, we also discussed the third story, where you look at conflicts fro
 objective point of view. You need to use the same point of view when evaluating your
 own projects. If you recognize that you cannot do that, then bring someone else in to
 help you get out of your own way.
+## Shortcut Your Way to Success
+
 SHORTCUT YOUR WAY TO SUCCESS
 A good plan of attack ensures that you are using the right tools and processes to get the
 job done. For instance, in writing this book, our first step was to develop an outline.
@@ -3092,7 +3128,7 @@ concepts and group them into coherent sections and chapters.
 
 ---
 
-## Page 99
+Page 99
 
 When starting something new, a good thing to remind yourself is that there is no need
 to reinvent the wheel. It is unlikely that you are the first person in the world who has
@@ -3138,7 +3174,7 @@ address ten envelopes, it can be faster to handwrite them than to print them.
 
 ---
 
-## Page 100
+Page 100
 
 Brute force solutions can be effective for many small-scale problems. However, they
 can quickly become untenable as the problem gets bigger, such as if you have a hundred
@@ -3184,7 +3220,7 @@ box where inputs go in and outputs come out, but outside it is painted black so 
 
 ---
 
-## Page 101
+Page 101
 
 tell what is going on inside. Common examples of black box algorithms include
 recommendation systems on Netflix or Amazon, matching on online dating sites, and
@@ -3230,7 +3266,7 @@ simultaneously, as opposed to in serial, where calculations are done one after a
 
 ---
 
-## Page 102
+Page 102
 
 Amazon doesn’t have just one big warehouse it ships from; it has more than a hundred!
 In this way it can break up the daily shipping logistics into many sub-problems at
@@ -3250,7 +3286,7 @@ happier while they wait in line?”
 
 ---
 
-## Page 103
+Page 103
 
 When a problem is reframed, the solution space really opens up, and you can see that
 Disney has employed a variety of solutions to this reframed problem. Disney’s FastPass
@@ -3285,7 +3321,7 @@ broadly, how to spend your time wisely really comes down to working smarter.
 
 ---
 
-## Page 104
+Page 104
 
 KEY TAKEAWAYS
  
@@ -3293,7 +3329,7 @@ Choose activities to work on based on their relevance to your north star.
 
 ---
 
-## Page 105
+Page 105
 
 Focus your time on just one of these truly important activities at a time (no multitasking!), making it the
 top idea on your mind.
@@ -3307,9 +3343,11 @@ reframe the problem.
 
 ---
 
-## Page 106
+Page 106
 
 4
+## Chapter 4 — Becoming One with Nature
+
 Becoming One with Nature
 BEFORE THE INDUSTRIAL REVOLUTION, most peppered moths in Manchester, England, were light-colored, using
 trees covered with pale bark and lichens as camouflage to avoid becoming prey for birds.
@@ -3336,7 +3374,7 @@ Natural Selection
 
 ---
 
-## Page 107
+Page 107
 
 Beyond biological evolution, natural selection also drives societal evolution, the process
 by which society changes over time. In any part of society, you can trace the path of how
@@ -3361,7 +3399,7 @@ thrive. Professor Leon Megginson, paraphrasing Darwin, put it like this in a 196
 
 ---
 
-## Page 108
+Page 108
 
 the Southwestern Social Science Association: “It is not the most intellectual of the species
 that survives; it is not the strongest that survives; but the species that survives is the one that
@@ -3374,7 +3412,7 @@ product (design, creation, etc.) to building a company (managing people, definin
 
 ---
 
-## Page 109
+Page 109
 
 etc.), to building a sustainable business (financial models, managing managers, etc.). In such
 a rapidly changing environment, you need a method for adapting quickly.
@@ -3397,6 +3435,8 @@ Natural selection and the scientific method are just the start. There are a host
 laws that can help you understand the changes unfolding around you as well as how to adapt
 to them and even shape them. This chapter highlights many of these natural super models that
 can help you be more adaptive and manage change.
+## Don’t Fight Nature
+
 DON’T FIGHT NATURE
 At some point you have likely heard someone paraphrase Isaac Newton’s first law of
 motion, often referred to as the law of inertia: “An object at rest stays at rest and an object in
@@ -3405,7 +3445,7 @@ an unbalanced force.”
 
 ---
 
-## Page 110
+Page 110
 
 Inertia is a physical object’s resistance to changing its current state of motion. The meme
 above illustrates this concept in practice.
@@ -3424,7 +3464,7 @@ your thinking when you need to.
 
 ---
 
-## Page 111
+Page 111
 
 Think about how scientific theories change over time, but how old “facts” still persist.
 When our parents were in school, they weren’t taught about how an asteroid led to the
@@ -3471,7 +3511,7 @@ currently paying?
 
 ---
 
-## Page 112
+Page 112
 
 A model related to the strategy tax is the Shirky principle, named after economics writer
 Clay Shirky. The Shirky principle states, Institutions will try to preserve the problem to
@@ -3517,7 +3557,7 @@ to get more oil out of the ground, continually increasing yearly production.
 
 ---
 
-## Page 113
+Page 113
 
 Now, though, a better argument for peak oil is starting to form as the oil market’s
 underlying structure is proving to be unhealthy. The effects of climate change are looming.
@@ -3549,7 +3589,7 @@ a lot of inertia since it is hard to move, but it has no momentum since its velo
 
 ---
 
-## Page 114
+Page 114
 
 However, a heavy object gets momentum quickly once it starts moving. The faster an object
 goes, the more momentum it has. However, its inertia remains the same (since its mass
@@ -3597,7 +3637,7 @@ adaptable, just as it is recommended for people themselves to be highly adaptabl
 
 ---
 
-## Page 115
+Page 115
 
 you likely want to craft an organizational culture that can readily accept new strategies or
 processes. A culture like this is agile, willing to experiment with new ideas, not tied down
@@ -3612,7 +3652,7 @@ Flywheel
 
 ---
 
-## Page 116
+Page 116
 
 Nonprofit marketing expert Tom Peterson credits the flywheel model for the growth of the
 global anti-poverty nonprofit Heifer International from $3 million in revenue in 1992 to $90
@@ -3659,7 +3699,7 @@ ensures their self-preservation (or so they think). For example, in the U.S., at
 
 ---
 
-## Page 117
+Page 117
 
 campaign finance reform have continually failed as lobbying groups have found new and
 innovative ways to react to regulations, and they continue to infuse their money into politics.
@@ -3702,7 +3742,7 @@ Potential Energy
 
 ---
 
-## Page 118
+Page 118
 
 Any time a roly-poly is tilted, its potential energy increases, as it takes in the energy used
 to tilt the toy. When released, this energy gets translated into a wobble around its center of
@@ -3734,7 +3774,7 @@ think about reversing it through tactical models (homeostasis, potential energy,
 
 ---
 
-## Page 119
+Page 119
 
 gravity). A couple other chemistry concepts will also be helpful to you tactically: activation
 energy and catalyst.
@@ -3774,11 +3814,13 @@ The title of this section is Don’t Fight Nature. You should be wary of fightin
 systems blindly. Instead, you want to look at things more deeply, understand their underlying
 dynamics, and try to craft a high-leverage path to change that is more likely to succeed in a
 timely manner.
+## Harnessing a Chain Reaction
+
 HARNESSING A CHAIN REACTION
 
 ---
 
-## Page 120
+Page 120
 
 Now we will discuss what often creates the underlying momentum behind new ideas as they
 permeate society: critical mass. As we noted in the Introduction, in physics critical mass is
@@ -3797,7 +3839,7 @@ stack grew larger. One day he almost caused a runaway reaction, the first known 
 
 ---
 
-## Page 121
+Page 121
 
 accident, by simply leaning over the stack with his body. Some of the radiation reflected off
 his body and back into the stack, already near the critical mass, causing the radiation-
@@ -3829,7 +3871,7 @@ adoption life cycle. In his 1962 book Diffusion of Innovation, sociologist Evere
 
 ---
 
-## Page 122
+Page 122
 
 theorized that people belong to one of five groups based on how and when they adopt new
 things:
@@ -3860,7 +3902,7 @@ phones? They are the laggards in the smartphone adoption lifecycle.
 
 ---
 
-## Page 123
+Page 123
 
 The curves that emerge from the technology adoption life cycle are known as S curves
 because they resemble an S shape. The bottom part of the S is the pace of initial slower
@@ -3881,7 +3923,7 @@ U.S. Same-Sex Marriage Support
 
 ---
 
-## Page 124
+Page 124
 
 The concept of a network is wider, however, encompassing any system where things
 (often referred to as nodes) can interact. For example, you need enough uranium atoms
@@ -3897,14 +3939,14 @@ Network Effects
 
 ---
 
-## Page 125
+Page 125
 
 5 phones =
 10 connections
 
 ---
 
-## Page 126
+Page 126
 
 12 phones =
 66 connections
@@ -3923,7 +3965,7 @@ equivalent is internet messaging services: they need to reach critical mass with
 
 ---
 
-## Page 127
+Page 127
 
 community to be useful. Once they pass this tipping point, they can rapidly make their way
 into the mainstream.
@@ -3971,7 +4013,7 @@ systems, the decimation of one species can lead to the decimation of others, as 
 
 ---
 
-## Page 128
+Page 128
 
 cascades through the food chain. This occurs often when one species almost exclusively
 feeds on another, such as pandas and bamboo or koalas and eucalyptus leaves. Or think
@@ -3986,6 +4028,8 @@ if you can spot and analyze these models—how S curves unfold, where tipping po
 how network effects are utilized. And if you are trying to gain mainstream adoption and
 long-term inertia for a new idea or technology, you will want to understand how these
 models directly relate to your strategy.
+## Order Out of Chaos
+
 ORDER OUT OF CHAOS
 Many global systems, including the economy and weather, are known as chaotic systems.
 That means that while you can guess which way they are trending, it’s impossible to
@@ -4007,7 +4051,7 @@ THE BUTTERFLY EFFECT
 
 ---
 
-## Page 129
+Page 129
 
 The fact that you are surrounded by chaotic systems is a key reason why adaptability is so
 important to your success. While it is a good idea to plan ahead, you cannot accurately
@@ -4044,7 +4088,7 @@ everything also has a negative consequence—it reduces your luck surface area t
 
 ---
 
-## Page 130
+Page 130
 
 happy medium has you attending occasional events that expose you to people who can help
 you advance your goals. Say no often so you can say yes when you might make some new
@@ -4060,7 +4104,7 @@ possible for the room, has gone up significantly.
 
 ---
 
-## Page 131
+Page 131
 
 In this context, increasing your luck surface area means increasing your personal
 maximum entropy, by increasing the possible number of situations you put yourself in. Your
@@ -4108,7 +4152,7 @@ systems like the economy so that you can successfully navigate them. All the men
 
 ---
 
-## Page 132
+Page 132
 
 in this book are in service of that general goal. You can also develop your own models, such
 as by making your own 2 × 2 matrices like the Eisenhower Decision Matrix. Below is one
@@ -4144,7 +4188,7 @@ you are analyzing.
 
 ---
 
-## Page 133
+Page 133
 
 While polarity can be useful, when making comparisons you must be careful to avoid the
 black-and-white fallacy—thinking that things fall neatly into two groups when they do not.
@@ -4166,7 +4210,7 @@ so that the sum of gains and losses is zero. However, most situations, including
 
 ---
 
-## Page 134
+Page 134
 
 negotiations, are not zero-sum. Instead, most have the potential to be win-win situations,
 where both parties can actually end up better off, or win. How is this possible? It’s because
@@ -4182,7 +4226,7 @@ misinformation, misunderstanding, or duress, people wouldn’t make all these tr
 
 ---
 
-## Page 135
+Page 135
 
 Zero-sum is the exception, not the rule.
 Black-and-white and zero-sum thinking simply do not provide enough possible options,
@@ -4225,7 +4269,7 @@ KEY TAKEAWAYS
 
 ---
 
-## Page 136
+Page 136
 
 Adopt an experimental mindset, looking for opportunities to run experiments and apply the scientific method
 wherever possible.
@@ -4241,22 +4285,26 @@ ultimately for a win-win.
 
 ---
 
-## Page 137
+Page 137
+
+## Chapter 5 — Lies, Damned Lies, and Statistics
 
 5Lies, Damned Lies, and Statistics
 DATA, NUMBERS, AND STATISTICS now have an everyday role in most professional careers, not just in engineering and science. Increasingly,organizations of all kinds are making data-driven decisions. Every field has people studying ways to do it better. Consider K–12education: What is the most effective way to teach kids to read? How much homework should students be getting? What time of dayshould school start?The same is increasingly true in everyday life: What is the best diet? How much exercise is good enough? How safe is this carcompared with that one?Unfortunately, there often aren’t straightforward answers to these types of questions. Instead, there are usually conflictingmessages on almost every topic: for nutrition, medicine, government policy (environmental regulation, healthcare, etc.), and the listgoes on and on.For any issue, you can find people on both sides with “numbers” to back up their position. This leads many people to feel that datacan be too easily manipulated to support whatever story someone wants to tell, hence the title of this chapter. Similarly, even ifpeople aren’t intentionally trying to mislead you, study results are often accidentally misinterpreted, or the studies themselves cansuffer from design flaws.However, the answer is not to dismiss all statistics or data-driven evidence as nonsense, leaving you to base decisions solely onopinions and guesses. Instead, you must use mental models to a get a deeper understanding of an issue, including its underlyingresearch, enabling you to determine what information is credible.You can also use data from your life and business to derive new insights. Insights based on true patterns, such as those found inmarket trends, customer behavior, and natural occurrences, can form the basis for major companies and scientific breakthroughs.They can also provide insight in everyday life.As an example, consider being a first-time parent. Lucky parents have a baby who goes to sleep easily and sleeps through the nightat one month old. The rest of us have to hear all the advice: use a rocker, swaddle them, let them cry it out, don’t let them cry it out,co-sleep, change the baby’s diet, change the mother’s diet, and on and on.Our older son never wanted to be put down, but our pediatrician nevertheless advised us to put him down when he was sleepy butstill awake. That always led to him screaming the minute he was set down. If he wasn’t deeply asleep, he would just rouse himselfand start crying. The first few nights of this were harrowing, with each of us taking turns staying awake and holding him while heslept; he may have slept on his own for an hour a night.
 
 ---
 
-## Page 138
+Page 138
 
 We had to find another way. Through experimentation and collecting our own data over the first few weeks (see scientific methodin Chapter 4), we discovered that our son liked a tight swaddle and would fall asleep in an electric swing, preferably on the highestsetting. When he grew out of the swaddle, we feared that we were going back to square one. Luckily, he quickly adapted, and beforehe turned one, he could easily be put down and sleep straight through the night.When we had our second son, we thought of ourselves as baby-care professionals. We had our magic swing and we thought wewere all set. And then, per Murphy’s law (see Chapter 2), baby number two hated the swing. We circled back through all the advice,and after a few days, we tried to set him down when he was sleepy but awake (per our pediatrician’s original advice). Lo andbehold, he put himself to sleep!Like babies and their sleep procedures, many aspects of life have inherent variability and cannot be predicted with certainty. Willit rain today? Which funds should you invest your retirement money in? Who are the best players to draft for your fantasy footballteam?Despite this uncertainty, you still have to make a lot of choices, from decisions about your health to deciding whom to vote for totaking a risk with a new project at work. This chapter is about helping you think about wading through such uncertainty in the contextof decision making. What advice should you listen to and why?Probability and statistics are the branches of mathematics that give us the most useful mental models for these tasks. As Frenchmathematician Pierre-Simon Laplace wrote in his 1812 book Théorie Analytique des Probabilités: “The most important questions oflife are indeed, for the most part, really only problems of probability.”We will discuss the useful mental models from the fields of probability and statistics along with common traps to avoid. Whilemany of the basic concepts of probability are fairly intuitive, your intuition often fails you (as we’ve seen throughout this book).Yes, that means some of this chapter is a bit mathematical. However, we believe that an understanding of these concepts is neededfor you to understand the statistical claims that you encounter on a daily basis, and to start to make your own. We’ve tried to includeonly the level of detail that is really needed to start to appreciate these concepts. And, as always, we’ve included plenty of examplesto help you grasp them.
+## To Believe or Not Believe
+
 TO BELIEVE OR NOT BELIEVE
 It is human nature to use past experience and observation to guide decision making, and evolutionarily this makes sense. If youwatched someone get sick after they ate a certain food or get hurt by behaving a certain way around an animal, it follows that youshould not copy that behavior. Unfortunately, this shortcut doesn’t always result in good thinking. For example:
 
 ---
 
-## Page 139
+Page 139
 
 We had a big snowstorm this year; so much for global warming.
 My grandfather lived to his eighties and smoked a pack a day for his whole life, so I don’t believe that smoking causes cancer.
@@ -4267,7 +4315,7 @@ You may have heard anecdotes about people who happened to get cold and flu sympt
 
 ---
 
-## Page 140
+Page 140
 
 What is often overlooked when this fallacy arises is a confounding factor, a third, possibly non-obvious factor that influencesboth the assumed cause and the observed effect, confounding the ability to draw a correct conclusion. In the case of the flu vaccine,the cold and flu season is that confounding factor. People get the flu vaccine during the time of year when they are more likely to getsick, whether they have received the vaccine or not. Most likely the symptoms people are experiencing are from a common cold,which the flu vaccine does not protect against.In other instances, a correlation can occur by random chance. It’s easier than ever to test the correlation between all sorts ofinformation, so many spurious correlations are bound to be discovered. In fact, there is a hilarious site (and book) called SpuriousCorrelations, chock-full of these silly results. The graph below shows one such correlation, between cheese consumption and deathsdue to bedsheet tanglings.
 Correlation Does Not Imply Causation
@@ -4275,13 +4323,15 @@ One time when Lauren was in high school, she started feeling like a cold was com
 
 ---
 
-## Page 141
+Page 141
 
 called experimenter bias), where the cognitive biases of the researchers, or observers, may cause them to influence the outcome inthe direction they expected.Unfortunately, experimenter blinding doesn’t completely prevent observer-expectancy bias, because researchers can still biasresults in the preparation and analysis of a study, such as by engaging in selective background reading, choosing hypotheses based onpreconceived notions, and selectively reporting results.In medicine, researchers go to great lengths to achieve properly blinded trials. In 2014, the British Medical Journal (BMJ)published a review by Karolina Wartolowska et al. of fifty-three studies that compared an actual surgical intervention with a “sham”surgery, “including the scenario when a scope was inserted and nothing was done but patients were sedated or under generalanesthesia and could not distinguish whether or not they underwent the actual surgery.”These fake surgeries are an example of a placebo, something that the control participants receive that looks and feels like what theexperimental participants receive, but in reality is supposed to have no effect. Interestingly, just the act of receiving something thatyou expect to have a positive effect can actually create one, called the placebo effect.While placebos have little effect on some things, like healing a broken bone, the placebo effect can bring about observed benefitsfor numerous ailments. The BMJ review reported that in 74 percent of the trials, patients receiving the fake surgeries saw someimprovement in their symptoms, and in 51 percent of the trials, they improved about as much as the recipients of actual surgeries.For some conditions, there is even evidence to suggest that the placebo effect isn’t purely a figment of the imagination. As anexample, placebo “pain relievers” can produce brain activity consistent with the activity produced by actual pain-relieving drugs.For all the parents out there, this is why “kissing a boo-boo” actually can help make it better. Similarly, anticipation of side effectscan also result in real negative effects, even with fake treatments, a phenomenon known as the nocebo effect.One of the hardest things about designing a solid experiment is defining its endpoint, the metric that is used to evaluate thehypothesis. Ideally, the endpoint is an objective metric, something that can be easily measured and consistently interpreted. Someexamples of objective metrics include whether someone bought a product, is still alive, or clicked a button on a website.However, when the concept that researchers are interested in studying isn’t clearly observable or measurable, they must use aproxy endpoint (also called a surrogate endpoint or marker), a measure expected to be closely correlated to the endpoint theywould measure if they could. A proxy essentially means a stand-in for something else. Other uses of this mental model include theproxy vote (e.g., absentee ballot) and proxy war (e.g., current conflicts in Yemen and Syria are a proxy war between Iran and SaudiArabia).While there is no one objective measure of the quality of a university, every year U.S. News and World Report tries to rankschools against one another using a proxy metric that is a composite of objective measures, such as graduation rates and admissiondata, along with more subjective measures, such as academic reputation. Other examples of common proxy metrics include the bodymass index (BMI), used to measure obesity, and IQ, used to measure intelligence. Proxy metrics are more prone to criticism becausethey are indirect measures, and all three of these examples have been criticized significantly.As an example of why this criticism can be valid, consider abnormal heart rhythms (ventricular arrhythmias) that can cause suddendeath. Anti-arrhythmic drugs have been developed that prevent ventricular arrhythmias, and so it would seem obvious that thesedrugs would be expected to prevent sudden death in the patients who take them. But use of these drugs actually leads to a significantincrease in sudden death in patients with asymptomatic ventricular arrhythmias after a heart attack. For these patients, the reducedpost-treatment rate of ventricular arrhythmias is not indicative of improved survival and is therefore not a good proxy metric.However, despite the complications that arise when conducting well-run experiments, collecting real scientific evidence beatsanecdotal evidence hands down because you can draw believable conclusions. Yes, you have to watch out for spurious correlationsand subtle biases (more on that in the next section), but in the end you have results that can really advance your thinking.
 
 ---
 
-## Page 142
+Page 142
+
+## Hidden Bias
 
 HIDDEN BIAS
 In the last section, we mentioned a few things to watch out for when reviewing or conducting experiments, such as observer-expectancy bias and confounding factors. There are a few more of these subtle concepts to be wary of.First, sometimes it is not ethical or practical to randomly assign people to different experimental groups. For example, ifresearchers wanted to study the effect of smoking during pregnancy, it wouldn’t be right to make nonsmoking pregnant women startsmoking. The smokers in the study would therefore be those who selected to continue smoking, which can introduce a bias calledselection bias.With selection bias, there is no guarantee that the study has isolated smoking to be the only difference between these groups. So ifthere is a difference detected at the end of the study, it cannot be easily determined how much smoking contributed to this difference.For instance, women who choose to continue smoking during their pregnancy against the advice of doctors may similarly make othermedically questionable choices, which could drive adverse outcomes.Selection bias can also occur when a sample is selected that is not representative of the broader population of interest, as withonline reviews. If the group studied isn’t representative, then the results may not be applicable overall.
@@ -4290,24 +4340,26 @@ Survivorship Bias
 
 ---
 
-## Page 143
+Page 143
 
 When you critically evaluate a study (or conduct one yourself), you need to ask yourself: Who is missing from the samplepopulation? What could be making this sample population nonrandom relative to the underlying population? For example, if youwant to grow your company’s customer base, you shouldn’t just sample existing customers; that sample doesn’t account for theprobably much larger population of potential customers. This much larger potential customer base may behave very differently fromyour existing customer base (as is the case with early adopters versus the early majority, which we described in Chapter 4).One more type of bias that can be inadvertently introduced is response bias. While nonresponse bias is introduced when certaintypes of people do not respond, for those who do respond, various cognitive biases can cause them to deviate from accurate ortruthful responses. For example, in the employee engagement survey, people may lie (by omission or otherwise) for fear of reprisal.
 
 ---
 
-## Page 144
+Page 144
 
 In general, survey results can be influenced by response bias in a number of ways, including the following:
 How questions are worded, e.g., leading or loaded questionsThe order of questions, where earlier questions can influence later onesPoor or inaccurate memory of respondentsDifficulty representing feelings in a number, such as one-to-ten ratingsRespondents reporting things that reflect well on themselves
 It’s worth trying to account for all of these subtle biases (selection bias, nonresponse bias, response bias, survivorship bias),because after you do so, you can be even more sure of your conclusions.
+## Be Wary of the “Law” of Small Numbers
+
 BE WARY OF THE “LAW” OF SMALL NUMBERS
 When you interpret data, you should watch out for a basic mistake that causes all sorts of trouble: overstating results from a samplethat is too small. Even in a well-run experiment (like a political poll), you cannot expect to get a good estimate based on a smallsample. This fallacy is sometimes referred to as the law of small numbers, and this section explores it in more detail. The name isderived from a valid statistical concept called the law of large numbers, which states that the larger the sample, the closer youraverage result is expected to be to the true average.The figure below shows this in action. Each line represents a different series of coin flips and shows how the percentage of headschanges from the first to the five hundredth flip for each series. Note how the curves may deviate quite a bit from the 50 percent markin the beginning, but start converging closer and closer toward 50 percent as the number of flips increases. But even out to fivehundred flips, some of the values are still a fair bit away from 50 percent.
 Law of Large Numbers
 
 ---
 
-## Page 145
+Page 145
 
 The speed of convergence for a given experiment depends on the situation. We will explain in a later section how you know whenyou have a large enough sample. For now, we want to focus on what can go wrong if your sample is too small.First, consider the gambler’s fallacy, named after roulette players who believe that a streak of reds or blacks from a roulettewheel is more likely to end than to continue with the next spin. Suppose you see ten blacks in a row. Those who fall victim to thisfallacy expect the next spin to have a higher chance of coming up red, when in fact the underlying probability of each spin hasn’tchanged. For this fallacy to be true, there would have to be some kind of corrective force in the roulette wheel that is bringing theresults closer to parity. That’s simply not the case.It’s sometimes called the Monte Carlo fallacy because in a widely cited case in August 18, 1913, a casino in Monte Carlo had animprobable run of twenty-six blacks! There is only a 1 in 137 million chance of this happening in any twenty-six-ball sequence.However, all other twenty-six-spin sequences are equally rare; they just aren’t all as memorable.The gambler’s fallacy applies anywhere there is a sequence of decisions, including those by judges, loan officers, and evenbaseball umpires. In a University of Chicago review of refugee asylum cases from 1985 to 2013, published in the Quarterly Journalof Economics as “Decision-Making Under the Gambler’s Fallacy: Evidence from Asylum Judges, Loan Officers, and BaseballUmpires,” judges were less likely to approve an asylum case if they had approved the last two. It also explains that uncomfortablefeeling you might have gotten as a student when you saw that you had chosen answer B four times in a row on a multiple-choice test.Random data often contains streaks and clusters. Are you surprised to learn that there is a 50 percent chance of getting a run offour heads in a row during any twenty-flip sequence? Streaks like this are often erroneously interpreted as evidence of nonrandombehavior, a failure of intuition called the clustering illusion.Look at the pair of pictures on the next page. Which is randomly generated?These pictures come from psychologist Steven Pinker’s book The Better Angels of Our Nature. The left picture—the one with theobvious clusters—is actually the one that is truly random. The right picture—the one that intuitively seems more random—is not; it isa depiction of the positions of glowworms on the ceiling of a cave in Waitomo, New Zealand. The glowworms intentionally spacethemselves apart from one another in the competition for food.
 Clustering Illusion
@@ -4315,23 +4367,25 @@ In World War II, Londoners sought to find a pattern to the bombings of their cit
 
 ---
 
-## Page 146
+Page 146
 
 The improbable should not be confused with the impossible. If enough chances are taken, even rare events are expected to happen.Some people do win the lottery and some people do get struck by lightning. A one-in-a-million event happens quite frequently on aplanet with seven billion people.In the U.S., public health officials are asked to investigate more than one thousand suspected cancer clusters each year. Whilehistorically there have been notable cancer clusters caused by exposure to industrial toxins, the vast majority of the cases reportedare due to random chance. There are more than 400,000 businesses with fifty or more employees; that’s a lot of opportunities for ahandful of people to receive the same unfortunate diagnosis.Knowing the gambler’s fallacy, you shouldn’t always expect short-term results to match long-term expectations. The inverse isalso true: you shouldn’t base long-term expectations on a small set of short-term results.You might be familiar with the phrase sophomore slump, which describes scenarios such as when a band gets rave reviews fortheir first album and the second one isn’t as well received, or when a baseball player has a fantastic rookie season but the next yearhis batting average is not that impressive. In these situations, you may assume there must be some psychological explanation, such ascaving under the pressure of success. But in most cases, the true cause is purely mathematical, explained through a model calledregression to the mean.Mean is just another word for average, and regression to the mean explains why extreme events are usually followed bysomething more typical, regressing closer to the expected mean. For instance, a runner is not expected to follow a record-breakingrace with another record-breaking time; a slightly less impressive performance would be expected. That’s because a repeat of a rareresult is equally as rare as its first occurrence, such that it shouldn’t be expected the next time.The takeaway is that you should never assume that a result based on a small set of observations is typical. It may not berepresentative of either another small set of observations or a much larger set of observations. Like anecdotal evidence, a smallsample tells you very little beyond that what happened was within the range of possible outcomes. While first impressions can beaccurate, you should treat them with skepticism. More data will help you distinguish what is likely from what is an anomaly.
+## The Bell Curve
+
 THE BELL CURVE
 When you are dealing with a lot of data, you can use graphs and summary statistics to combat the feeling of information overload(see Chapter 2). The term statistics is actually just the name for numbers used to summarize a dataset. (It also refers to themathematical process by which those numbers are generated.) Graphs and summary statistics succinctly communicate facts about thedataset.You use summary statistics all the time without even realizing it. If someone asked you, “What is the temperature of a healthyperson?” you’d likely say it was 98.6 degrees Fahrenheit or 37 degrees Celsius. That’s actually a summary statistic called the mean,which, as we just explained, is another word for average.You probably don’t even remember when you first learned that fact, and it’s even more likely you have no idea where that numbercomes from. A nineteenth-century German physician, Dr. Carl Wunderlich, diligently collected and analyzed more than a millionarmpit temperatures from twenty-five thousand patients to calculate that statistic (yes, that’s a lot of armpits).Yet 98.6 degrees Fahrenheit isn’t some magical temperature. First of all, more recent data indicates a lower mean, closer to 98.2degrees. Second, you may have noticed from taking your own temperature or that of a family member that “normal” temperaturesvary from this mean. In fact, women are slightly warmer than men on average, and temperatures of up to 99.9°F (37.7°C) are stillconsidered normal. Third, people’s temperatures also naturally change throughout the day, moving up on average by 0.9°F (0.5°C)from morning to night.Just saying a healthy temperature is 98.6°F doesn’t account for all of this nuance. That’s why a range of summary statistics andgraphs are often used on a case-by-case basis to summarize data. The mean (average or expected value) measures central tendency,or where the values tend to be centered. Two other popular summary statistics that measure central tendency are the median (middlevalue that splits the data into two halves) and the mode (the most frequent result). These statistics help describe what a “typical”number might look like for a given set of data.For body temperature, though, just reporting the central tendency, such as the mean, can at times be too simplistic. This brings us tothe second common set of summary statistics, those that measure dispersion, or how far the data is spread out.The simplest dispersion statistics report ranges. For body temperature, that could be specifying the range of values considerednormal, e.g., minimum to maximum reported values from healthy people, as in the graph below (called a histogram).
 Histogram
 
 ---
 
-## Page 147
+Page 147
 
 The graph on the previous page depicts the frequencies of 130 different body temperatures derived from a study of healthy adults.A histogram like this one is a simple way that you can summarize data visually: group the values into buckets, count how many datapoints are in each bucket, and make a vertical bar graph of the buckets.Before reporting a range, you might first look for outliers, those data points that don’t seem to fit with the rest of the data. Theseare the data points set apart in the histogram, such as the one at 100.8°F. Perhaps a sick person sneaked into the dataset. As a result,you might report a normal temperature range of 96.3°F to 100.0°F. Of course, with more data, you could produce a more accuraterange.In this dataset, central tendency statistics are quite similar because the distribution of the data is fairly symmetric, with just onepeak in the middle. As a result, the mean is 98.25°F, the median is 98.3°F, and the mode is 98°F. In other scenarios, though, thesethree summary statistics may be quite different.To illustrate this, consider another histogram, below, showing the distribution of U.S. household income in 2016. This dataset alsohas one peak, at $20,000–$24,999, but it is asymmetric, skewing to the right. (All incomes above $200,000 are grouped into one bar;had this not been the case, the graph would have a long tail stretching much farther to the right.)Unlike for the body temperatures, the median income of $59,039 is very different from the mean income of $83,143. Whenever thedata is skewed in one direction like this, the mean gets pulled away from the median and toward the skew, swayed by the extremevalues.
 Distribution of U.S. Household Income (2016)
 
 ---
 
-## Page 148
+Page 148
 
 Also, a minimum–maximum range is less informative here. A better summary of the dispersion in this case might be aninterquartile range specifying the 25th percentile to the 75th percentile of the data, which captures the middle 50 percent ofincomes, from $27,300 to $102,350.The most common statistical measures of dispersion, though, are the variance and the standard deviation (the latter usuallydenoted by the Greek letter σ, sigma). They are both measures of how far the numbers in a dataset tend to vary from its mean. Thefollowing figure shows how you calculate them for a set of data.
 Variance & Standard Deviation
@@ -4352,13 +4406,13 @@ Low Variance
 
 ---
 
-## Page 149
+Page 149
 
 High Variance
 
 ---
 
-## Page 150
+Page 150
 
 The body temperature dataset depicted earlier has a standard deviation of 0.73°F. Slightly more than two-thirds of its values fallwithin one standard deviation from its mean (97.52°F to 98.98°F) and 95 percent within two standard deviations (96.79°F to99.71°F). As you’ll see, this pattern is commonplace for many datasets consisting of measurements (e.g., heights, blood pressure,standardized tests).Histograms of these types of datasets have similar bell-curve shapes with a cluster of values in the middle, close to the mean, andfewer and fewer results as you go further away from the mean. When a set of data has this type of shape, it is often suggested that itcomes from a normal distribution.The normal distribution is a special type of probability distribution, a mathematical function that describes how the probabilitiesfor all possible outcomes of a random phenomenon are distributed. For example, if you take a random person’s temperature, gettingany particular temperature has a certain probability, with the mean of 98.2°F being the most probable and values further away beingless and less probable. Given that a probability distribution describes all the possible outcomes, all probabilities in a givendistribution add up to 100 percent (or 1).To understand this better, let’s consider another example. As mentioned above, people’s heights also roughly follow a normaldistribution. Below is a graphical representation of the distribution of men’s and women’s heights based on data from the U.S.Centers for Disease Control and Prevention. The distributions both have the typical bell-curve shape, even though the men’s andwomen’s heights have different means.
 Normal Distribution
@@ -4368,7 +4422,7 @@ So, if you stopped a random woman on the street, you could use these facts to fo
 
 ---
 
-## Page 151
+Page 151
 
 Probability Distributions
 Log-normal distribution
@@ -4381,7 +4435,7 @@ There are many other common probability distributions besides the normal distrib
 
 ---
 
-## Page 152
+Page 152
 
 such as analyzing advertising campaigns (whether someone purchased or not), clinical trials (responded to treatment or not), andA/B testing (clicked or not).The estimated approval rating is just an average of all of the different individual answers (1 for approval and 0 otherwise). Forexample, if 1,000 people were polled and 240 approved, then the approval rating would be 24.0 percent. The central limit theoremtells us that this statistical average (sample mean) is approximately normally distributed (assuming enough people participate in thesurvey). The figure on the next page illustrates how this works visually with the Bernoulli distribution and two others that alsoinitially look nothing like the normal distribution.The middle column shows how the distribution of the sample mean from a Bernoulli distribution, made up of a series of ones andzeros, ends up looking like a bell curve. The first row depicts a distribution with a 75 percent chance of disapproval (the spike at 0on the left) and a 25 percent chance of approval (the spike at 1 on the right). This 25 percent chance is based on the approval ratingacross the whole country, if you polled everyone. Each person in a poll comes from this population distribution.When you take a poll, you get only an estimate of the overall approval rating (like the 24 percent approval rating estimatementioned earlier). When you do that, you are taking a sample from the entire population (e.g., asking one thousand people) andaveraging the results to calculate the estimate. This sample mean has a distribution itself, called the sample distribution, whichdescribes the chances of getting each possible approval rating from the sample. You can think of this distribution as the result ofplotting the different approval ratings (sample means) obtained from many, many polls.
 Central Limit Theorem  Uniform distribution Bernouli distribution Exponential distPopulationdistribution
@@ -4404,7 +4458,7 @@ The second row shows a plot of this sample distribution for an approval rating b
 
 ---
 
-## Page 153
+Page 153
 
 If you base the polls on asking five people, the sample distribution starts to look a bit more like a bell shape with six possibleoutcomes (third row). With thirty people (thirty-one outcomes, depicted in the fourth row), it starts to look a lot like thecharacteristic bell-curve shape of the normal distribution.As you ask more and more people, the sample distribution becomes more and more like a normal distribution, with a mean of 25percent, the true approval rating from the population distribution. Just as in the case of body temperatures or heights, while this meanis the most likely value obtained by the poll, values close to it are also likely, such as 24 percent. Values further and further away areless and less likely, with probabilities following the normal distribution.How much less likely, exactly? It depends on how many people you ask. The more people you ask, the tighter the distribution. Toconvey this information, polls like this usually report a margin of error. An article describing the poll results might includesomething like “Congress has a 24 percent approval rating with a margin of error of ±3 percent.” The “±3 percent” is the margin oferror, but where this margin of error comes from or what it really means is rarely explained. With knowledge of the above mentalmodels, you now can know!The margin of error is really a type of confidence interval, an estimated range of numbers that you think may include the truevalue of the parameter you are studying, e.g., the approval rating. This range has a corresponding confidence level, which quantifiesthe level of confidence you have that the true value of parameter is in the range you estimated. For example, a confidence level of 95percent tells you that if you ran the poll many times and calculated many confidence intervals (one for each poll), on average 95percent of them would include the true approval rating (i.e., 25 percent).Most media reports don’t mention the confidence level used to calculate their margin of error, but it is usually safe to assume theyused 95 percent. Research publications, by contrast, are usually more explicit in stating what confidence levels they used torepresent the uncertainty in their estimates (again typically, though not always, 95 percent).For the approval-rating scenario, the range is calculated using the fact that the central limit theorem tells us that the sample mean isapproximately normally distributed, so we should expect 95 percent of possible values to be found within two standard deviations ofthe true mean (i.e., the real approval rating).The part that hasn’t been explained yet is that the standard deviation of this distribution, also called the standard error, is not thesame as the sample standard deviation calculation from earlier. However, these two values are directly related. In particular, thestandard error is the same as the standard deviation for the sample, divided by the square root of the sample size. This means that ifyou want to reduce the margin of error by a factor of two, you need to increase the sample size by a factor of four. For a yes/no polllike the approval rating, a margin of error of 10 percent is achieved with just 96 people, 5 percent at 384 people, 3 percent at 1,067people, and 2 percent at 2,401. Since the margin of error is an expression of how confident the pollsters are in their estimate, itmakes sense that it is directly related to the size of the sample group.The illustration on the next page shows how confidence intervals work for repeated experiments. It depicts one hundred 95percent confidence intervals for the probability of flipping heads. Each was calculated from an experiment that involved simulatingflipping a fair coin one hundred times. These confidence intervals are represented graphically in the figure by error bars, which area visual way to display a measure of uncertainty for an estimate.
 95% Confidence Intervals from 100 Fair Coin Flips
@@ -4413,25 +4467,29 @@ Error bars are not always confidence intervals; they could be derived from other
 
 ---
 
-## Page 154
+Page 154
 
 percent confidence level, you would expect ninety-five of these confidence intervals to include the true mean of 50 percent. In thiscase, ninety-three of the intervals included 50 percent. (The seven intervals that didn’t are highlighted in black.)Confidence intervals like these are often used as estimates of reasonable values for a parameter, such as the probability of gettingheads. However, as you just saw, the true value of the parameter (in this case 50 percent) is sometimes outside a given confidenceinterval. The lesson here is, you should know that a confidence interval is not the definitive range for all possible values, and the truevalue is not guaranteed to be included in the interval.One thing that really bothers us is when statistics are reported in the media without error bars or confidence intervals. Alwaysremember to look for them when reading reports and to include them in your own work. Without an error estimate, you have no ideahow confident to be in that number—is the true value likely really close to it, or could it be really far away from it? The confidenceinterval tells you that!
+## It Depends
+
 IT DEPENDS
 As you saw in the last section, the average woman’s height is five feet four inches. If you had to guess the height of a randomstranger, but you didn’t know for a fact that they were a woman, five feet four inches wouldn’t be a great guess because the averageman is closer to five feet nine inches, and so something in the middle would be better. But if you had the additional information thatthe person was a woman, then five feet four inches would be the best guess. The additional information changes the probability.This is an example of a model called conditional probability, the probability of one thing happening under the condition thatsomething else also happened. Conditional probability allows us to better estimate probabilities by using this additional information.Conditional probabilities are common in everyday life. For example, home insurance rates are tailored to the differing conditionalprobabilities of insurance claims (e.g., premiums are higher in coastal Florida, where hurricane damage is more likely, relative towhere we live in Pennsylvania). Similarly, genetic testing can tell you if you are at higher risk for certain diseases; women withabnormal BRCA1 or BRCA2 genes have up to an 80 percent risk of developing breast cancer by age ninety.Conditional probability is denoted with a | symbol. For example, the probability (P) that you will get breast cancer by age ninetygiven that you are a woman with a BRCA mutation would be denoted as P(breast cancer by ninety | woman with BRCA mutation).Some people find conditional probabilities confusing. They mix up the probability that an event A will happen given a conditionthat event B happened—P(A|B)—with the probability that an event B will happen given the condition that event A happened—P(B|A). This is known as the inverse fallacy, whereby people think that P(A|B) and P(B|A) must have similar probabilities. Whileyou just saw that P(breast cancer by ninety | woman with BRCA mutation) is about 80 percent, by contrast P(woman with BRCAmutation | breast cancer by ninety) is only 5 to 10 percent, because many other people develop breast cancer who do not have thesemutations.Let’s walk through a longer example to see this fallacy in action. Suppose the police pull someone over at random at a drunk-driving checkpoint and administer a Breathalyzer test that indicates they are drunk. Further, suppose the test is wrong on average 5percent of the time, saying that a sober person is drunk. What is the probability that this person is wrongly accused of drunk driving?Your first inclination might be to say 5 percent. However, you have been given the probability that the test says someone is drunkgiven they are sober, or P(Test=drunk | Person=sober) = 5 percent. But what you have been asked for is the probability that theperson is sober given that the test says they are drunk, or P(Person=sober | Test=drunk). These are not the same probabilities!What you haven’t considered is how the results depend on the base rate of the percentage of drunk drivers. Consider the scenariowhere everyone makes the right decision, and no one ever drives drunk. In this case the probability that a person is sober is 100percent, regardless of what the Breathalyzer test results say. When a probability calculation fails to account for the base rate (likethe base rate of drunk drivers), the mistake that is made is called the base rate fallacy.Let’s consider a more realistic base rate, where one in a thousand drivers is drunk, meaning that there is a small chance (0.1percent) that a person the police randomly pull over is drunk. And since we know one in twenty tests will be wrong (the tests will bewrong 5 percent of the time), the police will most likely go through a lot of wrong tests before they find a person who was actuallydrunk-driving.In fact, if the police stop a thousand people, they would on average conduct nearly fifty wrong tests along their way to finding oneactual drunk driver. So there is approximately only a 2 percent chance that a failed Breathalyzer in this scenario indicates that theperson is actually drunk. Alternatively, this can be stated as a 98 percent chance that the person is sober. That’s way, way more than5 percent!So, P(A|B) does not equal P(B|A), but how are they related? There is a very useful result in probability called Bayes’ theorem,which tells us the relationship between these two conditional probabilities. On the next page, you will see how Bayes’ theoremrelates these probabilities and how, in the drunk-driving example, Bayes’ theorem could be applied to calculate the 2 percent result.
 Bayes’ Theorem
 
 ---
 
-## Page 155
+Page 155
 
 Base Rate Fallacy
 Now that you know about Bayes’ theorem, you should also know that there are two schools of thought in statistics, based ondifferent ways to think about probability: Frequentist and Bayesian. Most studies you hear about in the news are based onfrequentist statistics, which relies on and requires many observations of an event before it can make reliable statisticaldeterminations. Frequentists view probability as fundamentally tied to the frequency of events.By observing the frequency of results over a large sample (e.g., asking a large number of people if they approve of Congress),frequentists estimate an unknown quantity. If there are very few data points, however, they can’t say much of anything, since theconfidence intervals they can calculate will be extremely large. In their view, probability without observations makes no sense.Bayesians, by contrast, allow probabilistic judgments about any situation, regardless of whether any observations have yetoccurred. To do this, Bayesians begin by bringing related evidence to statistical determinations. For example, picking a penny up offthe street, you’d probably initially estimate a fifty-fifty chance that it would come up heads if you flipped it, even if you’d neverobserved a flip of that particular coin before. In Bayesian statistics, you can bring such knowledge of base rates to a problem. Infrequentist statistics, you cannot.Many people find this Bayesian way of looking at probability more intuitive because it is similar to how your beliefs naturallyevolve. In everyday life, you aren’t starting from scratch every time, as you would in frequentist statistics. For instance, on policyissues, your starting point is what you currently know on that topic—what Bayesians call a prior—and then when you get new data,you (hopefully) update your prior based on the new information. The same is true for relationships, with your starting point beingyour previous experiences with that person; a strong prior would be a lifelong relationship, whereas a weak prior would be just afirst impression.You saw in the last section that frequentist statistics produce confidence intervals. These statistics tell you that if you ran anexperiment many times (e.g., the one-hundred-coin-flips example we presented), the confidence intervals calculated should containthe parameter you are studying (e.g., 50 percent probability of getting heads) to the level of confidence specified (e.g., 95 percent ofthe time). To many people’s dismay, a confidence interval does not say there is a 95 percent chance of the true value of the parameterbeing in the interval. By contrast, Bayesian statistics analogously produces credible intervals, which do say that; credible intervalsspecify the current best estimated range for the probability of the parameter. As such, this Bayesian way of doing things is again moreintuitive.In practice, though, both approaches yield very similar conclusions, and as more data becomes available, they should converge onthe same conclusion. That’s because they are both trying to estimate the same underlying truth. Historically, the frequentist viewpointhas been more popular, in large part because Bayesian analysis is often computationally challenging. However, modern computingpower is quickly reducing this challenge.Bayesians contend that by choosing a strong prior, they can start closer to the truth, allowing them to converge on the final resultfaster, with fewer observations. As observations are expensive in both time and money, this reduction can be attractive. However,there is a flip side: it is also possible that Bayesians’ prior beliefs are actually doing the opposite, starting them further from the
 
 ---
 
-## Page 156
+Page 156
 
 truth. This can happen if they have a strong belief that is based on confirmation bias (see Chapter 1) or another cognitive mistake(e.g., an unjustified strong prior). In this case, the Bayesian approach may take longer to converge on the truth because the frequentistview (starting from scratch) is actually closer to the truth at the start.The takeaway is that two ways of approaching statistics exist, and you should be aware that, done right, both approaches are valid.Some people are hard-core ideologues who pledge allegiance to one philosophy versus the other, whereas pragmatists (like us) usewhichever methodology works best for the situation. And more commonly, remember not to confuse a conditional probability with itsinverse: P(A|B) is not equal to P(B|A). You now know that these probabilities are related by Bayes’ theorem, which takes intoaccount relevant base rates.
+## Right or Wrong?
+
 RIGHT OR WRONG?
 So far you have learned that you shouldn’t base your decisions on anecdotes and that small samples cannot reliably tell you whatwill happen in larger populations. You might be wondering, then: How much data is enough data to be sure of my conclusions?Deciding the sample size, the total number of data points collected, is a balancing act. On one side, the more information you collect,the better your estimates will be, and the more sure you can be of your conclusions. On the other side is the fact that gathering moredata takes more time and more money, and potentially puts more participants at risk. So, how do you know what the right sample sizeis? That’s what we cover in this section.Even with the best experimental design, sometimes you get a fluke result that leads you to draw the wrong conclusions. A highersample size will give you more confidence that a positive result is not just a fluke and will also give you a greater chance ofdetecting a positive result.Consider a typical polling situation, such as measuring public support for an upcoming referendum, e.g., marijuana legalization.Suppose that the referendum ultimately fails, but the pollsters had randomly selected as their respondents people who were more infavor of it when compared with the whole population. This situation could result in a false positive: falsely giving a positive resultwhen it really wasn’t true (like the wrong Breathalyzer test). Conversely, suppose the referendum ultimately succeeds, but thepollsters had randomly selected people less in favor of it when compared with the whole population. This situation could result in afalse negative: falsely giving a negative result when it really was true.As another example, consider a mammogram, a medical test used in the diagnosis of breast cancer. You might think a test like thishas two possible results: positive or negative. But really a mammogram has four possible outcomes, depicted in the following table.The two possible outcomes you immediately think of are when the test is right, the true positive and the true negative; the other twooutcomes occur when the test is wrong, the false positive and the false negative. Possible Test Outcomes
 Results of mammogram Evidence of cancerNo evidence of cancerPatient has breast cancer True positive False negativePatient does not have breast cancer False positive True negative
@@ -4439,7 +4497,7 @@ These error models occur well beyond statistics, in any system where judgments a
 
 ---
 
-## Page 157
+Page 157
 
 Nothing to detect Something to detectDetected effect False positive rate (%)
 aka type 1 error rate, alpha (α) or significance levelTypical rate: 5%
@@ -4455,7 +4513,7 @@ The dotted line represents the threshold for statistical significance. All value
 
 ---
 
-## Page 158
+Page 158
 
 true. Essentially, if the p-value is smaller than the selected false positive rate (5 percent), then you would say that the result isstatistically significant. P-values are commonly used in study reports to communicate such significance.For example, a p-value of 0.01 would mean that a difference equal to or larger than the one observed would happen only 1 percentof the time if the app had no effect. This value corresponds to a value on the figure in the extreme tail of the left bell curve and closeto the middle of the right bell curve. This placement indicates that the result is more consistent with the alternative hypothesis, thatthe app has an effect of 15 percent.Now, notice how these two curves overlap, showing that some differences between the two groups are consistent with bothhypotheses (under both bell curves simultaneously). These gray areas show where the two types of error can occur. The light grayarea is the false positive region and the dark gray area is the false negative region.A false positive would occur when a large difference is measured between the two groups (like one with a p-value of 0.01), but inreality, the app does nothing. This could happen if the no-app group randomly had trouble falling asleep and the app group randomlyhad an easy time.Alternatively, a false negative would occur when the app really does help people fall asleep faster, but the difference observed istoo small to be statistically significant. If the study is 80 percent powered, which is typical, this false negative scenario would occur20 percent of the time.Assuming the sample size remains fixed, lowering the chance of making a false positive error is equivalent to moving the dottedline to the right, shrinking the light gray area. When you do so, though, the chance of making a false negative error grows (depicted inthe following figure as compared with the original).
 Statistical Significance
@@ -4466,17 +4524,19 @@ Alpha: 5%   Beta: 12%   Sample size: 344
 
 ---
 
-## Page 159
+Page 159
 
 Increasing the sample size and narrowing the bell curves decreases the overlap between the two curves, shrinking the total grayarea in the process. This is of course attractive because there is less chance of making an error; however, as we noted in thebeginning of this section, there are many reasons why it may not be practical to increase the sample size (time, money, risk toparticipants, etc.).The table on the next page illustrates how sample size varies for different limits on the error rates for the sleep app study. You willsee that if error rates are decreased, the sample size must be increased.The sample size values in the following table are all dependent on the selected alternative hypothesis of a 15 percent difference.The sample sizes would all further increase if the developers wanted to detect a smaller difference and would all decrease if theywanted to detect only a larger difference.Researchers often feel pressure to use a smaller sample size in order to save time and money, which can make choosing a largerdifference for the alternative hypothesis appealing. But such a choice comes at a high risk. For instance, the developers can reducetheir sample size to just 62 (from 268) if they change the alternative hypothesis to a 30 percent increase between the two groups (upfrom 15 percent). 
 Sample Size Varies with Power and SignificanceAlpha Confidence level Beta Power Sample size10% 90% 20% 80% 19610% 90% 10% 90% 2845% 95% 30% 70% 2045% 95% 20% 80% 2685% 95% 10% 90% 3701% 99% 20% 80% 4341% 99% 10% 90% 562
 However, if the true difference the app makes is really only 15 percent, with this smaller sample size they will be able to detectthis smaller difference only 32 percent of the time! That’s down from 80 percent originally and means that two-thirds of the timethey’d get a false negative, failing to detect the 15 percent difference. As a result, ideally any experiment should be designed todetect the smallest meaningful difference.One final note on p-values and statistical significance: Most statisticians caution against overreliance on p-values in interpretingthe results of a study. Failing to find a significant result (a sufficiently small p-value) is not the same as having confidence that thereis no effect. The absence of evidence is not the evidence of absence. Similarly, even though the study may have achieved a low p-value, it might not be a replicable result, which we will explore in the final section.Statistical significance should not be confused with scientific, human, or economic significance. Even the most minuscule effectscan be detected as statistically significant if the sample size is large enough. For example, with enough people in the sleep study, youcould potentially detect a 1 percent difference between the two groups, but is that meaningful to any customers? No.Alternatively, more emphasis could be placed on the difference measured in a study along with its corresponding confidenceinterval. For the app study, while the customers want to know that they have better chances of falling asleep with the app thanwithout, they also want to know how much better. The developers might even want to increase the sample size in order to be able toguarantee a certain margin of error in their estimates.Further, the American Statistical Association stressed in The American Statistician in 2016 that “scientific conclusions andbusiness or policy decisions should not be based only on whether a p-value passes a specific threshold.” Focusing too much on thep-value encourages black-and-white thinking and compresses the wealth of information that comes out of a study into just onenumber. Such a singular focus can make you overlook possible suboptimal choices in a study’s design (e.g., sample size) or biasesthat could have crept in (e.g., selection bias).
+## Will It Replicate?
+
 WILL IT REPLICATE?
 By now you should know that some experimental results are just flukes. In order to be sure a study result isn’t a fluke, it needs to bereplicated. Interestingly, in some fields, such as psychology, there has been a concerted effort to replicate positive results, but thoseefforts have found that fewer than 50 percent of positive results can be replicated.That rate is low, and this problem is aptly positive results the replication crisis. This final section offers some models to explainhow this happens, and how you can nevertheless gain more confidence in a research area.Replication efforts are an attempt to distinguish between false positive and true positive results. Consider the chances ofreplication in each of these two groups. A false positive is expected to replicate—that is, a second false positive is expected tooccur in a repetition of the study—only 5 percent of the time. On the other hand, a true positive is expected to replicate 80 to 90percent of the time, depending on the power of the replication study. For the sake of argument, let’s assume this is 80 percent as wedid in the last section.Using those numbers, a replication rate of 50 percent requires about 60 percent of the studies to have been true positives and 40percent of them to have been false positives. To see this, consider 100 studies: If 60 were true positives, we would expect 48 of
 
 ---
 
-## Page 160
+Page 160
 
 those to replicate (80 percent of 60). Of the remaining 40 false positives, 2 would replicate (5 percent of 40) for a total of 50. Thereplication rate would then be 50 per 100 studies, or 50 percent.
 Replication Crisis
@@ -4485,7 +4545,7 @@ So, under this scenario, about a fourth of the failed replications (12 of 50) ar
 
 ---
 
-## Page 162
+Page 162
 
 There are also many other reasons a study might not be replicable, including the various biases we’ve discussed in previoussections (e.g., selection bias, survivorship bias, etc.), which could have crept into the results. Another reason is that, by chance, theoriginal study might have showcased a seemingly impressive effect, when in reality the effect is much more modest (regression to themean). If this is the case, then the replication study probably does not have a large enough sample size (isn’t sufficiently powered) todetect the small effect, resulting in a failed replication of the study.There are ways to overcome these issues, such as the following:
 Using lower p-values to properly account for false positive error in the original study, across all the tests that areconductedUsing a larger sample size in a replication study to be able to detect a smaller effect sizeSpecifying statistical tests to run ahead of time to avoid p-hacking
@@ -4493,7 +4553,7 @@ Nevertheless, as a result of the replication crisis and the reasons that underli
 
 ---
 
-## Page 163
+Page 163
 
 There are advantages to meta-analyses, as combining data from multiple studies can increase the precision and accuracy ofestimates, but they also have their drawbacks. For example, it is problematic to combine data across studies where the designs orsample populations vary too much. They also cannot eliminate biases from the original studies themselves. Further, both systematicreviews and meta-analyses can be compromised by publication bias because they can include only results that are publiclyavailable.Whenever we are looking at the validity of a claim, we first look to see whether a thorough systematic review has been conducted,and if so, we start there. After all, systematic reviews and meta-analyses are commonly used by policy makers in decision making,e.g., in developing medical guidelines.If one thing is clear from this chapter, it’s probably that designing good experiments is tough! We hope you’ve also gathered thatprobability and statistics are useful tools for better understanding problems that involve uncertainty. However, as this section shouldalso make clear, statistics is not a magical cure for uncertainty. As statistician Andrew Gelman suggested in The AmericanStatistician in 2016, we must “move toward a greater acceptance of uncertainty and embracing of variation.”More generally, keep in mind that while statistics can help you obtain confident predictions across a variety of circumstances, itcannot accurately predict what will occur in an individual event. For instance, you may know that the average summer day is sunnyand warm at your favorite beach spot, but that is no guarantee that it won’t be rainy or unseasonably cool the week you plan to takeoff from work.Similarly, medical research tells you that your risk of getting lung cancer increases if you smoke, and while you can estimate theconfidence interval that an average smoker will get lung cancer in their lifetime, probability and statistics can’t tell you whatspecifically will happen for any one individual smoker.While probability and statistics aren’t magic, they do help you better describe your confidence around the likelihood of variousoutcomes. There are certainly lots of pitfalls to watch out for, but we hope you also take away the fact that research and data aremore useful for navigating uncertainty than hunches and opinions.
 KEY TAKEAWAYS 
@@ -4507,9 +4567,11 @@ Always keep in mind that when dealing with uncertainty, the values you see repor
 
 ---
 
-## Page 164
+Page 164
 
 6
+## Chapter 6 — Decisions, Decisions
+
 Decisions, Decisions
 IF YOU COULD KNOW HOW your decisions would turn out, decision making would be so easy! It is
 hard because you have to make decisions with imperfect information.
@@ -4530,7 +4592,7 @@ happen (the cons).
 
 ---
 
-## Page 165
+Page 165
 
 While useful in some simple cases, this basic pro-con methodology has significant
 shortcomings. First, the list presumes there are only two options, when as you just saw
@@ -4547,7 +4609,7 @@ chance to work with founders changing the world, the potential for extremely hig
 
 ---
 
-## Page 166
+Page 166
 
 compensation, the opportunity to work on startups in a high-leverage way without the
 risk and stress of being the founder, etc.) and no obvious cons.
@@ -4578,6 +4640,8 @@ consequential, they demand more complicated mental models. In simpler cases,
 applying these sophisticated models would be overkill. It is best, however, to be aware
 of the range of mental models available so that you can pick the right tool for any
 situation.
+## Weighing the Costs and Benefits
+
 WEIGHING THE COSTS AND BENEFITS
 One simple approach to improving the pro-con list is to add some numbers to it. Go
 through each of your pros and cons and put a score of −10 to 10 next to it, indicating
@@ -4587,7 +4651,7 @@ important to you than a salary adjustment? If so, location would get a higher sc
 
 ---
 
-## Page 167
+Page 167
 
 Scoring in this way helps you overcome some of the pro-con list deficiencies. Now
 each item isn’t treated equally anymore. You can also group multiple items together into
@@ -4632,7 +4696,7 @@ want to assign dollar values to them, even if they are just rough estimates of h
 
 ---
 
-## Page 168
+Page 168
 
 they are worth to you. Doing so will help you create a fair quantitative comparison
 between the courses of action you are considering.
@@ -4677,7 +4741,7 @@ able to buy as much as you could if you had the same amount of money today.
 
 ---
 
-## Page 169
+Page 169
 
 Consequently, you don’t want to regard an amount of money in ten years as the
 equivalent amount of money available today.
@@ -4722,7 +4786,7 @@ investment is worth considering among your other options.
 
 ---
 
-## Page 170
+Page 170
 
 A central challenge with cost-benefit analysis is that this end result is sensitive to the
 chosen discount rate. One way to show this sensitivity is through a sensitivity analysis,
@@ -4766,7 +4830,7 @@ factors that underlie the discount rate: inflation (that the purchasing power of
 
 ---
 
-## Page 171
+Page 171
 
 change over time), uncertainty (that benefits may or may not actually occur), and
 opportunity cost of capital (that you could do other things with your money). Since these
@@ -4790,7 +4854,7 @@ inflation, and so they usually build an expected inflation rate into their lendi
 
 ---
 
-## Page 172
+Page 172
 
 As investments can look very different based on different discount rates, there are
 many open debates about which discount rates are most appropriate to use in differing
@@ -4811,7 +4875,7 @@ benefits to society from the regulation outweigh the potential costs to society.
 
 ---
 
-## Page 173
+Page 173
 
 language has been tweaked by subsequent U.S. presidents, though the central idea of it
 continues to drive policy, with the U.S. federal government conducting cost-benefit
@@ -4836,7 +4900,7 @@ consider what could happen over the same time frame.
 
 ---
 
-## Page 174
+Page 174
 
 In other words, cost-benefit analysis is only as good as the numbers you put into it. In
 computer science, there is a model describing this phenomenon: garbage in, garbage
@@ -4851,7 +4915,9 @@ turn it into a simple cost-benefit analysis.
 
 ---
 
-## Page 175
+Page 175
+
+## Taming Complexity
 
 TAMING COMPLEXITY
 When you can list out your options for a decision, and their costs and benefits are
@@ -4889,7 +4955,7 @@ Decision Tree
 
 ---
 
-## Page 176
+Page 176
 
 The first square represents your choice between the two contractors, and then the
 open circles further branch out to the different possible outcomes for each of those
@@ -4912,7 +4978,7 @@ Expected Value
 
 ---
 
-## Page 177
+Page 177
 
 What this means is that if these probabilities are accurate, and you could run the
 scenario one hundred times in the real world where you pick the new contractor each
@@ -4935,7 +5001,7 @@ the expected value for the new contractor would become higher than your usual
 
 ---
 
-## Page 178
+Page 178
 
 contractor’s bid. Remember that you can always run a sensitivity analysis on any inputs
 that you think might significantly influence the decision, as we discussed in the last
@@ -4978,7 +5044,7 @@ Utility Values
 
 ---
 
-## Page 179
+Page 179
 
 However, note that it is still a really close decision, as both contractors now have
 almost the same expected value! This closeness illustrates the power of probabilistic
@@ -5001,7 +5067,7 @@ situations with an array of diverse, probabilistic outcomes. Think about health 
 
 ---
 
-## Page 180
+Page 180
 
 —should you go for a higher-deductible plan with lower payments or a lower-
 deductible plan with higher payments? It depends on your expected level of care, and
@@ -5045,7 +5111,7 @@ Fat-Tailed Distribution
 
 ---
 
-## Page 181
+Page 181
 
 There are many naturally occurring fat-tailed distributions as well, and sometimes
 people just incorrectly assume they are dealing with a normal distribution when in fact
@@ -5071,7 +5137,7 @@ change is raising the probability of the occurrence of what was once considered 
 
 ---
 
-## Page 182
+Page 182
 
 hundred-year flood, and it no longer has a 1 percent chance in many areas. The dice are
 loaded. Houston, Texas, for example, has had three so-called five-hundred-year floods
@@ -5103,7 +5169,7 @@ Email Spam Causal Loop Diagram
 
 ---
 
-## Page 183
+Page 183
 
 As a further step, you can use software to imitate the system, called a simulation. In
 fact, software exists that allows you to compose a diagram of a system on your screen
@@ -5125,7 +5191,7 @@ behavior to avoid the tax.
 
 ---
 
-## Page 184
+Page 184
 
 If this sounds like a familiar concept, it’s because Chatelier’s principle is similar to
 the mental model homeostasis (see Chapter 4), which comes from biology: recall how
@@ -5171,7 +5237,7 @@ Alamos Science:
 
 ---
 
-## Page 185
+Page 185
 
 The first thoughts and attempts I made to practice [the Monte Carlo method] were suggested by a question
 which occurred to me in 1946 as I was convalescing from an illness and playing solitaires. The question was
@@ -5209,7 +5275,9 @@ Local vs. Global Optimum
 
 ---
 
-## Page 186
+Page 186
+
+## Beware of Unknown Unknowns
 
 BEWARE OF UNKNOWN UNKNOWNS
 In 1955, psychologists Joseph Luft and Harrington Ingham originated the concept of
@@ -5235,7 +5303,7 @@ Known What you know you know What you know you don’t know
 
 ---
 
-## Page 187
+Page 187
 
 UnkownWhat you don’t know you knowWhat you don’t know you don’t know
 This model is particularly effective when thinking more systematically about risks,
@@ -5278,7 +5346,7 @@ yet know that swaddling a baby is a thing, but you’ll be shown how soon enough
 
 ---
 
-## Page 188
+Page 188
 
 nurse or family member, turning this unknown known into a known known. And then
 there are things that no one knows yet or is even thinking about, such as whether your
@@ -5300,7 +5368,7 @@ ultimately considering several possible scenarios. This process is difficult bec
 
 ---
 
-## Page 189
+Page 189
 
 tend to latch onto your first thoughts (see anchoring in Chapter 1), which usually depict
 a direct extrapolation of your current trajectory (the present), without challenging your
@@ -5331,7 +5399,7 @@ Schrödinger’s Cat Thought Experiment
 
 ---
 
-## Page 190
+Page 190
 
 Answers to this thought experiment are beyond the scope of this book and were
 argued over for decades after it was posed. Therein lies the power of the thought
@@ -5362,7 +5430,7 @@ idea in front of you. Lateral thinking is thinking outside the box.
 
 ---
 
-## Page 191
+Page 191
 
 Another helpful lateral-thinking technique involves adding some randomness when
 you are generating ideas. For example, you can choose an object at random from your
@@ -5387,7 +5455,7 @@ cases, though, fads and trends can be based on little substance.
 
 ---
 
-## Page 192
+Page 192
 
 Groupthink is terrible for scenario analysis and can have much wider implications,
 leading to bad group decision making in general if not actively managed. There are
@@ -5403,7 +5471,7 @@ thinking, where you actively try to get thinking to converge on one solution. On
 
 ---
 
-## Page 193
+Page 193
 
 is to meet once without brainstorming at all, just to go over the goal of the scenario
 analysis. Then send everyone off individually or in small groups. You could give them a
@@ -5445,7 +5513,7 @@ the diverse opinions in such a way as to arrive at a collective decision.
 
 ---
 
-## Page 194
+Page 194
 
 If you can design a system with these properties, then you can draw on the collective
 intelligence of the crowd. This allows you to glean the useful bits of information that
@@ -5466,7 +5534,7 @@ market’s current probability of an event taking place, such as whether a certa
 
 ---
 
-## Page 195
+Page 195
 
 candidate will be elected. For example, a price of $0.59 would represent a 59 percent
 probability that the candidate would be elected.
@@ -5510,7 +5578,7 @@ over time.
 
 ---
 
-## Page 196
+Page 196
 
 Working in teams: Groups of people can outperform individuals as long as
 they avoid groupthink.
@@ -5555,7 +5623,7 @@ analysis, or using a decision tree if some of the choices are more probabilistic
 
 ---
 
-## Page 197
+Page 197
 
 Then, in the end, you can put all of it together into a succinct business case to lay out the
 argument for your next career move.
@@ -5576,9 +5644,11 @@ Strive to understand the global optimum in any system and look for decisions tha
 
 ---
 
-## Page 198
+Page 198
 
 7
+## Chapter 7 — Dealing with Conflict
+
 Dealing with Conflict
 IN ADVERSARIAL SITUATIONS, nearly every one of your choices directly or indirectly affects other
 people, and these effects can play a large role in how a conflict turns out. In the words
@@ -5603,7 +5673,7 @@ Growing Educational Demand for Employment
 
 ---
 
-## Page 199
+Page 199
 
 And getting these degrees is increasingly more expensive as the result of another
 arms race, in which colleges spend more and more on making their campuses feel like
@@ -5628,7 +5698,7 @@ neighbors, the Joneses.
 
 ---
 
-## Page 200
+Page 200
 
 Based on what you know about us so far, you might not be surprised to find out that
 we send our sons to engineering camps in the summer. Last year, the closest offering for
@@ -5644,7 +5714,7 @@ symbols.
 
 ---
 
-## Page 201
+Page 201
 
 As an organization, avoiding an arms race means differentiating yourself from the
 competition instead of pursuing a one-upmanship strategy on features or deals, which
@@ -5655,6 +5725,8 @@ corporate arms race between razor blade manufacturers, as depicted below.
 In the rest of this chapter, we explore mental models to help you analyze and better
 deal with conflicts like arms races. We hope that after reading it, you will be equipped
 to emerge from any adversarial situation with the best outcome for yourself.
+## Playing the Game
+
 PLAYING THE GAME
 Game theory is the study of strategy and decision making in adversarial situations, and
 it provides several foundational mental models to help you think critically about
@@ -5674,7 +5746,7 @@ convict either one for a major crime but does have enough to convict both for mi
 
 ---
 
-## Page 202
+Page 202
 
 infractions. However, if the prosecutor could get one of the prisoners to turn on their co-
 conspirator, the other one could be put away for the major crime. So the prosecutor
@@ -5717,7 +5789,7 @@ game. For example, the Nash equilibrium for an arms race is choosing a high arms
 
 ---
 
-## Page 203
+Page 203
 
 strategy where both parties continue to arm themselves. Here’s an example of a payoff
 matrix for this scenario:
@@ -5760,7 +5832,9 @@ how you get to your desired outcome.
 
 ---
 
-## Page 204
+Page 204
+
+## Nudge Nudge Wink Wink
 
 NUDGE NUDGE WINK WINK
 To get to a desired outcome in a game, you may have to influence other players to make
@@ -5797,7 +5871,7 @@ Access to U.S. Congressional Officials
 
 ---
 
-## Page 205
+Page 205
 
 The second model that Cialdini describes is commitment—if you agree (or commit)
 to something, however small, you are more likely to continue to agree later. That’s
@@ -5827,7 +5901,7 @@ typically like), a higher rate than any form of advertising studied. This is why
 
 ---
 
-## Page 206
+Page 206
 
 mouth referrals are so important to businesses. Some even base their entire business
 model on them. Think of the many businesses that have sellers hold sales parties with
@@ -5863,7 +5937,7 @@ media reports of suicide.
 
 ---
 
-## Page 207
+Page 207
 
 The form of social proof most prevalent in our society now is arguably social media.
 With the Russian attempts to influence elections in the U.S. and other countries, social
@@ -5874,7 +5948,7 @@ showcase which friends have already “liked” a certain company or product.
 
 ---
 
-## Page 208
+Page 208
 
 Scarcity is another influence model, this one describing how you become more
 interested in opportunities the less available they are, triggering your fear of missing
@@ -5887,7 +5961,7 @@ Scarcity
 
 ---
 
-## Page 209
+Page 209
 
 Cialdini’s sixth major influence model is authority, which describes how you are
 inclined to follow perceived authority figures. In a series of sensational experiments
@@ -5933,13 +6007,15 @@ of them are used simultaneously to ultimately take your money. Casinos give away
 
 ---
 
-## Page 210
+Page 210
 
 of free stuff (reciprocity); they get you to first buy chips with cash (commitment); they
 try to personalize your experience to your interests (liking); they show you examples of
 other people who won big (social proof); they constantly present you with offers
 preying on your fear of missing out (scarcity); and dealers will even give you
 suboptimal advice (authority). Beware. There is a reason why the house always wins!
+## Perspective Is Everything
+
 PERSPECTIVE IS EVERYTHING
 Outside of Cialdini’s six principles, there are several other mental models you can use
 for influence in conflict situations (and elsewhere), all of which are related to framing
@@ -5974,7 +6050,7 @@ like this:
 
 ---
 
-## Page 211
+Page 211
 
 Under our present denomination of British subjects, we can neither be received nor heard abroad: The custom
 of all courts is against us, and will be so, until, by an independence, we take rank with other nations.
@@ -6021,7 +6097,7 @@ their tardiness, they interpreted the situation in terms of market norms. In oth
 
 ---
 
-## Page 212
+Page 212
 
 fined, they could decide for themselves whether to be late or not, and they frequently chose to be late. Needless
 to say, this was not what the day care center intended.
@@ -6049,7 +6125,7 @@ Business situations
 
 ---
 
-## Page 213
+Page 213
 
 You may run into similar issues when situations revolve around the perception of
 fairness. Economists use a game called the ultimatum game to study how the
@@ -6094,7 +6170,7 @@ policies. As Martin Luther King Jr. put it in a May 8, 1967, interview with NBC 
 
 ---
 
-## Page 214
+Page 214
 
 “It’s all right to tell a man to lift himself by his own bootstraps, but it is a cruel jest to
 say to a bootless man that he ought to lift himself by his own bootstraps.”
@@ -6139,7 +6215,7 @@ that we don’t want to include them in our book.
 
 ---
 
-## Page 215
+Page 215
 
 This model is the flip side of the authority model we examined in the last section.
 Instead of relying on authority to gain influence, here another’s authority is being
@@ -6152,6 +6228,8 @@ chosen to frame the situation competitively because, for them, the Nash equilibr
 both criminals getting five years is actually the preferred outcome. However, if the
 criminals can instead frame the situation cooperatively—stick together at all costs—
 they can vastly improve their outcome.
+## Where’s the Line?
+
 WHERE’S THE LINE?
 In Chapter 3, we advised seeking out design patterns that help you more quickly
 address issues, and watching out for anti-patterns, intuitively attractive yet suboptimal
@@ -6165,7 +6243,7 @@ patterns to manipulate and confuse you.
 
 ---
 
-## Page 216
+Page 216
 
 However, this concept is also applicable to everyday life offline as well. And
 knowing a few specific dark patterns can be helpful in adversarial situations. You’re
@@ -6189,7 +6267,7 @@ show buyers a model home with more expensive finishes—all upgrades—which in
 
 ---
 
-## Page 217
+Page 217
 
 aggregate can easily push the bounds of a buyer’s budget. If it sounds too good to be
 true, it usually is.
@@ -6235,7 +6313,7 @@ market.
 
 ---
 
-## Page 218
+Page 218
 
 In any conflict situation, you should be on the lookout for dark patterns. While many
 influence models, such as the ones in this section, are commonly thought of as malicious
@@ -6251,6 +6329,8 @@ business or politics is often faced with: Should you focus on truth and clarity 
 promotional materials? Or should you look to influence models to find language that is
 more persuasive, perhaps due to its emotional appeal? Do the ends justify the means?
 Only you can decide where the line is for you.
+## The Only Winning Move Is Not to Play
+
 THE ONLY WINNING MOVE IS NOT TO PLAY
 Considering a conflict through a game-theory lens helps you identify what you have to
 gain and what you have to lose. We have just looked at models that increase your
@@ -6275,7 +6355,7 @@ nuclear war. That there can be “acceptable losses.”
 
 ---
 
-## Page 219
+Page 219
 
 When all hope seems lost, the teenager recalls this conversation and asks if there is
 any way to make Joshua play against itself in tic-tac-toe, hoping the computer will learn
@@ -6319,7 +6399,7 @@ deter unpleasant future economic or societal outcomes (e.g., deposit insurance d
 
 ---
 
-## Page 220
+Page 220
 
 bank runs). Businesses also take actions to deter new entrants, for example, by using
 their scale to price goods so low that new firms cannot profitably compete (e.g.,
@@ -6363,7 +6443,7 @@ their gun homicide rates nearly 25 to 60 percent by assisting only a handful of 
 
 ---
 
-## Page 221
+Page 221
 
 A sister mental model to deterrence is containment. In global conflicts, containment
 is an attempt to contain the enemy, to prevent its further expansion, be it expanding
@@ -6374,7 +6454,7 @@ infected or removing an early-stage tumor before it metastasizes.
 
 ---
 
-## Page 222
+Page 222
 
 Containment acknowledges that an undesirable occurrence has already happened, that
 you cannot easily undo it, and so instead you’re going to try to stop it from spreading or
@@ -6420,7 +6500,7 @@ called an offline honeypot.
 
 ---
 
-## Page 223
+Page 223
 
 Without containment, bad circumstances can spread, possibly leading to a domino
 effect, where more negative consequences unfold in inevitable succession like falling
@@ -6455,7 +6535,7 @@ broken windows are a sign that lawlessness is tolerated, and so there is a perce
 
 ---
 
-## Page 224
+Page 224
 
 need to hold the line and prevent a descent into a more chaotic state (see herd immunity
 in Chapter 2).
@@ -6482,7 +6562,7 @@ nagging about in-app purchases.
 
 ---
 
-## Page 225
+Page 225
 
 When analyzing these domino-effect situations, write down each step in the logical
 chain (list each domino) and try to ascribe a realistic probability to each event (the
@@ -6505,7 +6585,7 @@ inevitable.
 
 ---
 
-## Page 226
+Page 226
 
 As a parent, sometimes appeasement is necessary to get through the day. For instance,
 we tend to bend the rules when we are traveling. Everyone is tired, and much of the
@@ -6526,6 +6606,8 @@ a result, the best move is usually not to engage with them (don’t feed the tro
 stoop to their level; rise above the fray), though, as in any situation, you have to assess
 it on a case-by-case basis, and where reporting mechanisms exist, you should consider
 them too. Any parent will similarly tell you that you need to pick your battles.
+## Changing the Game
+
 CHANGING THE GAME
 From a game-theory perspective, deterrence and related models effectively change a
 game, adjusting how players perceive their payoff matrix and therefore what decisions
@@ -6546,7 +6628,7 @@ results in strict punishment. For example, a zero-tolerance drug policy would ha
 
 ---
 
-## Page 227
+Page 227
 
 fired from your job or expelled from school on the first offense, as opposed to a series
 of punishments that escalate to an extreme measure.
@@ -6591,7 +6673,7 @@ the American Revolution used guerrilla warfare right from the start of the confl
 
 ---
 
-## Page 228
+Page 228
 
 Well, it first of all comes down to not coming out into the open, where you could be annihilated by the superior
 firepower of the enemy. The British got a taste of how the Americans would fight on the very first day of the
@@ -6615,7 +6697,7 @@ that generals always fight the last war, meaning that armies by default use stra
 
 ---
 
-## Page 229
+Page 229
 
 tactics, and technology that worked for them in the past, or in their last war. The
 problem is that what was most useful for the last war may not be best for the next one,
@@ -6661,7 +6743,7 @@ boxing, competitors are grouped by weight, because large differences in weight, 
 
 ---
 
-## Page 230
+Page 230
 
 other things being equal, make a fight unfair. This takes us back to the physics models
 we discussed in Chapter 4 (see inertia). Heavier boxers pack more powerful punches
@@ -6686,6 +6768,8 @@ ready for prime time.
 When deploying such tactics, you will want to reevaluate your odds as the game goes
 on, to make sure you are on the right track. Are your odds improving? Are you
 effectively changing the game to be in your favor?
+## Endgame
+
 ENDGAME
 In chess, once most of the pieces have been removed from the board, you enter a stage
 called the endgame. This concept has been extended to refer to the final stage of any
@@ -6702,7 +6786,7 @@ initial public offering (IPO). In public policy, devising an exit strategy means
 
 ---
 
-## Page 231
+Page 231
 
 about the practicalities and consequences of how an entity might get out of certain
 situations, such as European countries withdrawing from the eurozone.
@@ -6748,7 +6832,7 @@ return. (Sometimes people also say crossing the Rubicon, referencing Julius Caes
 
 ---
 
-## Page 232
+Page 232
 
 crossing of the Rubicon River with his troops in 49 B.C., deliberately breaking Roman
 law, making armed conflict inevitable and ultimately leading to him becoming dictator
@@ -6786,9 +6870,11 @@ Be aware of how generals always fight the last war, and know your best exit stra
 
 ---
 
-## Page 233
+Page 233
 
 8
+## Chapter 8 — Unlocking People's Potential
+
 Unlocking People’s Potential
 THE 1992 OLYMPICS WAS THE first to allow active professional basketball players from the National
 Basketball Association (NBA) to compete. The United States fielded a team dubbed the
@@ -6828,7 +6914,7 @@ resources, nor can they always afford to wait until they have better ones before
 
 ---
 
-## Page 234
+Page 234
 
 forward. Joy’s law further stresses that great people are unlikely to be concentrated in a
 single organization.
@@ -6876,11 +6962,13 @@ teams. A February 4, 1996, quote from former U.S. senator Bill Bradley in The Ne
 
 ---
 
-## Page 235
+Page 235
 
 Times is apt: “Leadership is unlocking people’s potential to become better.” When you
 foster a 10x team, you draw on people’s different skills and abilities, allowing each person
 to play their unique part and collectively achieve outsized impact.
+## It Takes a Village
+
 IT TAKES A VILLAGE
 To work toward a 10x team, you must recognize that people are not interchangeable. On the
 same team, one person’s 10x role on a project might be another person’s 0.1x role on the
@@ -6903,13 +6991,13 @@ Extrovert
 
 ---
 
-## Page 236
+Page 236
 
 Introvert
 
 ---
 
-## Page 237
+Page 237
 
 Where personality traits come from is subject to debate, and that debate is generally
 referred to as nature versus nurture. Nature refers to traits being explained by genetics,
@@ -6922,7 +7010,7 @@ people really are different. What’s going on in your head isn’t the same as 
 
 ---
 
-## Page 238
+Page 238
 
 someone else’s head. You will approach and interpret the same situation differently, filtered
 through your personality, culture, and life experiences (see frame of reference in Chapter 1).
@@ -6954,7 +7042,7 @@ of high or low IQ and EQ.)
 
 ---
 
-## Page 239
+Page 239
 
 When considering people for roles, you must also consider their individual goals and
 strengths, which can vary widely. A few mental models can help you make some useful
@@ -6964,7 +7052,7 @@ Specialist vs. Generalist
 
 ---
 
-## Page 240
+Page 240
 
 Think about physicians: primary care physicians are generalists and do a bit of
 everything, serving as the starting point for the diagnosis of any ailment. But for specific
@@ -7011,7 +7099,7 @@ freeze up and stall out.
 
 ---
 
-## Page 241
+Page 241
 
 Another mental model that helps you consider people’s strengths is foxes versus
 hedgehogs, derived from a lyric by the Greek poet Archilochus, translated as The fox knows
@@ -7057,7 +7145,7 @@ these teams, and adjust your management accordingly. We call this managing to th
 
 ---
 
-## Page 242
+Page 242
 
 as opposed to managing to the role or managing everyone the same. In other words, good
 people management is not one-size-fits-all.
@@ -7070,6 +7158,8 @@ child, etc. Our two children are very different, and parenting techniques that w
 one child seldom work as well with the other. Approaching each relationship as unique will
 help you better appreciate its individual attributes and use that knowledge to ultimately
 create more effective relationships and teams.
+## Who Goes Where
+
 WHO GOES WHERE
 The strongest teams have the right people in the right roles, allowing them to amplify their
 individual strengths and skill sets. Conversely, when people are in the wrong roles, you can
@@ -7086,7 +7176,7 @@ Peter Principle
 
 ---
 
-## Page 243
+Page 243
 
 When people are excelling, it’s natural to reward them with promotions for their excellent
 performance. However, you need to keep the Peter principle in mind when doling out those
@@ -7116,7 +7206,7 @@ become truly effective contributors within your organization. This time length i
 
 ---
 
-## Page 244
+Page 244
 
 dependent on the job and organization, but as roles get more complex and involve learning a
 wide variety of new information and internal processes, it can easily be six to eighteen
@@ -7155,7 +7245,7 @@ the largest company objective.
 
 ---
 
-## Page 245
+Page 245
 
 The DRI concept helps avoid diffusion of responsibility, also known as the bystander
 effect, where people fail to take responsibility for something when they are in a group,
@@ -7172,7 +7262,7 @@ voices). Each “participant” took turns speaking, and one of the prerecorded 
 
 ---
 
-## Page 246
+Page 246
 
 first turn revealed they were prone to life-threatening seizures. On the second turn, that same
 “participant” had a fake seizure, with their prerecorded voice saying, “I’m . . . I’m having a
@@ -7211,11 +7301,13 @@ members of your team is a step worth taking. The ideal situation for any group s
 where you have clearly delineated roles and responsibilities, and people who are well
 suited for each and intrinsically motivated to excel at them. Those are the ingredients for a
 10x team.
+## Practice Makes Perfect
+
 PRACTICE MAKES PERFECT
 
 ---
 
-## Page 247
+Page 247
 
 Crafting the right role for an individual—whether for yourself or for a colleague—doesn’t
 guarantee that they will reach their full potential. People, especially those in new roles, need
@@ -7243,7 +7335,7 @@ times, and so on. Once the last goal has been reached, then the target could be 
 
 ---
 
-## Page 248
+Page 248
 
 away and the process repeated. This more focused type of passing practice is a more
 efficient way to improve passing skills.
@@ -7291,7 +7383,7 @@ within a textbook is more effective than the standard mechanism of covering each
 
 ---
 
-## Page 249
+Page 249
 
 own, single chapter. For example, in an elementary math textbook, if you teach fractions in
 different chapters, kids learn how fractions can be applied across different contexts and the
@@ -7314,7 +7406,7 @@ said”). Being vague and abstract is much easier to do because it avoids the ha
 
 ---
 
-## Page 250
+Page 250
 
 identifying specific examples and the psychological stress of debating the nuances around
 those specifics. Many people thus take the easy way out. But for your feedback to be
@@ -7360,7 +7452,7 @@ your skills, or, as a mentor yourself, how can you help determine the same for y
 
 ---
 
-## Page 251
+Page 251
 
 members? Venture capitalist Keith Rabois developed a related mental model, called the
 consequence-conviction matrix, to do just that. As he explained in his lecture “How to
@@ -7392,6 +7484,8 @@ situations are perfect deliberate practice exercises where the particular tasks 
 just outside) the edge of someone’s ability are delegated, and then that person is given
 radically candid feedback about how to improve. That’s a compelling method to help people
 grow quickly, including in new roles.
+## Unlocking Potential
+
 UNLOCKING POTENTIAL
 Certain psychological mental models repeatedly arise when you are helping people unlock
 their potential. First, even if someone agrees to the idea of pursuing deliberate practice and
@@ -7404,7 +7498,7 @@ with no ability to grow or change. For example, you may believe that you are “
 
 ---
 
-## Page 252
+Page 252
 
 math,” and this lack of ability is “just part of who you are.” Of course, if you believe that
 your abilities (or lack thereof) are fixed, then you are naturally going to resist feedback to
@@ -7452,7 +7546,7 @@ leadership. For example, a meta-analysis in the October 2009 issue of Leadership
 
 ---
 
-## Page 253
+Page 253
 
 Quarterly found the Pygmalion leadership style to be the most effective of the methods
 studied. This meta-analysis of two hundred different studies on leadership methods was
@@ -7478,7 +7572,7 @@ Dunning-Kruger Effect
 
 ---
 
-## Page 254
+Page 254
 
 When people fall victim to impostor syndrome, they dismiss their successes as luck or
 deception and focus on their failures or fear of failure. This constant focus on failure can
@@ -7520,7 +7614,7 @@ of thinking they are much worse than they are, they think they are much better t
 
 ---
 
-## Page 255
+Page 255
 
 A third mental model about psychological barriers was proposed by psychologist
 Abraham Maslow (of Maslow’s hammer fame) in his 1943 paper “A Theory of Human
@@ -7533,7 +7627,7 @@ Maslow’s Hierarchy of Needs
 
 ---
 
-## Page 256
+Page 256
 
 Maslow suggests that you can focus on self-actualization (the top layer) only once all of
 the more basic needs are met (bottom layers). Through the lens of this model, impostor
@@ -7559,7 +7653,7 @@ hindsight, there is a bias to see it as having been predictable even though ther
 
 ---
 
-## Page 257
+Page 257
 
 objective basis on which it could have been predicted. Monday morning quarterbacking
 and hindsight is twenty-twenty are formulations of the same concept.
@@ -7606,7 +7700,7 @@ situations. Self-serving bias (see Chapter 1) suggests that you will be more inc
 
 ---
 
-## Page 258
+Page 258
 
 that your own or your group’s mistakes could not have been predicted (“Who could have
 known?”) and you are more likely to apply hindsight bias to be critical of others.
@@ -7614,6 +7708,8 @@ The mental models from this section can help correct psychological mischaracteri
 (e.g., impostor syndrome), artificial roadblocks (e.g., fixed mindset), and misinformation
 (e.g., hindsight bias), all in the service of helping people, including yourself, think
 objectively about current performance and ways to improve.
+## Together We Thrive
+
 TOGETHER WE THRIVE
 So far in this chapter, we’ve covered the mental models that help people reach their full
 potential and thrive as members of 10x teams. There is another set of mental models,
@@ -7639,7 +7735,7 @@ High-Context/Low-Context Continuum
 
 ---
 
-## Page 259
+Page 259
 
 At the other extreme, in a high-context culture, information is conveyed much more
 indirectly, less confrontationally. For example, how things are going in a project or role is
@@ -7668,7 +7764,7 @@ cultures that are more data-driven fall on the objective side of this spectrum.
 
 ---
 
-## Page 260
+Page 260
 
 In any case, when you recruit new members to your organization, it may take significant
 time for them to adapt to its culture. For example, someone who is used to extremely low-
@@ -7714,7 +7810,7 @@ promotions, awards, etc.
 
 ---
 
-## Page 261
+Page 261
 
 Taken together, these techniques clearly express cultural norms to everyone in the
 organization and show that they are taken seriously. They also convey that a person who
@@ -7760,7 +7856,7 @@ manager’s schedule versus maker’s schedule:
 
 ---
 
-## Page 262
+Page 262
 
 The manager’s schedule is for bosses. It’s embodied in the traditional appointment book, with each day cut into one-
 hour intervals. You can block off several hours for a single task if you need to, but by default you change what you’re
@@ -7800,7 +7896,7 @@ company, everyone can be involved in most major decisions and understand everyth
 
 ---
 
-## Page 263
+Page 263
 
 relevant to the group. At ten to fifteen people, though, this simple system breaks down, and
 you need some more organizational structure (subgroups, discrete projects, etc.), or chaos
@@ -7848,7 +7944,7 @@ This is way more effective than leaders who are always set apart, seen as sittin
 
 ---
 
-## Page 264
+Page 264
 
 ivory tower. There are several common phrases that showcase the desired behavior: rolling
 up your sleeves, getting in the trenches, showing that you are one of us.
@@ -7877,9 +7973,11 @@ environment for 10x teams to emerge.
 
 ---
 
-## Page 265
+Page 265
 
 9
+## Chapter 9 — Flex Your Market Power
+
 Flex Your Market Power
 IN 2016, HATCHIMALS WERE the hottest toy of the Christmas season. They are cute little electronic bird
 toys that you can take care of, kind of like a modern Furby. Supply was short, and
@@ -7901,14 +7999,14 @@ arbitrage.
 
 ---
 
-## Page 266
+Page 266
 
 Back in the nineties, when eBay launched, it created numerous arbitrage opportunities
 by connecting newly minted salespersons to customers anywhere in the world. In
 
 ---
 
-## Page 267
+Page 267
 
 college, Lauren found eBay to be a great source for making spare cash by pairing small-
 town anime lovers, who didn’t have anime shops in their own towns, with products she
@@ -7954,7 +8052,7 @@ starting out in an industry and have only basic, undifferentiated skills, you ca
 
 ---
 
-## Page 268
+Page 268
 
 commodity. That means you have no advantage over other potential employees for the
 same job. From the employer’s perspective, you are interchangeable with other
@@ -7986,7 +8084,7 @@ themselves on their extraordinary skills alone.
 
 ---
 
-## Page 269
+Page 269
 
 Having market power—individually or organizationally—is an attractive position
 because you can use your advantages to sustain profit for a long time. That’s why it is
@@ -7996,11 +8094,13 @@ Monopolies fall. Patents expire. Regulations evolve. New job skills crop up,
 supplanting the way things were done before. In Chapter 4, we examined how to watch
 out for, anticipate, and even engender such change. In this chapter, we examine super
 models to help you find and hang on to market power.
+## Secret Sauce
+
 SECRET SAUCE
 
 ---
 
-## Page 270
+Page 270
 
 Major life, career, and organizational choices can be thought of as bets on the future.
 You can be either right or wrong in those bets. If wrong, you won’t achieve the success
@@ -8044,7 +8144,7 @@ October 20, 2016, “You just have to remember that contrarians are usually wron
 
 ---
 
-## Page 271
+Page 271
 
 A contrarian bet is therefore most likely to be successful when you know something
 that almost everyone else doesn’t. In other words, you know that the chance of being
@@ -8060,7 +8160,7 @@ use, just applied to innovation. As Thiel wrote in his 2014 book, Zero to One:
 
 ---
 
-## Page 272
+Page 272
 
 Great companies can be built on open but unsuspected secrets about how the world works. Consider the Silicon
 Valley startups that have harnessed the spare capacity that is all around us but often ignored. Before Airbnb,
@@ -8107,7 +8207,7 @@ where to look. Science fiction writer William Gibson put it like this: “The fu
 
 ---
 
-## Page 273
+Page 273
 
 already here—it’s just not very evenly distributed.” By studying future-facing pockets of
 people and knowledge across different fields, you can get closer to secrets.
@@ -8153,7 +8253,7 @@ Stroll entitled “The Internet? Bah!” which basically said that the internet�
 
 ---
 
-## Page 274
+Page 274
 
 impact was wildly overstated. Cliff Stroll was neither a Luddite nor a noob in the tech
 world. As stated in his piece, he was an early adopter, having been on the internet
@@ -8198,7 +8298,7 @@ of a real or impending crisis.
 
 ---
 
-## Page 275
+Page 275
 
 Politician Rahm Emanuel offers this perspective: “You never want to let a serious
 crisis go to waste. And what I mean by that [is] it’s an opportunity to do things you think
@@ -8213,6 +8313,8 @@ Chapter 4, Charles Darwin and Alfred Wallace jointly published the theory of nat
 selection after independent discovery. The underlying conditions were ripe for these
 ideas, and often more than one person will act on the same secret once they have
 determined the time is right to pursue the opportunity.
+## Vision Without Execution Is Just Hallucination
+
 VISION WITHOUT EXECUTION IS JUST HALLUCINATION
 Unfortunately, even knowing a secret at the right time still isn’t enough to guarantee
 success. People with great, timely insights often fail to achieve great returns due to poor
@@ -8240,7 +8342,7 @@ ultimately disadvantaged even though they were first.
 
 ---
 
-## Page 276
+Page 276
 
 For a first mover, the difference between success and failure hinges on whether they
 can also be first to achieve product/market fit. That’s when a product is a such a great
@@ -8274,7 +8376,7 @@ Resonance
 
 ---
 
-## Page 277
+Page 277
 
 One way to increase your chances of getting to product/market fit is through
 customer development, a product development model established by entrepreneur
@@ -8298,7 +8400,7 @@ community before enacting a new policy. For any idea you have, think about who t
 
 ---
 
-## Page 278
+Page 278
 
 “customer” is and then go talk to them directly about your “product.” Think focus
 groups, surveys, interviews, etc.
@@ -8319,7 +8421,7 @@ OODA Loop
 
 ---
 
-## Page 279
+Page 279
 
 The faster you can make your OODA loop, the faster you can incorporate external
 information, and the faster you’ll reach your destination, be that product/market fit or
@@ -8334,7 +8436,7 @@ more important over time. The organization with the fastest OODA loop learns fas
 
 ---
 
-## Page 280
+Page 280
 
 than its competitors, consistently makes better decisions, and adapts faster to the
 unfolding technology landscape.
@@ -8379,7 +8481,7 @@ Christensen is a power drill: “Customers want to ‘hire’ a product to do a 
 
 ---
 
-## Page 281
+Page 281
 
 legendary Harvard Business School marketing professor Theodore Levitt put it, ‘People
 don’t want to buy a quarter-inch drill. They want a quarter-inch hole!’”
@@ -8425,7 +8527,7 @@ particular technique is not really the job the client wants done. The client rea
 
 ---
 
-## Page 282
+Page 282
 
 correct analysis, and will gladly accept that analysis from Lauren regardless of how she
 gets there. To approach these situations, Lauren tries to get the client to take a step back
@@ -8445,7 +8547,7 @@ What Type of Customer Are You Hunting?
 
 ---
 
-## Page 283
+Page 283
 
 Janz notes that to get to $100 million in revenue, a business would need 10 million
 “flies” paying $10 per year, or 1,000 “elephants” paying $100,000 per year. Believe it
@@ -8491,7 +8593,7 @@ customer perspective. Thinking this way can also help you develop personas, fict
 
 ---
 
-## Page 284
+Page 284
 
 characters that personify your ideal customers, which will help you better reason
 through a realistic assessment of your idea.
@@ -8537,7 +8639,7 @@ maze and successfully get to the other side. As he said in a lecture:
 
 ---
 
-## Page 285
+Page 285
 
 A good founder is capable of anticipating which turns lead to treasure and which lead to certain death. A bad
 founder is just running to the entrance of (say) the “movies/music/filesharing/P2P” maze or the “photosharing”
@@ -8555,6 +8657,8 @@ understanding what you want and need from them and what they want and need from
 you. It’s recognizing when you are on the wrong path in the maze, deciding when and
 how to pivot, and having the resilience to find a way to navigate obstacles put in your
 path.
+## Activate Your Force Field
+
 ACTIVATE YOUR FORCE FIELD
 Once you achieve product/market fit or whatever type of fit you are trying to achieve, it
 is time to protect your position. Warren Buffett popularized the term moat, making an
@@ -8576,7 +8680,7 @@ A higher pace of innovation (e.g., a faster OODA loop)
 
 ---
 
-## Page 286
+Page 286
 
 Elon Musk notably sparred with Warren Buffett on the concept of moats. In Musk’s
 words from a May 2, 2018, Tesla earnings call: “Moats are lame,” and “If your only
@@ -8620,7 +8724,7 @@ the long term?
 
 ---
 
-## Page 287
+Page 287
 
 Any single advantage could serve as the basis for your moat, but, as you can see from
 the Kodak example, several advantages can also work together, amplify one another,
@@ -8635,7 +8739,7 @@ create a moat that protects your place in a competitive landscape.
 
 ---
 
-## Page 288
+Page 288
 
 Organizations and individuals that control working moats create lock-in when
 customers are locked in to their services because perceived switching costs are so
@@ -8648,7 +8752,7 @@ can feel locked into certain key employees, which gives these employees leverage
 
 ---
 
-## Page 289
+Page 289
 
 ask for raises or other benefits. Some employees are so critical to a business’s
 operations that there is a whole class of insurance products called key person insurance,
@@ -8696,7 +8800,7 @@ cozy relationship prevails between the industry and its regulator, the NRC.
 
 ---
 
-## Page 290
+Page 290
 
 The disheartening part about this example is that nuclear power done right can be a
 safe and essentially unlimited source of low-carbon energy. Not regulating it effectively
@@ -8721,7 +8825,7 @@ of days to obtain a cosmetology license varies from 232 in New York to 490 in Io
 
 ---
 
-## Page 291
+Page 291
 
 Another common example is nonprofit or community boards that get overrun by the
 personal interests and motivations of friends or family. In its worst form, regulatory
@@ -8743,7 +8847,7 @@ market by taking most of the customers within it. For example, with more than tw
 
 ---
 
-## Page 292
+Page 292
 
 billion people on Facebook, a competitor won’t find it easy to re-create that network
 and compete with Facebook’s core offerings.
@@ -8783,7 +8887,7 @@ Analog vs. Digital, 1995-2012
 
 ---
 
-## Page 293
+Page 293
 
 Kodak wasn’t blind to these developments either. Initially it was even the market
 leader in digital cameras too, with a 27 percent share in 1999. However, it didn’t invest
@@ -8813,7 +8917,7 @@ Digital vs. Smartphone, 2002-2016
 
 ---
 
-## Page 294
+Page 294
 
 In Clayton Christensen’s seminal work The Innovator’s Dilemma, he lays out the
 framework for how such disruptive innovations ripple through industries, ushering new
@@ -8839,7 +8943,7 @@ the ground up—a major pivot.
 
 ---
 
-## Page 295
+Page 295
 
 There have been many instances where pivots have been advisable at the height of
 market dominance or earning potential. Unfortunately, market dominance can
@@ -8862,7 +8966,7 @@ who really need something, but to cross the chasm into the early majority, a pro
 
 ---
 
-## Page 296
+Page 296
 
 to solve a real ongoing need for a lot more people. And most products just aren’t
 compelling enough to cross this gulf and truly spread into the mainstream.
@@ -8888,14 +8992,16 @@ Build a moat around yourself and your organization to create sustainable competi
 
 ---
 
-## Page 297
+Page 297
 
 Don’t get complacent; remember only the paranoid survive, and keep on the lookout for disruptive
 innovations, particularly those with a high probability of crossing the chasm.
 
 ---
 
-## Page 298
+Page 298
+
+## Conclusion
 
 Conclusion
 AS WE SAID IN THE INTRODUCTION, this is the book we wish someone had given us when we were
@@ -8935,7 +9041,7 @@ and so their investments don’t perform as well in the long run.
 
 ---
 
-## Page 299
+Page 299
 
 You don’t want to be a cargo-cult super thinker, using mental models without really
 understanding them, and therefore not getting their benefits. For example, you don’t want
@@ -8970,7 +9076,7 @@ Circle of Competence
 
 ---
 
-## Page 300
+Page 300
 
 The good news is that the mental models in this book will expand your circle of
 competence. Interacting with people who already know how to successfully apply them
@@ -8992,7 +9098,9 @@ made me more helpful to others. It’s made me enormously rich. You name it. Tha
 
 ---
 
-## Page 301
+Page 301
+
+## Acknowledgments
 
 Acknowledgments
 THANK YOU TO OUR KIDS, Eli and Ryan, for bearing with us while we were writing this book. Thank
@@ -9002,7 +9110,7 @@ Kaushik Viswanath. Thank you to Madé Dimas Wirawan for his illustrations.
 
 ---
 
-## Page 302
+Page 302
 
 Image Credits
 1: Adapted from The Avengers, dir. Joss Whedon (Marvel Studios, 2012).
@@ -9054,7 +9162,7 @@ out again . . . ,” Twitter, July 30, 2015, 4:29 A.M., https://twitter.com/khel
 
 ---
 
-## Page 303
+Page 303
 
 26: Cartoon by Mark Godfrey.
 27: Adapted from Craig Brown, “The Little Dipper and the Earth’s Tilt and Rotation,” Craig’s Sense of Wonder: Into
@@ -9111,7 +9219,7 @@ bias.png.
 
 ---
 
-## Page 304
+Page 304
 
 58: Stephen Pinker, The Better Angels of Our Nature (New York: Viking Books, 2011).
 59: Philip A. Mackowiak, Steven S. Wasserman, and Myron M. Levine, “A Critical Appraisal of 98.6°F, the Upper
@@ -9167,7 +9275,7 @@ level_Physics_(Advancing_Physics)/Resonance#/media/File:Resonant_frequency_ampli
 
 ---
 
-## Page 305
+Page 305
 
 87: Adapted from an illustration by Christoph Janz, “Three more ways to build a $100 million business,” The Angel VC
 (blog), November 4, 2014, https://christophjanz.blogspot.com/2014/11/three-more-ways-to-build-100-million.html.
@@ -9182,7 +9290,7 @@ https://petapixel.com/2017/03/03/latest-camera-sales-chart-reveals-death-compact
 
 ---
 
-## Page 306
+Page 306
 
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Index
@@ -9262,7 +9370,7 @@ Aztecs, 243–44
 
 ---
 
-## Page 307
+Page 307
 
 babies, 198, 279
 sleep and, 131–32
@@ -9359,7 +9467,7 @@ burning bridges, 243
 
 ---
 
-## Page 308
+Page 308
 
 burnout, 82, 83
 Burns, Robert, 49
@@ -9454,7 +9562,7 @@ commodities, 283
 
 ---
 
-## Page 309
+Page 309
 
 commons, 36–38, 43
 Common Sense (Paine), 221–22
@@ -9549,7 +9657,7 @@ debate, 225
 
 ---
 
-## Page 310
+Page 310
 
 decisions, 1–2, 11, 31, 127, 129, 131–33, 175, 209
 business case and, 207
@@ -9644,7 +9752,7 @@ education and schools, 224–25, 241, 296
 
 ---
 
-## Page 311
+Page 311
 
 expectations and, 267–68
 mindsets and, 267
@@ -9740,7 +9848,7 @@ false negative, 160–63, 165–67
 
 ---
 
-## Page 312
+Page 312
 
 false positive, 160–62, 164–66, 168–70, 172
 false sense of security, 44
@@ -9835,7 +9943,7 @@ good enough, 90
 
 ---
 
-## Page 313
+Page 313
 
 Goodhart, Charles, 49
 Goodhart’s law, 49, 51, 52, 54
@@ -9931,7 +10039,7 @@ house, see home
 
 ---
 
-## Page 314
+Page 314
 
 Housing First, 22
 Houston, Tex., 192
@@ -10024,7 +10132,7 @@ judicial rulings, 63, 144
 
 ---
 
-## Page 315
+Page 315
 
 Jurassic Park, 121
 justice, distributive versus procedural, 224–25
@@ -10065,7 +10173,7 @@ law of diminishing returns, 81–83
 
 ---
 
-## Page 316
+Page 316
 
 law of diminishing utility, 81–82
 law of inertia, 102–3, 105–8, 110, 112, 113, 119, 120, 129, 290, 296
@@ -10160,7 +10268,7 @@ mathematics, ix–x, 3, 4, 132, 178
 
 ---
 
-## Page 317
+Page 317
 
 Singapore math, 23–24
 matrices, 2 × 2, 125–26
@@ -10255,7 +10363,7 @@ Netflix, 69, 95, 203
 
 ---
 
-## Page 318
+Page 318
 
 net present value (NPV), 86, 181
 network effects, 117–20, 308
@@ -10348,7 +10456,7 @@ Pariser, Eli, 17
 
 ---
 
-## Page 319
+Page 319
 
 Parkinson, Cyril, 74–75, 89
 Parkinson’s law, 89
@@ -10445,7 +10553,7 @@ prisoners, 63, 232
 
 ---
 
-## Page 320
+Page 320
 
 prisoner’s dilemma, 212–14, 226, 234–35, 244
 privacy, 55
@@ -10538,7 +10646,7 @@ rise to the occasion, 268
 
 ---
 
-## Page 321
+Page 321
 
 risk, 43, 46, 90, 288
 cost-benefit analysis and, 180
@@ -10634,7 +10742,7 @@ slippery slope argument, 235
 
 ---
 
-## Page 322
+Page 322
 
 slow (high-concentration) thinking, 30, 33, 70–71
 small numbers, law of, 143, 144
@@ -10732,7 +10840,7 @@ Surowiecki, James, 203–5
 
 ---
 
-## Page 323
+Page 323
 
 surrogate endpoint, 137
 surveys, see polls and surveys
@@ -10828,7 +10936,7 @@ trying too hard, 82
 
 ---
 
-## Page 324
+Page 324
 
 Tsushima, Battle of, 241
 Tupperware, 217
@@ -10920,7 +11028,7 @@ Wisdom of Crowds, The (Surowiecki), 203–5
 
 ---
 
-## Page 325
+Page 325
 
 work, expansion of, 89
 World War I, 70
@@ -10943,7 +11051,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 ---
 
-## Page 326
+Page 326
 
 About the Authors
 GABRIEL WEINBERG is the CEO and founder of DuckDuckGo, the internet privacy company and
@@ -10956,7 +11064,7 @@ operations research and a BS with honors in mathematics from MIT.
 
 ---
 
-## Page 327
+Page 327
 
 What’s next on
 your reading list?
@@ -10967,7 +11075,7 @@ Sign up now.
 
 ---
 
-## Page 328
+Page 328
 
 Table of Contents
 Cover
@@ -11010,7 +11118,7 @@ Taming Complexity
 
 ---
 
-## Page 329
+Page 329
 
 Beware of Unknown Unknowns
 CHAPTER SEVEN: Dealing with Conflict
