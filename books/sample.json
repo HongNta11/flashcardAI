@@ -1,0 +1,42 @@
+{
+  "book": "sample",
+  "generated_at": "2026-04-19T00:00:00Z",
+  "cards": [
+    {
+      "id": "sample-001",
+      "question": "According to the principles of clean functions, what should you do if a function tries to accomplish multiple distinct tasks?",
+      "options": [
+        "Extract each concern into its own function",
+        "Add comments to explain what each part does",
+        "Use longer function names to describe all tasks",
+        "Create a master function that calls them in sequence"
+      ],
+      "correct_answer": "Extract each concern into its own function",
+      "explanation": "The text explicitly states that if a function does more than one thing, you should extract each concern into its own function. Small functions are easier to name, test, and understand. Breaking concerns into separate functions follows the single responsibility principle."
+    },
+    {
+      "id": "sample-002",
+      "question": "What is a side effect in the context of function design?",
+      "options": [
+        "An unexpected error message that appears in the console",
+        "A hidden action a function takes beyond its stated purpose",
+        "A function that returns more than one value",
+        "A variable that is modified inside a function"
+      ],
+      "correct_answer": "A hidden action a function takes beyond its stated purpose",
+      "explanation": "The text defines side effects as hidden actions a function takes beyond its stated purpose. The example given is a function named checkPassword that also initializes a session—the session initialization is a hidden side effect not suggested by the function's name."
+    },
+    {
+      "id": "sample-003",
+      "question": "Why should variable names like 'd' with an explanatory comment be renamed to something more descriptive like 'elapsedTimeInDays'?",
+      "options": [
+        "To comply with programming language naming standards",
+        "Because longer names make the code run faster",
+        "So the name reveals intent and makes the comment unnecessary",
+        "To avoid using single-letter variables which are forbidden"
+      ],
+      "correct_answer": "So the name reveals intent and makes the comment unnecessary",
+      "explanation": "The text states that names should reveal intent, and a variable named 'd' with a comment 'elapsed time in days' should be renamed to elapsedTimeInDays. The principle is that the name itself should make the comment unnecessary by being self-documenting and clear."
+    }
+  ]
+}
