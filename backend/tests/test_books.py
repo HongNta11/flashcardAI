@@ -31,6 +31,22 @@ def test_list_books_shows_progress(client, sample_book, db_path, auth_headers):
     assert books[0]["progress_pct"] == 50
 
 
+def test_list_books_progress_is_per_user(client, sample_book, db_path, auth_headers):
+    conn = sqlite3.connect(db_path)
+    # Insert progress for a different user
+    conn.execute(
+        "INSERT INTO progress (user_token, book_id, card_id, correct) VALUES (?,?,?,?)",
+        ("other-user", "test-book", "tb-002", 1),
+    )
+    conn.commit()
+    conn.close()
+
+    response = client.get("/books", headers=auth_headers)
+    books = response.json()["books"]
+    # other-user's progress must not inflate test-token's progress_pct
+    assert books[0]["progress_pct"] == 0
+
+
 def test_get_cards_returns_cards(client, sample_book, auth_headers):
     response = client.get("/books/test-book/cards", headers=auth_headers)
     assert response.status_code == 200

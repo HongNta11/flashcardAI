@@ -22,21 +22,25 @@ def list_books(
     books_dir.mkdir(parents=True, exist_ok=True)
     result = []
     for json_file in sorted(books_dir.glob("*.json")):
-        book_id = json_file.stem
-        data = json.loads(json_file.read_text())
-        total = len(data["cards"])
-        row = db.execute(
-            "SELECT COUNT(DISTINCT card_id) AS reviewed FROM progress WHERE book_id = ?",
-            (book_id,),
-        ).fetchone()
-        reviewed = row["reviewed"] if row else 0
-        progress_pct = round(reviewed / total * 100) if total > 0 else 0
-        result.append({
-            "id": book_id,
-            "title": book_id.replace("-", " ").title(),
-            "card_count": total,
-            "progress_pct": progress_pct,
-        })
+        try:
+            book_id = json_file.stem
+            data = json.loads(json_file.read_text(encoding="utf-8"))
+            total = len(data["cards"])
+            row = db.execute(
+                "SELECT COUNT(DISTINCT card_id) AS reviewed FROM progress "
+                "WHERE user_token = ? AND book_id = ?",
+                (token, book_id),
+            ).fetchone()
+            reviewed = row["reviewed"] if row else 0
+            progress_pct = round(reviewed / total * 100) if total > 0 else 0
+            result.append({
+                "id": book_id,
+                "title": book_id.replace("-", " ").title(),
+                "card_count": total,
+                "progress_pct": progress_pct,
+            })
+        except (json.JSONDecodeError, KeyError):
+            continue
     return {"books": result}
 
 
@@ -49,4 +53,4 @@ def get_cards(
     json_file = books_dir / f"{book_id}.json"
     if not json_file.exists():
         raise HTTPException(status_code=404, detail="Book not found")
-    return json.loads(json_file.read_text())
+    return json.loads(json_file.read_text(encoding="utf-8"))
