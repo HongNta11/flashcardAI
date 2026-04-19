@@ -6,8 +6,8 @@ REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
 echo "==> Pulling latest master..."
 git -C "$REPO_DIR" pull origin master
 
-echo "==> Installing backend dependencies..."
-"$REPO_DIR/backend/.venv/bin/pip" install -r "$REPO_DIR/backend/requirements.txt" -q
+echo "==> Syncing backend dependencies (uv)..."
+(cd "$REPO_DIR/backend" && uv sync --frozen --quiet)
 
 echo "==> Restarting backend service..."
 sudo systemctl restart flashcard-ai
