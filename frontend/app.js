@@ -322,7 +322,7 @@ function Quiz({ book, onFinish, onBack }) {
             <button
               onClick=${next}
               style="width:100%;padding:14px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:1rem;cursor:pointer"
-            >${index + 1 < deck.length ? 'Next Card →' : 'See Results'}</button>
+            >${nextIndex(index) !== null ? 'Next Card →' : 'See Results'}</button>
           </div>
 
         </div>
