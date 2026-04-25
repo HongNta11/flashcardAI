@@ -6,6 +6,16 @@ import { cacheCards, getCachedCards, queueProgress, flushProgressQueue } from '.
 
 const html = htm.bind(h);
 
+function randomUUID() {
+  if (crypto.randomUUID) return crypto.randomUUID();
+  const b = new Uint8Array(16);
+  crypto.getRandomValues(b);
+  b[6] = (b[6] & 0x0f) | 0x40;
+  b[8] = (b[8] & 0x3f) | 0x80;
+  const h = [...b].map((x) => x.toString(16).padStart(2, '0')).join('');
+  return `${h.slice(0,8)}-${h.slice(8,12)}-${h.slice(12,16)}-${h.slice(16,20)}-${h.slice(20)}`;
+}
+
 // ── Token Gate ────────────────────────────────────────────────────────────────
 function TokenGate({ onAuth }) {
   const [value, setValue] = useState('');
@@ -91,7 +101,7 @@ function Quiz({ book, onFinish, onBack }) {
   const [selectedSections, setSelectedSections] = useState(null);
   const [pendingSections, setPendingSections] = useState(null);
   const [showChapters, setShowChapters] = useState(false);
-  const [sessionId, setSessionId] = useState(() => crypto.randomUUID());
+  const [sessionId, setSessionId] = useState(() => randomUUID());
   const [answered, setAnswered] = useState(false);
 
   useEffect(() => {
@@ -159,7 +169,7 @@ function Quiz({ book, onFinish, onBack }) {
     setAnswered(false);
     setScore(0);
     setShowChapters(false);
-    setSessionId(crypto.randomUUID());
+    setSessionId(randomUUID());
   }
 
   function applyAll() {
@@ -170,7 +180,7 @@ function Quiz({ book, onFinish, onBack }) {
     setAnswered(false);
     setScore(0);
     setShowChapters(false);
-    setSessionId(crypto.randomUUID());
+    setSessionId(randomUUID());
   }
 
   async function handleSelect(option) {
