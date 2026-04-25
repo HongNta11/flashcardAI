@@ -90,7 +90,7 @@ function shuffle(arr) {
   return a;
 }
 
-function Quiz({ book, onFinish, onBack }) {
+function Quiz({ book, onBack }) {
   const [cards, setCards] = useState(null);
   const [index, setIndex] = useState(0);
   const [optionsByIndex, setOptionsByIndex] = useState([]);
@@ -104,6 +104,7 @@ function Quiz({ book, onFinish, onBack }) {
   const [showChapters, setShowChapters] = useState(false);
   const [sessionId, setSessionId] = useState(() => randomUUID());
   const [reviewing, setReviewing] = useState(false);
+  const [phase, setPhase] = useState('playing');
 
   useEffect(() => {
     async function load() {
@@ -157,6 +158,23 @@ function Quiz({ book, onFinish, onBack }) {
     : [];
   const card = deck?.[index];
   if (!card) return html`<p style="padding:24px;color:var(--text-muted)">No cards in selection.</p>`;
+
+  if (phase === 'end') {
+    const skipped = answeredFlags.filter((x) => !x).length;
+    return html`<${EndScreen}
+      result=${{ score, total: deck.length, skipped }}
+      book=${book}
+      onReview=${() => {
+        setCards(shuffle(cards));
+        setIndex(0);
+        setScore(0);
+        setSessionId(randomUUID());
+        setPhase('playing');
+      }}
+      onBack=${onBack}
+    />`;
+  }
+
   const isCorrect = selections[index] === card.correct_answer;
 
   function openChapters() {
@@ -232,11 +250,7 @@ function Quiz({ book, onFinish, onBack }) {
   function next() {
     const i = nextIndex(index);
     if (i === null) {
-      onFinish({
-        score,
-        total: deck.length,
-        skipped: answeredFlags.filter((x) => !x).length,
-      });
+      setPhase('end');
       return;
     }
     setIndex(i);
@@ -401,7 +415,6 @@ function App() {
   const [authed, setAuthed] = useState(!!getToken());
   const [screen, setScreen] = useState('books');
   const [selectedBook, setSelectedBook] = useState(null);
-  const [quizResult, setQuizResult] = useState(null);
 
   if (!authed) {
     return html`<${TokenGate} onAuth=${() => setAuthed(true)} />`;
@@ -417,16 +430,6 @@ function App() {
   if (screen === 'quiz') {
     return html`<${Quiz}
       book=${selectedBook}
-      onFinish=${(result) => { setQuizResult(result); setScreen('end'); }}
-      onBack=${() => { setSelectedBook(null); setScreen('books'); }}
-    />`;
-  }
-
-  if (screen === 'end') {
-    return html`<${EndScreen}
-      result=${quizResult}
-      book=${selectedBook}
-      onReview=${() => setScreen('quiz')}
       onBack=${() => { setSelectedBook(null); setScreen('books'); }}
     />`;
   }
