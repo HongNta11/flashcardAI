@@ -213,9 +213,38 @@ function Quiz({ book, onFinish, onBack }) {
     }
   }
 
-  function advance() {
-    if (index + 1 < deck.length) setIndex((i) => i + 1);
-    else onFinish({ score, total: deck.length });
+  function nextIndex(from) {
+    if (!reviewing) return from + 1 < deck.length ? from + 1 : null;
+    for (let i = from + 1; i < deck.length; i++) {
+      if (!answeredFlags[i]) return i;
+    }
+    return null;
+  }
+
+  function prevIndex(from) {
+    if (!reviewing) return from > 0 ? from - 1 : null;
+    for (let i = from - 1; i >= 0; i--) {
+      if (!answeredFlags[i]) return i;
+    }
+    return null;
+  }
+
+  function next() {
+    const i = nextIndex(index);
+    if (i === null) {
+      onFinish({
+        score,
+        total: deck.length,
+        skipped: answeredFlags.filter((x) => !x).length,
+      });
+      return;
+    }
+    setIndex(i);
+  }
+
+  function back() {
+    const i = prevIndex(index);
+    if (i !== null) setIndex(i);
   }
 
   return html`
@@ -263,6 +292,17 @@ function Quiz({ book, onFinish, onBack }) {
                 `;
               })}
             </div>
+            <div style="display:flex;gap:10px;margin-top:14px">
+              <button
+                onClick=${back}
+                disabled=${prevIndex(index) === null}
+                style="flex:1;padding:12px;background:var(--surface);color:${prevIndex(index) === null ? 'var(--text-muted)' : 'var(--accent)'};border:1px solid ${prevIndex(index) === null ? '#dde3f5' : 'var(--accent)'};border-radius:var(--radius);font-size:0.95rem;cursor:${prevIndex(index) === null ? 'default' : 'pointer'}"
+              >← Back</button>
+              <button
+                onClick=${next}
+                style="flex:1;padding:12px;background:var(--surface);color:var(--accent);border:1px solid var(--accent);border-radius:var(--radius);font-size:0.95rem;cursor:pointer"
+              >Next →</button>
+            </div>
           </div>
 
           <div class="card-face card-face-back">
@@ -280,7 +320,7 @@ function Quiz({ book, onFinish, onBack }) {
               style="width:100%;padding:14px;background:var(--surface);color:var(--accent);border:1px solid var(--accent);border-radius:var(--radius);font-size:1rem;cursor:pointer;margin-bottom:10px"
             >← Question</button>
             <button
-              onClick=${advance}
+              onClick=${next}
               style="width:100%;padding:14px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:1rem;cursor:pointer"
             >${index + 1 < deck.length ? 'Next Card →' : 'See Results'}</button>
           </div>
