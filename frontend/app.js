@@ -1,5 +1,5 @@
 import { h, render } from 'https://esm.sh/preact@10';
-import { useState, useEffect } from 'https://esm.sh/preact@10/hooks';
+import { useState, useEffect, useMemo } from 'https://esm.sh/preact@10/hooks';
 import htm from 'https://esm.sh/htm@3';
 import { api, getToken, setToken } from './api.js';
 import { cacheCards, getCachedCards, queueProgress, flushProgressQueue } from './idb.js';
@@ -109,13 +109,20 @@ function Quiz({ book, onFinish, onBack }) {
     load();
   }, [book.id]);
 
+  const deck = useMemo(() => {
+    if (!cards) return null;
+    return selectedSections
+      ? cards.filter((c) => selectedSections.includes(c.section))
+      : cards;
+  }, [cards, selectedSections]);
+
   useEffect(() => {
-    if (cards && cards[index]) {
-      setShuffledOptions(shuffle(cards[index].options));
+    if (deck && deck[index]) {
+      setShuffledOptions(shuffle(deck[index].options));
       setSelected(null);
       setFlipped(false);
     }
-  }, [cards, index]);
+  }, [deck, index]);
 
   useEffect(() => {
     if (navigator.onLine) {
@@ -131,10 +138,7 @@ function Quiz({ book, onFinish, onBack }) {
   const sections = cards[0]?.section
     ? [...new Set(cards.map((c) => c.section))]
     : [];
-  const deck = selectedSections
-    ? cards.filter((c) => selectedSections.includes(c.section))
-    : cards;
-  const card = deck[index];
+  const card = deck?.[index];
   if (!card) return html`<p style="padding:24px;color:var(--text-muted)">No cards in selection.</p>`;
   const isCorrect = selected === card.correct_answer;
 
