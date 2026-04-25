@@ -136,6 +136,7 @@ function Quiz({ book, onBack }) {
     setSelections(new Array(deck.length).fill(null));
     setAnsweredFlags(new Array(deck.length).fill(false));
     setReviewing(false);
+    setPhase('playing');
   }, [deck]);
 
   useEffect(() => {
