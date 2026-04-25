@@ -90,11 +90,12 @@ function shuffle(arr) {
   return a;
 }
 
-function Quiz({ book, onFinish, onBack }) {
+function Quiz({ book, onBack }) {
   const [cards, setCards] = useState(null);
   const [index, setIndex] = useState(0);
-  const [shuffledOptions, setShuffledOptions] = useState([]);
-  const [selected, setSelected] = useState(null);
+  const [optionsByIndex, setOptionsByIndex] = useState([]);
+  const [selections, setSelections] = useState([]);
+  const [answeredFlags, setAnsweredFlags] = useState([]);
   const [flipped, setFlipped] = useState(false);
   const [score, setScore] = useState(0);
   const [error, setError] = useState(null);
@@ -102,7 +103,8 @@ function Quiz({ book, onFinish, onBack }) {
   const [pendingSections, setPendingSections] = useState(null);
   const [showChapters, setShowChapters] = useState(false);
   const [sessionId, setSessionId] = useState(() => randomUUID());
-  const [answered, setAnswered] = useState(false);
+  const [reviewing, setReviewing] = useState(false);
+  const [phase, setPhase] = useState('playing');
 
   useEffect(() => {
     async function load() {
@@ -129,13 +131,17 @@ function Quiz({ book, onFinish, onBack }) {
   }, [cards, selectedSections]);
 
   useEffect(() => {
-    if (deck && deck[index]) {
-      setShuffledOptions(shuffle(deck[index].options));
-      setSelected(null);
-      setFlipped(false);
-      setAnswered(false);
-    }
-  }, [deck, index]);
+    if (!deck) return;
+    setOptionsByIndex(deck.map((c) => shuffle(c.options)));
+    setSelections(new Array(deck.length).fill(null));
+    setAnsweredFlags(new Array(deck.length).fill(false));
+    setReviewing(false);
+    setPhase('playing');
+  }, [deck]);
+
+  useEffect(() => {
+    setFlipped(false);
+  }, [index]);
 
   useEffect(() => {
     if (navigator.onLine) {
@@ -153,7 +159,32 @@ function Quiz({ book, onFinish, onBack }) {
     : [];
   const card = deck?.[index];
   if (!card) return html`<p style="padding:24px;color:var(--text-muted)">No cards in selection.</p>`;
-  const isCorrect = selected === card.correct_answer;
+
+  if (phase === 'end') {
+    const skipped = answeredFlags.filter((x) => !x).length;
+    return html`<${EndScreen}
+      result=${{ score, total: deck.length, skipped }}
+      book=${book}
+      onReview=${() => {
+        setCards(shuffle(cards));
+        setIndex(0);
+        setScore(0);
+        setSessionId(randomUUID());
+        setPhase('playing');
+      }}
+      onReviewSkipped=${() => {
+        const firstUnanswered = answeredFlags.findIndex((x) => !x);
+        if (firstUnanswered === -1) return;
+        setReviewing(true);
+        setIndex(firstUnanswered);
+        setSessionId(randomUUID());
+        setPhase('playing');
+      }}
+      onBack=${onBack}
+    />`;
+  }
+
+  const isCorrect = selections[index] === card.correct_answer;
 
   function openChapters() {
     setPendingSections(selectedSections ? [...selectedSections] : null);
@@ -164,9 +195,7 @@ function Quiz({ book, onFinish, onBack }) {
     if (pendingSections !== null && pendingSections.length === 0) return;
     setSelectedSections(pendingSections);
     setIndex(0);
-    setSelected(null);
     setFlipped(false);
-    setAnswered(false);
     setScore(0);
     setShowChapters(false);
     setSessionId(randomUUID());
@@ -175,21 +204,31 @@ function Quiz({ book, onFinish, onBack }) {
   function applyAll() {
     setSelectedSections(null);
     setIndex(0);
-    setSelected(null);
     setFlipped(false);
-    setAnswered(false);
     setScore(0);
     setShowChapters(false);
     setSessionId(randomUUID());
   }
 
   async function handleSelect(option) {
-    if (answered) {
-      setSelected(option);
+    if (answeredFlags[index]) {
+      setSelections((prev) => {
+        const copy = [...prev];
+        copy[index] = option;
+        return copy;
+      });
       return;
     }
-    setAnswered(true);
-    setSelected(option);
+    setAnsweredFlags((prev) => {
+      const copy = [...prev];
+      copy[index] = true;
+      return copy;
+    });
+    setSelections((prev) => {
+      const copy = [...prev];
+      copy[index] = option;
+      return copy;
+    });
     const correct = option === card.correct_answer;
     if (correct) setScore((s) => s + 1);
     setTimeout(() => setFlipped(true), 120);
@@ -201,9 +240,34 @@ function Quiz({ book, onFinish, onBack }) {
     }
   }
 
-  function advance() {
-    if (index + 1 < deck.length) setIndex((i) => i + 1);
-    else onFinish({ score, total: deck.length });
+  function nextIndex(from) {
+    if (!reviewing) return from + 1 < deck.length ? from + 1 : null;
+    for (let i = from + 1; i < deck.length; i++) {
+      if (!answeredFlags[i]) return i;
+    }
+    return null;
+  }
+
+  function prevIndex(from) {
+    if (!reviewing) return from > 0 ? from - 1 : null;
+    for (let i = from - 1; i >= 0; i--) {
+      if (!answeredFlags[i]) return i;
+    }
+    return null;
+  }
+
+  function next() {
+    const i = nextIndex(index);
+    if (i === null) {
+      setPhase('end');
+      return;
+    }
+    setIndex(i);
+  }
+
+  function back() {
+    const i = prevIndex(index);
+    if (i !== null) setIndex(i);
   }
 
   return html`
@@ -239,9 +303,9 @@ function Quiz({ book, onFinish, onBack }) {
           <div class="card-face">
             <p style="font-size:1.05rem;line-height:1.6;margin-bottom:20px">${card.question}</p>
             <div style="display:flex;flex-direction:column;gap:10px">
-              ${shuffledOptions.map((opt) => {
-                const isCorrectOpt = answered && opt === card.correct_answer;
-                const isWrongOpt = answered && opt === selected && opt !== card.correct_answer;
+              ${optionsByIndex[index]?.map((opt) => {
+                const isCorrectOpt = answeredFlags[index] && opt === card.correct_answer;
+                const isWrongOpt = answeredFlags[index] && opt === selections[index] && opt !== card.correct_answer;
                 return html`
                   <button
                     key=${opt}
@@ -250,6 +314,17 @@ function Quiz({ book, onFinish, onBack }) {
                   >${opt}</button>
                 `;
               })}
+            </div>
+            <div style="display:flex;gap:10px;margin-top:14px">
+              <button
+                onClick=${back}
+                disabled=${prevIndex(index) === null}
+                style="flex:1;padding:12px;background:var(--surface);color:${prevIndex(index) === null ? 'var(--text-muted)' : 'var(--accent)'};border:1px solid ${prevIndex(index) === null ? '#dde3f5' : 'var(--accent)'};border-radius:var(--radius);font-size:0.95rem;cursor:${prevIndex(index) === null ? 'default' : 'pointer'}"
+              >← Back</button>
+              <button
+                onClick=${next}
+                style="flex:1;padding:12px;background:var(--surface);color:var(--accent);border:1px solid var(--accent);border-radius:var(--radius);font-size:0.95rem;cursor:pointer"
+              >Next →</button>
             </div>
           </div>
 
@@ -264,13 +339,13 @@ function Quiz({ book, onFinish, onBack }) {
             `}
             <p style="line-height:1.6;font-size:0.95rem;color:var(--text-muted);margin-bottom:24px">${card.explanation}</p>
             <button
-              onClick=${() => { setFlipped(false); setSelected(null); }}
+              onClick=${() => setFlipped(false)}
               style="width:100%;padding:14px;background:var(--surface);color:var(--accent);border:1px solid var(--accent);border-radius:var(--radius);font-size:1rem;cursor:pointer;margin-bottom:10px"
             >← Question</button>
             <button
-              onClick=${advance}
+              onClick=${next}
               style="width:100%;padding:14px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:1rem;cursor:pointer"
-            >${index + 1 < deck.length ? 'Next Card →' : 'See Results'}</button>
+            >${nextIndex(index) !== null ? 'Next Card →' : 'See Results'}</button>
           </div>
 
         </div>
@@ -324,7 +399,7 @@ function Quiz({ book, onFinish, onBack }) {
 }
 
 // ── End Screen ────────────────────────────────────────────────────────────────
-function EndScreen({ result, book, onReview, onBack }) {
+function EndScreen({ result, book, onReview, onReviewSkipped, onBack }) {
   const pct = Math.round((result.score / result.total) * 100);
   const emoji = pct >= 80 ? '🎉' : pct >= 50 ? '👍' : '📖';
   return html`
@@ -336,6 +411,12 @@ function EndScreen({ result, book, onReview, onBack }) {
         onClick=${onReview}
         style="padding:14px 0;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:1rem;cursor:pointer;width:100%;max-width:300px"
       >Review Again</button>
+      ${result.skipped > 0 && html`
+        <button
+          onClick=${onReviewSkipped}
+          style="padding:14px 0;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:1rem;cursor:pointer;width:100%;max-width:300px"
+        >Review skipped (${result.skipped})</button>
+      `}
       <button
         onClick=${onBack}
         style="padding:14px 0;background:var(--surface);color:var(--text);border:1px solid var(--accent);border-radius:var(--radius);font-size:1rem;cursor:pointer;width:100%;max-width:300px"
@@ -349,7 +430,6 @@ function App() {
   const [authed, setAuthed] = useState(!!getToken());
   const [screen, setScreen] = useState('books');
   const [selectedBook, setSelectedBook] = useState(null);
-  const [quizResult, setQuizResult] = useState(null);
 
   if (!authed) {
     return html`<${TokenGate} onAuth=${() => setAuthed(true)} />`;
@@ -365,16 +445,6 @@ function App() {
   if (screen === 'quiz') {
     return html`<${Quiz}
       book=${selectedBook}
-      onFinish=${(result) => { setQuizResult(result); setScreen('end'); }}
-      onBack=${() => { setSelectedBook(null); setScreen('books'); }}
-    />`;
-  }
-
-  if (screen === 'end') {
-    return html`<${EndScreen}
-      result=${quizResult}
-      book=${selectedBook}
-      onReview=${() => setScreen('quiz')}
       onBack=${() => { setSelectedBook(null); setScreen('books'); }}
     />`;
   }
