@@ -93,8 +93,9 @@ function shuffle(arr) {
 function Quiz({ book, onFinish, onBack }) {
   const [cards, setCards] = useState(null);
   const [index, setIndex] = useState(0);
-  const [shuffledOptions, setShuffledOptions] = useState([]);
-  const [selected, setSelected] = useState(null);
+  const [optionsByIndex, setOptionsByIndex] = useState([]);
+  const [selections, setSelections] = useState([]);
+  const [answeredFlags, setAnsweredFlags] = useState([]);
   const [flipped, setFlipped] = useState(false);
   const [score, setScore] = useState(0);
   const [error, setError] = useState(null);
@@ -102,7 +103,7 @@ function Quiz({ book, onFinish, onBack }) {
   const [pendingSections, setPendingSections] = useState(null);
   const [showChapters, setShowChapters] = useState(false);
   const [sessionId, setSessionId] = useState(() => randomUUID());
-  const [answered, setAnswered] = useState(false);
+  const [reviewing, setReviewing] = useState(false);
 
   useEffect(() => {
     async function load() {
@@ -129,13 +130,16 @@ function Quiz({ book, onFinish, onBack }) {
   }, [cards, selectedSections]);
 
   useEffect(() => {
-    if (deck && deck[index]) {
-      setShuffledOptions(shuffle(deck[index].options));
-      setSelected(null);
-      setFlipped(false);
-      setAnswered(false);
-    }
-  }, [deck, index]);
+    if (!deck) return;
+    setOptionsByIndex(deck.map((c) => shuffle(c.options)));
+    setSelections(new Array(deck.length).fill(null));
+    setAnsweredFlags(new Array(deck.length).fill(false));
+    setReviewing(false);
+  }, [deck]);
+
+  useEffect(() => {
+    setFlipped(false);
+  }, [index]);
 
   useEffect(() => {
     if (navigator.onLine) {
@@ -153,7 +157,7 @@ function Quiz({ book, onFinish, onBack }) {
     : [];
   const card = deck?.[index];
   if (!card) return html`<p style="padding:24px;color:var(--text-muted)">No cards in selection.</p>`;
-  const isCorrect = selected === card.correct_answer;
+  const isCorrect = selections[index] === card.correct_answer;
 
   function openChapters() {
     setPendingSections(selectedSections ? [...selectedSections] : null);
@@ -164,9 +168,7 @@ function Quiz({ book, onFinish, onBack }) {
     if (pendingSections !== null && pendingSections.length === 0) return;
     setSelectedSections(pendingSections);
     setIndex(0);
-    setSelected(null);
     setFlipped(false);
-    setAnswered(false);
     setScore(0);
     setShowChapters(false);
     setSessionId(randomUUID());
@@ -175,21 +177,31 @@ function Quiz({ book, onFinish, onBack }) {
   function applyAll() {
     setSelectedSections(null);
     setIndex(0);
-    setSelected(null);
     setFlipped(false);
-    setAnswered(false);
     setScore(0);
     setShowChapters(false);
     setSessionId(randomUUID());
   }
 
   async function handleSelect(option) {
-    if (answered) {
-      setSelected(option);
+    if (answeredFlags[index]) {
+      setSelections((prev) => {
+        const copy = [...prev];
+        copy[index] = option;
+        return copy;
+      });
       return;
     }
-    setAnswered(true);
-    setSelected(option);
+    setAnsweredFlags((prev) => {
+      const copy = [...prev];
+      copy[index] = true;
+      return copy;
+    });
+    setSelections((prev) => {
+      const copy = [...prev];
+      copy[index] = option;
+      return copy;
+    });
     const correct = option === card.correct_answer;
     if (correct) setScore((s) => s + 1);
     setTimeout(() => setFlipped(true), 120);
@@ -239,9 +251,9 @@ function Quiz({ book, onFinish, onBack }) {
           <div class="card-face">
             <p style="font-size:1.05rem;line-height:1.6;margin-bottom:20px">${card.question}</p>
             <div style="display:flex;flex-direction:column;gap:10px">
-              ${shuffledOptions.map((opt) => {
-                const isCorrectOpt = answered && opt === card.correct_answer;
-                const isWrongOpt = answered && opt === selected && opt !== card.correct_answer;
+              ${optionsByIndex[index]?.map((opt) => {
+                const isCorrectOpt = answeredFlags[index] && opt === card.correct_answer;
+                const isWrongOpt = answeredFlags[index] && opt === selections[index] && opt !== card.correct_answer;
                 return html`
                   <button
                     key=${opt}
@@ -264,7 +276,7 @@ function Quiz({ book, onFinish, onBack }) {
             `}
             <p style="line-height:1.6;font-size:0.95rem;color:var(--text-muted);margin-bottom:24px">${card.explanation}</p>
             <button
-              onClick=${() => { setFlipped(false); setSelected(null); }}
+              onClick=${() => setFlipped(false)}
               style="width:100%;padding:14px;background:var(--surface);color:var(--accent);border:1px solid var(--accent);border-radius:var(--radius);font-size:1rem;cursor:pointer;margin-bottom:10px"
             >← Question</button>
             <button
