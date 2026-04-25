@@ -91,6 +91,8 @@ function Quiz({ book, onFinish, onBack }) {
   const [selectedSections, setSelectedSections] = useState(null);
   const [pendingSections, setPendingSections] = useState(null);
   const [showChapters, setShowChapters] = useState(false);
+  const [sessionId, setSessionId] = useState(() => crypto.randomUUID());
+  const [answered, setAnswered] = useState(false);
 
   useEffect(() => {
     async function load() {
@@ -121,13 +123,14 @@ function Quiz({ book, onFinish, onBack }) {
       setShuffledOptions(shuffle(deck[index].options));
       setSelected(null);
       setFlipped(false);
+      setAnswered(false);
     }
   }, [deck, index]);
 
   useEffect(() => {
     if (navigator.onLine) {
-      flushProgressQueue(({ bookId, cardId, correct }) =>
-        api.saveProgress(bookId, cardId, correct)
+      flushProgressQueue(({ bookId, cardId, correct, sessionId: qSessionId }) =>
+        api.saveProgress(bookId, cardId, correct, qSessionId)
       ).catch(() => {});
     }
   }, []);
@@ -153,8 +156,10 @@ function Quiz({ book, onFinish, onBack }) {
     setIndex(0);
     setSelected(null);
     setFlipped(false);
+    setAnswered(false);
     setScore(0);
     setShowChapters(false);
+    setSessionId(crypto.randomUUID());
   }
 
   function applyAll() {
@@ -162,19 +167,25 @@ function Quiz({ book, onFinish, onBack }) {
     setIndex(0);
     setSelected(null);
     setFlipped(false);
+    setAnswered(false);
     setScore(0);
     setShowChapters(false);
+    setSessionId(crypto.randomUUID());
   }
 
   async function handleSelect(option) {
-    if (selected) return;
+    if (answered) {
+      setSelected(option);
+      return;
+    }
+    setAnswered(true);
     setSelected(option);
     const correct = option === card.correct_answer;
     if (correct) setScore((s) => s + 1);
     setTimeout(() => setFlipped(true), 120);
-    const entry = { bookId: book.id, cardId: card.id, correct };
+    const entry = { bookId: book.id, cardId: card.id, correct, sessionId };
     if (navigator.onLine) {
-      api.saveProgress(book.id, card.id, correct).catch(() => queueProgress(entry));
+      api.saveProgress(book.id, card.id, correct, sessionId).catch(() => queueProgress(entry));
     } else {
       await queueProgress(entry);
     }
@@ -219,13 +230,13 @@ function Quiz({ book, onFinish, onBack }) {
             <p style="font-size:1.05rem;line-height:1.6;margin-bottom:20px">${card.question}</p>
             <div style="display:flex;flex-direction:column;gap:10px">
               ${shuffledOptions.map((opt) => {
-                const isCorrectOpt = selected && opt === card.correct_answer;
-                const isWrongOpt = selected && opt === selected && opt !== card.correct_answer;
+                const isCorrectOpt = answered && opt === card.correct_answer;
+                const isWrongOpt = answered && opt === selected && opt !== card.correct_answer;
                 return html`
                   <button
                     key=${opt}
                     onClick=${() => handleSelect(opt)}
-                    style="padding:14px 16px;border-radius:var(--radius);border:1px solid ${isCorrectOpt ? 'var(--correct)' : isWrongOpt ? 'var(--wrong)' : 'var(--accent)'};cursor:${selected ? 'default' : 'pointer'};text-align:left;font-size:1rem;transition:background 0.15s;background:${isCorrectOpt ? '#dcfce7' : isWrongOpt ? '#fee2e2' : 'var(--surface)'};color:var(--text)"
+                    style="padding:14px 16px;border-radius:var(--radius);border:1px solid ${isCorrectOpt ? 'var(--correct)' : isWrongOpt ? 'var(--wrong)' : 'var(--accent)'};cursor:pointer;text-align:left;font-size:1rem;transition:background 0.15s;background:${isCorrectOpt ? '#dcfce7' : isWrongOpt ? '#fee2e2' : 'var(--surface)'};color:var(--text)"
                   >${opt}</button>
                 `;
               })}
@@ -243,7 +254,7 @@ function Quiz({ book, onFinish, onBack }) {
             `}
             <p style="line-height:1.6;font-size:0.95rem;color:var(--text-muted);margin-bottom:24px">${card.explanation}</p>
             <button
-              onClick=${() => setFlipped(false)}
+              onClick=${() => { setFlipped(false); setSelected(null); }}
               style="width:100%;padding:14px;background:var(--surface);color:var(--accent);border:1px solid var(--accent);border-radius:var(--radius);font-size:1rem;cursor:pointer;margin-bottom:10px"
             >← Question</button>
             <button
