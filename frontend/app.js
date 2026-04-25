@@ -172,6 +172,14 @@ function Quiz({ book, onBack }) {
         setSessionId(randomUUID());
         setPhase('playing');
       }}
+      onReviewSkipped=${() => {
+        const firstUnanswered = answeredFlags.findIndex((x) => !x);
+        if (firstUnanswered === -1) return;
+        setReviewing(true);
+        setIndex(firstUnanswered);
+        setSessionId(randomUUID());
+        setPhase('playing');
+      }}
       onBack=${onBack}
     />`;
   }
@@ -391,7 +399,7 @@ function Quiz({ book, onBack }) {
 }
 
 // ── End Screen ────────────────────────────────────────────────────────────────
-function EndScreen({ result, book, onReview, onBack }) {
+function EndScreen({ result, book, onReview, onReviewSkipped, onBack }) {
   const pct = Math.round((result.score / result.total) * 100);
   const emoji = pct >= 80 ? '🎉' : pct >= 50 ? '👍' : '📖';
   return html`
@@ -403,6 +411,12 @@ function EndScreen({ result, book, onReview, onBack }) {
         onClick=${onReview}
         style="padding:14px 0;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:1rem;cursor:pointer;width:100%;max-width:300px"
       >Review Again</button>
+      ${result.skipped > 0 && html`
+        <button
+          onClick=${onReviewSkipped}
+          style="padding:14px 0;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:1rem;cursor:pointer;width:100%;max-width:300px"
+        >Review skipped (${result.skipped})</button>
+      `}
       <button
         onClick=${onBack}
         style="padding:14px 0;background:var(--surface);color:var(--text);border:1px solid var(--accent);border-radius:var(--radius);font-size:1rem;cursor:pointer;width:100%;max-width:300px"
