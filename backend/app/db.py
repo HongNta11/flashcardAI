@@ -22,6 +22,9 @@ def init_db(db_path: str) -> None:
             CREATE INDEX IF NOT EXISTS idx_progress_book
             ON progress (user_token, book_id)
         """)
+        cols = [r[1] for r in conn.execute("PRAGMA table_info(progress)").fetchall()]
+        if "session_id" not in cols:
+            conn.execute("ALTER TABLE progress ADD COLUMN session_id TEXT")
         conn.commit()
 
 

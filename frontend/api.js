@@ -26,10 +26,15 @@ async function request(path, options = {}) {
 export const api = {
   listBooks: () => request('/books'),
   getCards: (bookId) => request(`/books/${bookId}/cards`),
-  saveProgress: (bookId, cardId, correct) =>
+  saveProgress: (bookId, cardId, correct, sessionId) =>
     request('/progress', {
       method: 'POST',
-      body: JSON.stringify({ book_id: bookId, card_id: cardId, correct }),
+      body: JSON.stringify({
+        book_id: bookId,
+        card_id: cardId,
+        correct,
+        session_id: sessionId,
+      }),
     }),
   getProgress: (bookId) => request(`/progress/${bookId}`),
 };

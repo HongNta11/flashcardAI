@@ -11,6 +11,7 @@ class ProgressEntry(BaseModel):
     book_id: str
     card_id: str
     correct: bool
+    session_id: str | None = None
 
 
 @router.post("/progress", status_code=201)
@@ -20,8 +21,9 @@ def save_progress(
     db: sqlite3.Connection = Depends(get_db),
 ):
     db.execute(
-        "INSERT INTO progress (user_token, book_id, card_id, correct) VALUES (?,?,?,?)",
-        (token, entry.book_id, entry.card_id, int(entry.correct)),
+        "INSERT INTO progress (user_token, book_id, card_id, correct, session_id) "
+        "VALUES (?,?,?,?,?)",
+        (token, entry.book_id, entry.card_id, int(entry.correct), entry.session_id),
     )
     db.commit()
     return {"ok": True}

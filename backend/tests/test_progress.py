@@ -48,3 +48,59 @@ def test_get_progress_empty_for_new_book(client, auth_headers):
     response = client.get("/progress/new-book", headers=auth_headers)
     assert response.status_code == 200
     assert response.json()["results"] == []
+
+
+def test_init_db_adds_session_id_column(db_path):
+    from app.db import init_db
+    init_db(db_path)
+    conn = sqlite3.connect(db_path)
+    cols = [r[1] for r in conn.execute("PRAGMA table_info(progress)").fetchall()]
+    conn.close()
+    assert "session_id" in cols
+
+
+def test_init_db_is_idempotent(db_path):
+    from app.db import init_db
+    init_db(db_path)
+    init_db(db_path)  # second call must not raise
+    conn = sqlite3.connect(db_path)
+    cols = [r[1] for r in conn.execute("PRAGMA table_info(progress)").fetchall()]
+    conn.close()
+    assert "session_id" in cols
+
+
+def test_save_progress_stores_session_id(client, db_path, auth_headers):
+    response = client.post(
+        "/progress",
+        json={
+            "book_id": "clean-code",
+            "card_id": "cc-001",
+            "correct": True,
+            "session_id": "sess-abc-123",
+        },
+        headers=auth_headers,
+    )
+    assert response.status_code == 201
+    conn = sqlite3.connect(db_path)
+    row = conn.execute(
+        "SELECT session_id FROM progress WHERE card_id='cc-001'"
+    ).fetchone()
+    conn.close()
+    assert row is not None
+    assert row[0] == "sess-abc-123"
+
+
+def test_save_progress_without_session_id_stores_null(client, db_path, auth_headers):
+    response = client.post(
+        "/progress",
+        json={"book_id": "clean-code", "card_id": "cc-002", "correct": True},
+        headers=auth_headers,
+    )
+    assert response.status_code == 201
+    conn = sqlite3.connect(db_path)
+    row = conn.execute(
+        "SELECT session_id FROM progress WHERE card_id='cc-002'"
+    ).fetchone()
+    conn.close()
+    assert row is not None
+    assert row[0] is None
