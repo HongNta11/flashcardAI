@@ -143,7 +143,6 @@ export function useQuizSession(book) {
     setIndex(0);
     setScore(0);
     setSessionId(randomUUID());
-    setPhase('playing');
   }
 
   // Enters review mode for skipped (unanswered) cards.
@@ -160,10 +159,7 @@ export function useQuizSession(book) {
 
   async function handleSelect(option) {
     const card = deck[index];
-    if (answeredFlags[index]) {
-      setSelections((prev) => { const c = [...prev]; c[index] = option; return c; });
-      return;
-    }
+    if (answeredFlags[index]) return;
     setAnsweredFlags((prev) => { const c = [...prev]; c[index] = true; return c; });
     setSelections((prev) => { const c = [...prev]; c[index] = option; return c; });
     const correct = option === card.correct_answer;
