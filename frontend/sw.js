@@ -1,7 +1,11 @@
-const CACHE = 'flashcards-v3';
+const CACHE = 'flashcards-v4';
 const ASSETS = [
   '/', '/index.html', '/app.js', '/api.js', '/idb.js', '/manifest.json', '/sw.js',
   '/lib/preact.mjs', '/lib/hooks.mjs', '/lib/htm.mjs',
+  '/styles.js',
+  '/hooks/useQuizSession.js',
+  '/components/ChapterSheet.js',
+  '/components/ErrorBoundary.js',
 ];
 
 self.addEventListener('install', (e) => {
