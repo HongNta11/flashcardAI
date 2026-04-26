@@ -7,7 +7,18 @@
       "Bash(curl -s -o /dev/null -w \"backend: %{http_code}\\\\n\" http://127.0.0.1:8000/docs)",
       "Bash(curl -s -o /dev/null -w \"frontend: %{http_code}\\\\n\" http://127.0.0.1:5173/)",
       "Bash(curl -s -o /dev/null -w \"no-token: %{http_code}\\\\n\" http://127.0.0.1:8000/books)",
-      "Bash(curl -s -w \"with-dev-token: %{http_code}\\\\n\" -H \"Authorization: Bearer dev-token\" http://127.0.0.1:8000/books)"
+      "Bash(curl -s -w \"with-dev-token: %{http_code}\\\\n\" -H \"Authorization: Bearer dev-token\" http://127.0.0.1:8000/books)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git remote *)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(git config *)",
+      "Bash(gh auth *)",
+      "Bash(git checkout *)",
+      "Bash(git stash *)",
+      "Bash(python3 *)",
+      "Bash(bash *)"
     ]
   }
 }

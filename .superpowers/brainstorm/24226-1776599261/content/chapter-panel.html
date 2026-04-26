@@ -1,0 +1,102 @@
+<h2>Chapter Selector Panel Design</h2>
+<p class="subtitle">The "📚 Chapters" button opens a slide-in panel. Which style works best for you?</p>
+
+<div class="split">
+
+  <div class="mockup">
+    <div class="mockup-header">Option A — Bottom Sheet (slides up from bottom)</div>
+    <div class="mockup-body" style="padding:0;position:relative;height:380px;overflow:hidden;background:#f0f4ff;border-radius:8px;">
+      <!-- App header -->
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 16px;background:#f0f4ff;border-bottom:1px solid #dde3f5;">
+        <span style="color:#6c63ff;font-size:0.85rem">← Books</span>
+        <span style="color:#64748b;font-size:0.8rem">3 / 12</span>
+        <button style="border:1px solid #6c63ff;background:none;border-radius:8px;color:#6c63ff;font-size:0.75rem;padding:4px 8px">📚 Chapters</button>
+      </div>
+      <!-- Card area (blurred) -->
+      <div style="padding:16px;opacity:0.35">
+        <div style="background:#fff;border-radius:12px;padding:20px;height:120px;box-shadow:0 2px 12px rgba(108,99,255,0.1)">
+          <div style="height:12px;background:#dde3f5;border-radius:4px;margin-bottom:8px"></div>
+          <div style="height:12px;background:#dde3f5;border-radius:4px;width:75%;margin-bottom:20px"></div>
+          <div style="height:36px;background:#dde3f5;border-radius:8px;margin-bottom:8px"></div>
+          <div style="height:36px;background:#dde3f5;border-radius:8px"></div>
+        </div>
+      </div>
+      <!-- Bottom sheet -->
+      <div style="position:absolute;bottom:0;left:0;right:0;background:#fff;border-radius:16px 16px 0 0;box-shadow:0 -4px 24px rgba(0,0,0,0.15);padding:16px">
+        <div style="width:36px;height:4px;background:#dde3f5;border-radius:2px;margin:0 auto 16px"></div>
+        <div style="font-weight:600;margin-bottom:12px;font-size:0.9rem">Select Chapters</div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px">
+          <span style="padding:6px 12px;background:#6c63ff;color:#fff;border-radius:20px;font-size:0.8rem">Ch 1 ✓</span>
+          <span style="padding:6px 12px;background:#6c63ff;color:#fff;border-radius:20px;font-size:0.8rem">Ch 2 ✓</span>
+          <span style="padding:6px 12px;border:1px solid #dde3f5;border-radius:20px;font-size:0.8rem;color:#64748b">Ch 3</span>
+          <span style="padding:6px 12px;border:1px solid #dde3f5;border-radius:20px;font-size:0.8rem;color:#64748b">Ch 4</span>
+          <span style="padding:6px 12px;border:1px solid #dde3f5;border-radius:20px;font-size:0.8rem;color:#64748b">Ch 5</span>
+        </div>
+        <button style="width:100%;padding:12px;background:#6c63ff;color:#fff;border:none;border-radius:10px;font-size:0.9rem;font-weight:600">Apply (2 chapters)</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="mockup">
+    <div class="mockup-header">Option B — Right Drawer (slides in from right)</div>
+    <div class="mockup-body" style="padding:0;position:relative;height:380px;overflow:hidden;background:#f0f4ff;border-radius:8px;">
+      <!-- App header -->
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 16px;background:#f0f4ff;border-bottom:1px solid #dde3f5;">
+        <span style="color:#6c63ff;font-size:0.85rem">← Books</span>
+        <span style="color:#64748b;font-size:0.8rem">3 / 12</span>
+        <button style="border:1px solid #6c63ff;background:none;border-radius:8px;color:#6c63ff;font-size:0.75rem;padding:4px 8px">📚 Chapters</button>
+      </div>
+      <!-- Card area (blurred) -->
+      <div style="padding:16px;opacity:0.35">
+        <div style="background:#fff;border-radius:12px;padding:20px;height:120px;box-shadow:0 2px 12px rgba(108,99,255,0.1)">
+          <div style="height:12px;background:#dde3f5;border-radius:4px;margin-bottom:8px"></div>
+          <div style="height:12px;background:#dde3f5;border-radius:4px;width:75%"></div>
+        </div>
+      </div>
+      <!-- Right drawer -->
+      <div style="position:absolute;top:0;right:0;bottom:0;width:72%;background:#fff;box-shadow:-4px 0 24px rgba(0,0,0,0.15);padding:16px;display:flex;flex-direction:column">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
+          <span style="font-weight:600;font-size:0.9rem">Chapters</span>
+          <span style="color:#64748b;font-size:1.1rem;cursor:pointer">✕</span>
+        </div>
+        <div style="flex:1;overflow-y:auto">
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid #f0f4ff">
+            <span style="font-size:0.85rem">Chapter 1 · Intro</span>
+            <div style="width:20px;height:20px;border-radius:4px;background:#6c63ff;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.7rem">✓</div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid #f0f4ff">
+            <span style="font-size:0.85rem">Chapter 2 · Basics</span>
+            <div style="width:20px;height:20px;border-radius:4px;background:#6c63ff;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.7rem">✓</div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid #f0f4ff">
+            <span style="font-size:0.85rem;color:#64748b">Chapter 3 · Advanced</span>
+            <div style="width:20px;height:20px;border-radius:4px;border:1.5px solid #dde3f5"></div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0">
+            <span style="font-size:0.85rem;color:#64748b">Chapter 4 · Patterns</span>
+            <div style="width:20px;height:20px;border-radius:4px;border:1.5px solid #dde3f5"></div>
+          </div>
+        </div>
+        <button style="width:100%;padding:12px;background:#6c63ff;color:#fff;border:none;border-radius:10px;font-size:0.9rem;font-weight:600;margin-top:12px">Apply (2 chapters)</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="options" style="margin-top:16px">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Bottom Sheet</h3>
+      <p>Familiar mobile pattern, slides up. Chapters shown as chips/pills. Feels native.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Right Drawer</h3>
+      <p>Slides in from right side. Chapter names shown in full with checkboxes. More room for long names.</p>
+    </div>
+  </div>
+</div>

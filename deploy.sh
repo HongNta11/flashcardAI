@@ -20,4 +20,4 @@ echo "==> Waiting for service..."
 sleep 2
 sudo systemctl is-active --quiet flashcard-ai && echo "✓ Backend is running" || (echo "✗ Backend failed to start" && sudo journalctl -u flashcard-ai -n 10 && exit 1)
 
-echo "==> Done. Live at http://learninghn.southeastasia.cloudapp.azure.com:8080"
+echo "==> Done. Live at https://learninghn.southeastasia.cloudapp.azure.com"
