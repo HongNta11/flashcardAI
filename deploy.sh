@@ -9,6 +9,10 @@ git -C "$REPO_DIR" pull origin master
 echo "==> Syncing backend dependencies (uv)..."
 (cd "$REPO_DIR/backend" && uv sync --frozen --quiet)
 
+echo "==> Bumping service worker cache version..."
+NEW_CACHE="flashcards-$(date +%Y%m%d%H%M%S)"
+sed -i "s/const CACHE = 'flashcards-[^']*'/const CACHE = '$NEW_CACHE'/" "$REPO_DIR/frontend/sw.js"
+
 echo "==> Restarting backend service..."
 sudo systemctl restart flashcard-ai
 

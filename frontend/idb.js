@@ -1,21 +1,26 @@
 const DB_NAME = 'flashcards';
 const DB_VERSION = 1;
 
+let dbPromise = null;
+
 function openDB() {
-  return new Promise((resolve, reject) => {
-    const req = indexedDB.open(DB_NAME, DB_VERSION);
-    req.onupgradeneeded = (e) => {
-      const db = e.target.result;
-      if (!db.objectStoreNames.contains('cards')) {
-        db.createObjectStore('cards', { keyPath: 'book' });
-      }
-      if (!db.objectStoreNames.contains('progress_queue')) {
-        db.createObjectStore('progress_queue', { autoIncrement: true });
-      }
-    };
-    req.onsuccess = () => resolve(req.result);
-    req.onerror = () => reject(req.error);
-  });
+  if (!dbPromise) {
+    dbPromise = new Promise((resolve, reject) => {
+      const req = indexedDB.open(DB_NAME, DB_VERSION);
+      req.onupgradeneeded = (e) => {
+        const db = e.target.result;
+        if (!db.objectStoreNames.contains('cards')) {
+          db.createObjectStore('cards', { keyPath: 'book' });
+        }
+        if (!db.objectStoreNames.contains('progress_queue')) {
+          db.createObjectStore('progress_queue', { autoIncrement: true });
+        }
+      };
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = () => reject(req.error);
+    });
+  }
+  return dbPromise;
 }
 
 function idbRequest(db, storeName, mode, fn) {
@@ -45,8 +50,17 @@ export async function queueProgress(entry) {
 
 export async function flushProgressQueue(saveFn) {
   const db = await openDB();
-  const entries = await idbRequest(db, 'progress_queue', 'readonly', (s) => s.getAll());
-  const keys = await idbRequest(db, 'progress_queue', 'readonly', (s) => s.getAllKeys());
+  const [entries, keys] = await new Promise((resolve, reject) => {
+    const t = db.transaction('progress_queue', 'readonly');
+    const store = t.objectStore('progress_queue');
+    let entriesResult, keysResult;
+    const reqEntries = store.getAll();
+    reqEntries.onsuccess = () => { entriesResult = reqEntries.result; };
+    const reqKeys = store.getAllKeys();
+    reqKeys.onsuccess = () => { keysResult = reqKeys.result; };
+    t.oncomplete = () => resolve([entriesResult, keysResult]);
+    t.onerror = () => reject(t.error);
+  });
   for (let i = 0; i < entries.length; i++) {
     await saveFn(entries[i]);
     await idbRequest(db, 'progress_queue', 'readwrite', (s) => s.delete(keys[i]));

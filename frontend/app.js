@@ -1,6 +1,6 @@
-import { h, render } from 'https://esm.sh/preact@10';
-import { useState, useEffect, useMemo } from 'https://esm.sh/preact@10/hooks';
-import htm from 'https://esm.sh/htm@3';
+import { h, render } from '/lib/preact.mjs';
+import { useState, useEffect, useMemo } from '/lib/hooks.mjs';
+import htm from '/lib/htm.mjs';
 import { api, getToken, setToken } from './api.js';
 import { cacheCards, getCachedCards, queueProgress, flushProgressQueue } from './idb.js';
 
@@ -176,6 +176,7 @@ function Quiz({ book, onBack }) {
         const firstUnanswered = answeredFlags.findIndex((x) => !x);
         if (firstUnanswered === -1) return;
         setReviewing(true);
+        setScore(0);
         setIndex(firstUnanswered);
         setSessionId(randomUUID());
         setPhase('playing');
@@ -270,6 +271,8 @@ function Quiz({ book, onBack }) {
     if (i !== null) setIndex(i);
   }
 
+  const canGoBack = prevIndex(index) !== null;
+
   return html`
     <div style="padding:16px;max-width:600px;margin:0 auto">
       <div style="padding-top:env(safe-area-inset-top,16px);margin-bottom:16px">
@@ -318,13 +321,13 @@ function Quiz({ book, onBack }) {
             <div style="display:flex;gap:10px;margin-top:14px">
               <button
                 onClick=${back}
-                disabled=${prevIndex(index) === null}
-                style="flex:1;padding:12px;background:var(--surface);color:${prevIndex(index) === null ? 'var(--text-muted)' : 'var(--accent)'};border:1px solid ${prevIndex(index) === null ? '#dde3f5' : 'var(--accent)'};border-radius:var(--radius);font-size:0.95rem;cursor:${prevIndex(index) === null ? 'default' : 'pointer'}"
+                disabled=${!canGoBack}
+                style="flex:1;padding:12px;background:var(--surface);color:${canGoBack ? 'var(--accent)' : 'var(--text-muted)'};border:1px solid ${canGoBack ? 'var(--accent)' : '#dde3f5'};border-radius:var(--radius);font-size:0.95rem;cursor:${canGoBack ? 'pointer' : 'default'}"
               >← Back</button>
               <button
                 onClick=${next}
                 style="flex:1;padding:12px;background:var(--surface);color:var(--accent);border:1px solid var(--accent);border-radius:var(--radius);font-size:0.95rem;cursor:pointer"
-              >Next →</button>
+              >${nextIndex(index) !== null ? 'Next →' : 'Skip to Results'}</button>
             </div>
           </div>
 

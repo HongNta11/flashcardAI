@@ -14,6 +14,8 @@ async def lifespan(app: FastAPI):
 
 def create_app() -> FastAPI:
     app = FastAPI(title="Flashcard API", lifespan=lifespan)
+    # Wildcard is intentional: token auth guards every endpoint and the
+    # frontend is proxied same-origin in production via nginx.
     app.add_middleware(
         CORSMiddleware,
         allow_origins=["*"],

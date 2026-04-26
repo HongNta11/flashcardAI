@@ -1,15 +1,17 @@
 import sqlite3
 from fastapi import APIRouter, Depends
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from .auth import verify_token
 from .db import get_db
 
 router = APIRouter()
 
+_ID_PATTERN = r'^[\w-]+$'
+
 
 class ProgressEntry(BaseModel):
-    book_id: str
-    card_id: str
+    book_id: str = Field(min_length=1, max_length=200, pattern=_ID_PATTERN)
+    card_id: str = Field(min_length=1, max_length=200, pattern=_ID_PATTERN)
     correct: bool
     session_id: str | None = None
 
@@ -39,7 +41,8 @@ def get_progress(
         """SELECT card_id, correct, reviewed_at
            FROM progress
            WHERE user_token = ? AND book_id = ?
-           ORDER BY reviewed_at DESC""",
+           ORDER BY reviewed_at DESC
+           LIMIT 1000""",
         (token, book_id),
     ).fetchall()
     return {"book_id": book_id, "results": [dict(r) for r in rows]}

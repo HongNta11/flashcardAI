@@ -1,5 +1,8 @@
-const CACHE = 'flashcards-v2';
-const ASSETS = ['/', '/index.html', '/app.js', '/api.js', '/idb.js', '/manifest.json'];
+const CACHE = 'flashcards-v3';
+const ASSETS = [
+  '/', '/index.html', '/app.js', '/api.js', '/idb.js', '/manifest.json', '/sw.js',
+  '/lib/preact.mjs', '/lib/hooks.mjs', '/lib/htm.mjs',
+];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(

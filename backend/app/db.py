@@ -9,6 +9,7 @@ def get_db_path() -> str:
 
 def init_db(db_path: str) -> None:
     with sqlite3.connect(db_path) as conn:
+        conn.execute("PRAGMA journal_mode=WAL")
         conn.execute("""
             CREATE TABLE IF NOT EXISTS progress (
                 user_token  TEXT NOT NULL,

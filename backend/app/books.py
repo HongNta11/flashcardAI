@@ -51,6 +51,8 @@ def get_cards(
     books_dir: Path = Depends(get_books_dir),
 ):
     json_file = books_dir / f"{book_id}.json"
+    if not json_file.resolve().is_relative_to(books_dir.resolve()):
+        raise HTTPException(status_code=404, detail="Book not found")
     if not json_file.exists():
         raise HTTPException(status_code=404, detail="Book not found")
     return json.loads(json_file.read_text(encoding="utf-8"))
