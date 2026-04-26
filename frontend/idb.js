@@ -61,8 +61,12 @@ export async function flushProgressQueue(saveFn) {
     t.oncomplete = () => resolve([entriesResult, keysResult]);
     t.onerror = () => reject(t.error);
   });
-  for (let i = 0; i < entries.length; i++) {
-    await saveFn(entries[i]);
-    await idbRequest(db, 'progress_queue', 'readwrite', (s) => s.delete(keys[i]));
+  try {
+    for (let i = 0; i < entries.length; i++) {
+      await saveFn(entries[i]);
+      await idbRequest(db, 'progress_queue', 'readwrite', (s) => s.delete(keys[i]));
+    }
+  } catch (_) {
+    // Remaining entries stay queued for the next flush attempt
   }
 }

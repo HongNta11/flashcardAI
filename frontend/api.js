@@ -36,5 +36,4 @@ export const api = {
         session_id: sessionId,
       }),
     }),
-  getProgress: (bookId) => request(`/progress/${bookId}`),
 };
